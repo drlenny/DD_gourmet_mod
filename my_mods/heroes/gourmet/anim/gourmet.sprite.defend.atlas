@@ -1,0 +1,20 @@
+
+gourmet.sprite.defend.png
+size: 632,822
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defend_shadow/shadow
+  rotate: false
+  xy: 1, 748
+  size: 526, 72
+  orig: 526, 72
+  offset: 0, 0
+  index: -1
+defend_shadow/defend_Merged
+  rotate: false
+  xy: 1, 1
+  size: 629, 745
+  orig: 629, 745
+  offset: 0, 0
+  index: -1

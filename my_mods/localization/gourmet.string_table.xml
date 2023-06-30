@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+  
+	<!--Class Name -->
+    <entry id="hero_class_name_gourmet"><![CDATA[Gourmet]]></entry>
+	
+	<!--Mode/Missing things/Tooltips-->
+	
+		<!-- Quick Snack -->
+    	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
+
+		<!-- Choice Cut -->
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_1"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_2"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_3"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_4"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_5"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 2 rds]]></entry>
+	
+		<!-- Taste Test -->
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_1"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
+		{colour_start|buff}Self:{colour_end} {colour_start|healhp}Heal{colour_end} 1 pts/rd for 3 rds / -10%% CRT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_2"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
+		{colour_start|buff}Self:{colour_end} {colour_start|healhp}Heal{colour_end} 2 pts/rd for 3 rds / -10%% CRT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_3"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
+		{colour_start|buff}Self:{colour_end} {colour_start|healhp}Heal{colour_end} 3 pts/rd for 3 rds / -10%% CRT]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_1"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
+		{colour_start|buff}Self:{colour_end} {colour_start|blight}Blight{colour_end} 1 pts/rd for 3 rds / +10 ACC]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_2"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
+		{colour_start|buff}Self:{colour_end} {colour_start|blight}Blight{colour_end} 2 pts/rd for 3 rds / +10 ACC]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_3"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
+		{colour_start|buff}Self:{colour_end} {colour_start|blight}Blight{colour_end} 3 pts/rd for 3 rds / +10 ACC]]></entry>
+
+		<!-- Devour -->
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_vs_healthy"><![CDATA[{colour_start|debuff}Targets with over 25%% total HP remaining will avoid this attack{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buffs_1"><![CDATA[{colour_start|buff}For each Corpse and Target hit:{colour_end}
+		{colour_start|healhp}Heal{colour_end} 2 / +3%% Max Hp / +3%% DMG / +3%% Debuff Resist]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buffs_2"><![CDATA[{colour_start|buff}For each Corpse and Target hit:{colour_end}
+		{colour_start|healhp}Heal{colour_end} 3 / +4%% Max Hp / +4%% DMG / +4%% Debuff Resist]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buffs_3"><![CDATA[{colour_start|buff}For each Corpse and Target hit:{colour_end}
+		{colour_start|healhp}Heal{colour_end} 4 / +5%% Max Hp / +5%% DMG / +5%% Debuff Resist]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_debuff"><![CDATA[-3 SPD / -30%% Stress Healing Received]]></entry>		
+
+	<!--Sunward Isle Tooltips-->
+	<entry id="enemy_type_name_spectral"><![CDATA[Yokai]]></entry>
+	<entry id="buff_rule_data_tooltip_spectral"><![CDATA[Yokai]]></entry>
+	
+	<!--Town Descriptions--> 
+    <entry id="action_verbose_body_guild_gourmet"><![CDATA[A notorious vigilante with an affection for fire, he brings his own personal vendetta against the chaotic forces that lurk in the darkest reaches of the estate. His expertise in close combat and use of fire makes him a reliable damage dealer while his various explosives can disrupt enemy lines]]></entry>
+    <entry id="action_verbose_body_blacksmith_gourmet"><![CDATA[The gourmet favors a fire iron and molotovs as his weapons of choice. These tools allow him to bring mayhem and destruction to his enemies. His light armor grants moderate protection while allowing him to remain highly mobile and evasive...]]></entry>
+    <entry id="action_verbose_body_camping_trainer_gourmet"><![CDATA[The gourmet knows first hand that to defeat an enemy is to know it. To this end, the gourmet uses his acquired knowledge to better prepare for future combat encounters. While almost always focused, the gourmet will let his guard down to find serenity in the hypnotic campfire.]]></entry>
+	
+	<!--Town Event-->
+    <entry id="town_event_title_first_gourmet"><![CDATA[A Roaring Flame!]]></entry>
+    <entry id="town_event_description_first_gourmet"><![CDATA[He proclaims that his cause is noble and that his ends justify his means but to what length will he go to achieve them?]]></entry>
+	<entry id="town_event_title_idle_resolve_level_gourmet"><![CDATA[BUSY HANDS]]></entry>
+	<entry id="town_event_description_idle_resolve_level_gourmet"><![CDATA[Evil never rests, nor do we. Crime around the Hamlet has been in a recent steady decline..]]></entry>
+	<entry id="str_vo_town_gourmet_Stagecoach_1_0"><![CDATA[An engineer of the all consuming power of fire and feats of unhinged cunning!]]></entry>
+	
+	<!--Skill Names -->
+    <entry id="combat_skill_name_gourmet_choice_cut"><![CDATA[Choice Cut]]></entry>
+    <entry id="combat_skill_name_gourmet_tenderize"><![CDATA[Tenderize]]></entry>
+    <entry id="combat_skill_name_gourmet_obliterate"><![CDATA[Obliterate Scraps]]></entry>
+	<entry id="combat_skill_name_gourmet_quick_snack"><![CDATA[Quick Snack]]></entry>
+	<entry id="combat_skill_name_gourmet_meat_shield"><![CDATA[Meat Shield]]></entry>
+	<entry id="combat_skill_name_gourmet_devour"><![CDATA[Devour]]></entry>
+	<entry id="combat_skill_name_gourmet_taste_test"><![CDATA[Taste Test]]></entry>
+	<entry id="combat_skill_name_gourmet_move"><![CDATA[Move]]></entry>
+	<entry id="upgrade_tree_name_gourmet.choice_cut"><![CDATA[Choice Cut]]></entry>
+    <entry id="upgrade_tree_name_gourmet.tenderize"><![CDATA[Tenderize]]></entry>
+    <entry id="upgrade_tree_name_gourmet.obliterate"><![CDATA[Obliterate Scraps]]></entry>
+	<entry id="upgrade_tree_name_gourmet.quick_snack"><![CDATA[Quick Snack]]></entry>
+    <entry id="upgrade_tree_name_gourmet.meat_shield"><![CDATA[Meat Shield]]></entry>
+	<entry id="upgrade_tree_name_gourmet.devour"><![CDATA[Devour]]></entry>
+	<entry id="upgrade_tree_name_gourmet.taste_test"><![CDATA[Taste Test]]></entry>
+    <entry id="upgrade_tree_name_gourmet.move"><![CDATA[Move]]></entry>
+	
+	<!--Armor and Weapons -->
+	<entry id="gourmet_weapon_0"><![CDATA[Dull Knife & Makeshift Mallet]]></entry>
+    <entry id="gourmet_weapon_1"><![CDATA[Sharpened Knife & Sturdy Mallet]]></entry>
+    <entry id="gourmet_weapon_2"><![CDATA[Keen Blade & Heavy Mallet]]></entry>
+    <entry id="gourmet_weapon_3"><![CDATA[Hefty Cleaver & Bludgeoning Mallet]]></entry>
+    <entry id="gourmet_weapon_4"><![CDATA["Bacon & Eggs"]]></entry>
+    <entry id="upgrade_tree_name_gourmet.weapon"><![CDATA[Cleaver & Mallet]]></entry>
+	
+    <entry id="gourmet_armour_0"><![CDATA[Tattered Apron]]></entry>
+    <entry id="gourmet_armour_1"><![CDATA[Filthy Apron]]></entry>
+    <entry id="gourmet_armour_2"><![CDATA[Stained Apron]]></entry>
+    <entry id="gourmet_armour_3"><![CDATA[Spotless Apron]]></entry>
+    <entry id="gourmet_armour_4"><![CDATA["Some Pig"]]></entry>
+    <entry id="upgrade_tree_name_gourmet.armour"><![CDATA[Apron]]></entry>
+	
+	<!-- Trinkets -->
+    <entry id="str_inventory_title_trinketgreased_rags"><![CDATA[Greased Rags]]></entry>
+	<entry id="str_inventory_title_trinketfirestarter_kit"><![CDATA[Firestarter Kit]]></entry>
+	<entry id="str_inventory_title_trinkettopical_burning_balm"><![CDATA[Topical Burning Balm]]></entry>
+	<entry id="str_inventory_title_trinketwelding_goggles"><![CDATA[Welding Goggles]]></entry>
+	<entry id="str_inventory_title_trinketantique_tinderbox"><![CDATA[Antique Tinderbox]]></entry>
+	<entry id="str_inventory_set_title_cc_gourmet"><![CDATA["Eat... Food. GOOD food... Want MORE... Make. More. MORE!!!"]]></entry>
+	<entry id="str_inventory_title_trinketsoot_covered_blanket"><![CDATA[Soot Covered Blanket]]></entry>
+	<entry id="str_inventory_title_trinketmissing_child_poster"><![CDATA[Missing Child Poster]]></entry>
+	<entry id="str_inventory_title_trinketfire_glass_crystals"><![CDATA[Fire Glass Crystals]]></entry>	
+	<entry id="str_inventory_title_trinketdragonflame_cannon"><![CDATA[Dragonflame Cannon]]></entry>
+	
+	<!--Camping Skill Names & Barks -->
+
+	<entry id="gourmet+str_bark_encourage"><![CDATA[Smile! NOW.]]></entry>
+    <entry id="gourmet+str_bark_encourage"><![CDATA[Force a smile or I will force one from you.]]></entry>
+    <entry id="gourmet+str_bark_first_aid"><![CDATA[You're hardly bleeding.]]></entry>
+    <entry id="gourmet+str_bark_first_aid"><![CDATA[It's just a flesh wound!]]></entry>
+    <entry id="gourmet+str_bark_pep_talk"><![CDATA[The rabble does not tolerate weakness.]]></entry>
+    <entry id="gourmet+str_bark_pep_talk"><![CDATA[Good enough for our feature match!]]></entry>
+
+    <entry id="camping_skill_name_acupressure"><![CDATA[REINFORCE ARMOR]]></entry>
+	<entry id="str_bark_acupressure"><![CDATA[Any blow could be the last...Best prepare.]]></entry>   
+	<entry id="str_bark_acupressure"><![CDATA[(Whistles)]]></entry>   
+	
+    <entry id="camping_skill_name_cleanse_incense"><![CDATA[EVERLASTING FLAME]]></entry>
+	<entry id="str_bark_cleanse_incense"><![CDATA[Of darkest times, of darkest plight, may we be guided by this light!]]></entry>
+	<entry id="str_bark_cleanse_incense"><![CDATA[Stokes the fire! Fan the flames!]]></entry>
+	
+    <entry id="camping_skill_name_conviction_mantra"><![CDATA[PYROMANIA]]></entry>
+	<entry id="str_bark_conviction_mantra"><![CDATA[Look how beautifully she burns!]]></entry>   
+	<entry id="str_bark_conviction_mantra"><![CDATA[I won’t let the flame get out of control, I promise.]]></entry>   
+	<entry id="str_bark_conviction_mantra"><![CDATA[It is a pleasure to burn...]]></entry>   
+	
+    <entry id="camping_skill_name_tranquility"><![CDATA[DESTROY EVIL]]></entry>
+	<entry id="str_bark_tranquility"><![CDATA[No evil shall escape our grasp!]]></entry>   
+	
+	<!--Death's Door Barks-->
+	<entry id="gourmet+str_bark_deathsdoor"><![CDATA[A fire can only burn for so long...]]></entry>
+	<entry id="gourmet+str_bark_deathsdoor"><![CDATA[Has my time finally gone up in smoke?]]></entry>
+
+    <entry id="gourmet+str_bark_deathsdoor_recovered"><![CDATA[Out of the frying pan...]]></entry>
+    <entry id="gourmet+str_bark_deathsdoor_recovered"><![CDATA[I return to the fray!]]></entry>
+	
+	<!--Wasting Time Barks -->
+	<entry id="gourmet+str_combat_wastingtime"><![CDATA[Quit stringing this along and end it already!]]></entry>
+	<entry id="gourmet+str_combat_wastingtime"><![CDATA[My fuse is growing short. Let's finish this!]]></entry>
+	
+	<!--Knock back Barks -->
+	<entry id="gourmet+str_combat_knockback"><![CDATA[Hoof! Knocked the wind right out of me.]]></entry>
+	<entry id="gourmet+str_combat_knockback"><![CDATA[That'll leave a scar...]]></entry>
+	<entry id="gourmet+str_combat_knockback"><![CDATA[Good thing I've got a hard head...]]></entry>
+	
+	<!--Ability Barks -->
+	
+	<!--Siren Boss Barks -->
+	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[I no longer worship Fire, but this Mistress of the Ocean instead!]]></entry>
+	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[The flames of my heart have been doused with love!]]></entry>
+	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[She's the only one who sets my heart aflame!]]></entry>
+	
+	<entry id="gourmet+str_control_return_siren"><![CDATA[(spits) I've always hated magic...]]></entry>
+	<entry id="gourmet+str_control_return_siren"><![CDATA[I've returned! Now let's fry some fish.]]></entry>
+	
+	<!--Necromancer Boss Barks -->
+	<entry id="gourmet+str_monster_attack_unholy_smite"><![CDATA[Unearthly strength!]]></entry>
+    <entry id="gourmet+str_monster_attack_unholy_judgement"><![CDATA[I've seen this magic before...they are mere tricks.]]></entry>
+    <entry id="gourmet+str_monster_attack_unholy_curse"><![CDATA[I can smell the fire, but I see nothing but ashes!]]></entry>
+	
+	<!-- Final Boss -->
+	<entry id="gourmet+str_monster_user_selected_targets_kill_pill"><![CDATA[One last breath of defiance...]]></entry>
+	
+	<!--Affliction: Fearful -->
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[This is it... They won!]]></entry>   
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[I failed them all...]]></entry>   
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[Where is my flame? I see only darkness...]]></entry>   
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[My flame will be snuffed out!]]></entry>   
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[Look how their eyes are flame!]]></entry>
+	
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[Evil lurks here and it hungers..]]></entry>   
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[This is it isn't it?]]></entry>   
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[We'll all be snuffed out...]]></entry>    
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[The fire in my heart flickers?]]></entry>    
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[Do I feel the cold creep upon me? Where's the warmth?]]></entry>  
+	
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[A t-tactical retreat!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[I n-need to relight the torch!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[I slink back to the darkness...]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[I need t-time to prepare these explosives!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[Come on dammit! Light already!]]></entry>   
+	
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[What are you, insane?!]]></entry>    
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[They already figured us out!]]></entry>    
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[They know our tactics!]]></entry>    
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[There's no time for such foolishness!]]></entry>    
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[I refuse!]]></entry>  
+
+	<entry id="gourmet+str_comment_self_hit_fearful"><![CDATA[Aw blast... you pitiless bastard!]]></entry>    
+	<entry id="gourmet+str_comment_self_hit_fearful"><![CDATA[I fumbled the lighter!]]></entry>
+	
+	<entry id="gourmet+str_comment_self_missed_fearful"><![CDATA[My iron fails me!]]></entry>    
+	<entry id="gourmet+str_comment_self_missed_fearful"><![CDATA[Too much smoke in my eyes!]]></entry>
+	
+	<entry id="gourmet+str_comment_ally_attack_missed_fearful"><![CDATA[B-but you had a clear shot?!]]></entry>    
+	<entry id="gourmet+str_comment_ally_attack_missed_fearful"><![CDATA[We've got no chance... We should run!]]></entry>      
+	
+	<entry id="gourmet+str_comment_ally_hit_fearful"><![CDATA[Can't you see they're toying with us!?]]></entry>   
+	<entry id="gourmet+str_comment_ally_hit_fearful"><![CDATA[But will the next hit land too?!]]></entry> 
+	
+	<entry id="gourmet+str_comment_ally_missed_fearful"><![CDATA[There's no where else to run!]]></entry>    
+	<entry id="gourmet+str_comment_ally_missed_fearful"><![CDATA[That wasn't part of the plan!]]></entry>    
+
+	<entry id="gourmet+str_block_move_fearful"><![CDATA[Stop moving or you will explode!]]></entry>    
+	<entry id="gourmet+str_block_move_fearful"><![CDATA[Stay put! These explosives are unstable!]]></entry>   	
+	
+	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[Not even the power of fire can help us now.]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[We are not the Flame, we are but moths!]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[Who is to say we'll survive any of this?]]></entry>
+	
+	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[I keep telling you there's NO TIME!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[AHHH! Do not startle me while handling such explosives!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[Unhand me!]]></entry>    
+	
+<!--Affliction: Paranoid -->
+	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[This is a trap! I know it!]]></entry>   
+	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[Enemies at every corner!]]></entry>    
+	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[Silence! I can hear their dark whispers...]]></entry>    
+	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[I refuse to get burned again!]]></entry>   
+	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[Why do you turn your eye away? Hiding something?]]></entry>
+	
+	<entry id="gourmet+str_bark_stress_paranoid"><![CDATA[I see that flicker in your eye!]]></entry>    
+	<entry id="gourmet+str_bark_stress_paranoid"><![CDATA[Something's not right. I can feel it...]]></entry>   
+	<entry id="gourmet+str_bark_stress_paranoid"><![CDATA[This was the plan, eh? To turn on me!?]]></entry>    
+	<entry id="gourmet+str_bark_stress_paranoid"><![CDATA[I can always smell a rat...]]></entry>    
+	<entry id="gourmet+str_bark_stress_paranoid"><![CDATA[The truth will always come to light, you traitors!]]></entry>    
+	
+	<entry id="gourmet+str_change_pos_back_paranoid"><![CDATA[I know that one... It's back for revenge!]]></entry>    
+	<entry id="gourmet+str_change_pos_back_paranoid"><![CDATA[More are coming! I know it!]]></entry>    
+	<entry id="gourmet+str_change_pos_back_paranoid"><![CDATA[Like I would trust you to watch my back!]]></entry>  
+
+	<entry id="gourmet+str_ignore_command_paranoid"><![CDATA[No - they'll expect that!]]></entry>    
+	<entry id="gourmet+str_ignore_command_paranoid"><![CDATA[No. They'll see that coming.]]></entry>    
+	<entry id="gourmet+str_ignore_command_paranoid"><![CDATA[And play right into their hands? Foolish.]]></entry>   
+	
+	<entry id="gourmet+str_random_command_paranoid"><![CDATA[I prefer to keep them guessing.]]></entry>    
+	<entry id="gourmet+str_random_command_paranoid"><![CDATA[These ones are sly - I must improvise!]]></entry>    
+	<entry id="gourmet+str_random_command_paranoid"><![CDATA[I must be unpredictable, like wildfire!]]></entry>    
+	      
+	<entry id="gourmet+str_attack_friendly_paranoid"><![CDATA[I'll burn down this estate and everything in it! Including you!]]></entry>   
+	<entry id="gourmet+str_attack_friendly_paranoid"><![CDATA[Betrayer!]]></entry> 
+	
+	<entry id="gourmet+str_block_combat_retreat_paranoid"><![CDATA[WHAT?! Trying to leave me here to die? I DON'T THINK SO!]]></entry>    
+	<entry id="gourmet+str_block_combat_retreat_paranoid"><![CDATA[YOU IDIOTS THAT'S THE WRONG WAY!]]></entry>
+	
+	<entry id="gourmet+str_comment_self_hit_paranoid"><![CDATA[AHH! AHH! My clothes are on fire! Put it out! Put it out!]]></entry>    
+	<entry id="gourmet+str_comment_self_hit_paranoid"><![CDATA[Someone must've told them where we'd be!]]></entry>
+	
+	<entry id="gourmet+str_comment_self_missed_paranoid"><![CDATA[Did you blow smoke into my eyes?!]]></entry>    
+	<entry id="gourmet+str_comment_self_missed_paranoid"><![CDATA[You LET it come at me! TRAITOR!]]></entry>    
+	
+	<entry id="gourmet+str_comment_ally_hit_paranoid"><![CDATA[I told you! They know our weaknesses!]]></entry>    
+	<entry id="gourmet+str_comment_ally_hit_paranoid"><![CDATA[Something's afoot!]]></entry>  
+	
+	<entry id="gourmet+str_block_move_paranoid"><![CDATA[No. Stay there where I can see you!]]></entry>    
+	<entry id="gourmet+str_block_move_paranoid"><![CDATA[No, I'm keeping my eye on you!]]></entry>   
+	
+	<entry id="gourmet+str_block_item_paranoid"><![CDATA[I know sabotage when I see it!]]></entry>   
+	<entry id="gourmet+str_block_item_paranoid"><![CDATA[I can take care of myself!]]></entry>
+	
+	<entry id="gourmet+str_block_heal_paranoid"><![CDATA[Ha! You've always thought I was weak, didn't you?!]]></entry>   
+	<entry id="gourmet+str_block_heal_paranoid"><![CDATA[You thought you could get one over me, eh?]]></entry>   
+	  
+	<entry id="gourmet+str_block_buff_paranoid"><![CDATA[Ha! You've always thought I was weak, didn't you?!]]></entry>   
+	<entry id="gourmet+str_block_buff_paranoid"><![CDATA[Unhand me!]]></entry> 
+	
+	<entry id="gourmet+str_comment_ally_missed_paranoid"><![CDATA[You backstabbing son of a...]]></entry>    
+	<entry id="gourmet+str_comment_ally_missed_paranoid"><![CDATA[I knew it... You're with them!]]></entry>  	
+	
+	<entry id="gourmet+str_bark_stress_camp_paranoid"><![CDATA[The only thing I trust here is the damn campfire!]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_paranoid"><![CDATA[I'm not the one shouting, maybe YOU SHOULD STOP SHOUTING!]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_paranoid"><![CDATA[Actually, I think this is the perfect time to start pointing fingers...]]></entry>  
+	
+	<entry id="gourmet+str_block_camping_skill_performer_paranoid"><![CDATA[I only help those that I trust!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_paranoid"><![CDATA[Where is my iron?! WHERRRE IS IT?!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_paranoid"><![CDATA[Forget it. I'm better off alone...]]></entry>
+	
+	<entry id="gourmet+str_block_camping_skill_target_paranoid"><![CDATA[You're only doing this to help them aren't you?]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_paranoid"><![CDATA[Keep your sorcery to yourself.]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_paranoid"><![CDATA[You're only doing this to help them aren't you?]]></entry>  
+	
+	<entry id="gourmet+str_block_camping_meal_paranoid"><![CDATA[Why did you burn the food?!]]></entry>    
+	<entry id="gourmet+str_block_camping_meal_paranoid"><![CDATA[Why did you spill yer beans?]]></entry>   
+	
+	<!--Affliction: Abusive -->
+	<entry id="gourmet+str_afflicted_abusive"><![CDATA[A wildfire cares not who it burns.]]></entry>   
+	<entry id="gourmet+str_afflicted_abusive"><![CDATA[It's a wildfire duty to burn away the diseased and weak!]]></entry>  
+	<entry id="gourmet+str_afflicted_abusive"><![CDATA[Stand in my way and I'll burn you too!]]></entry>    
+	<entry id="gourmet+str_afflicted_abusive"><![CDATA[If you can't stand the heat, then get out of my way!]]></entry>   
+	<entry id="gourmet+str_afflicted_abusive"><![CDATA[Burn to ash, mongrels!]]></entry>  
+	
+	<entry id="gourmet+str_bark_stress_abusive"><![CDATA[That was pitiful!]]></entry>   
+	<entry id="gourmet+str_bark_stress_abusive"><![CDATA[Are you trying to get yourself killed?!]]></entry>   
+	<entry id="gourmet+str_bark_stress_abusive"><![CDATA[I wouldn't piss on you even if you were on fire.]]></entry>    
+	<entry id="gourmet+str_bark_stress_abusive"><![CDATA[Maybe I should light a fire under you to wake you up!]]></entry>   
+	<entry id="gourmet+str_bark_stress_abusive"><![CDATA[My expectations are...underwhelmed.]]></entry>   
+	
+	<entry id="gourmet+str_random_command_abusive"><![CDATA[Watch a pro at work!]]></entry>    
+	<entry id="gourmet+str_random_command_abusive"><![CDATA[I don't take orders from amateurs!]]></entry>    
+	<entry id="gourmet+str_random_command_abusive"><![CDATA[Get out of my way!]]></entry>    
+	<entry id="gourmet+str_random_command_abusive"><![CDATA[All it takes is a spark!]]></entry>   
+	<entry id="gourmet+str_random_command_abusive"><![CDATA[Expect nothing and you'll get nothing!]]></entry>
+	
+	<entry id="gourmet+str_attack_friendly_abusive"><![CDATA[Taste some iron!]]></entry>    
+	<entry id="gourmet+str_attack_friendly_abusive"><![CDATA[Will this spark any competense in you?!]]></entry>  
+	
+	<entry id="gourmet+str_comment_ally_attack_hit_abusive"><![CDATA[Hmph. A child could do better.]]></entry>    
+	<entry id="gourmet+str_comment_ally_attack_hit_abusive"><![CDATA[You could have killed it, had you any skill.]]></entry>    
+	
+	<entry id="gourmet+str_comment_ally_attack_missed_abusive"><![CDATA[Don't look for sympathy. You won't find it.]]></entry>    
+	<entry id="gourmet+str_comment_ally_attack_missed_abusive"><![CDATA[You pathetic twit!]]></entry>   
+	
+	<entry id="gourmet+str_comment_ally_hit_abusive"><![CDATA[Pathetic. (spits)]]></entry>    
+	<entry id="gourmet+str_comment_ally_hit_abusive"><![CDATA[Hah! You really are pathetic.]]></entry> 
+	
+	<entry id="gourmet+str_block_move_abusive"><![CDATA[Shove me again and I'll put you down.]]></entry>   
+	<entry id="gourmet+str_block_move_abusive"><![CDATA[Stay put. Or I'll knock you sideways.]]></entry>  
+	
+	<entry id="gourmet+str_bark_stress_camp_abusive"><![CDATA[You're whimpering is starting to annoy me...]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_abusive"><![CDATA[It seems the campfire is the only competent one here.]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_abusive"><![CDATA[You're incompatance is going to kill us all!]]></entry>    
+	
+	<entry id="gourmet+str_block_camping_skill_performer_abusive"><![CDATA[I'm surrounded by morons...]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_abusive"><![CDATA[You've got some nerve bothering me at a time like this!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_abusive"><![CDATA[(groans) You again?!]]></entry>  
+	
+	<entry id="gourmet+str_block_camping_skill_target_abusive"><![CDATA[(spits) SOD OFF!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_abusive"><![CDATA[I don't need help from some amateur!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_abusive"><![CDATA[Wow, you have no idea what you are doing do you?]]></entry>
+	
+	<!--Affliction: Masochistic -->
+	<entry id="gourmet+str_afflicted_masochistic"><![CDATA[In the end...everything burns!]]></entry>    
+	<entry id="gourmet+str_afflicted_masochistic"><![CDATA[Oh, how it is a PLEASURE to burn!]]></entry>   
+	<entry id="gourmet+str_afflicted_masochistic"><![CDATA[The Fire has been set ABLAZE!]]></entry>   
+	<entry id="gourmet+str_afflicted_masochistic"><![CDATA[Only I can see Fire for the beauty that She is!]]></entry>    
+	<entry id="gourmet+str_afflicted_masochistic"><![CDATA[These burns remind me that I am alive!]]></entry>  
+	
+	<entry id="gourmet+str_bark_stress_masochistic"><![CDATA[Dearest Fire, embrace me in your warmth!]]></entry>    
+	<entry id="gourmet+str_bark_stress_masochistic"><![CDATA[The Fire burns only those She deems unworthy!]]></entry>    
+	<entry id="gourmet+str_bark_stress_masochistic"><![CDATA[BOIL...BLISTER...BURN!!]]></entry>    
+	<entry id="gourmet+str_bark_stress_masochistic"><![CDATA[We must feed the Fire, we must help Her grow!]]></entry>    
+	<entry id="gourmet+str_bark_stress_masochistic"><![CDATA[Like fire...Hellfire! This fire in my skin!]]></entry> 
+	
+	<entry id="gourmet+str_change_pos_fwd_masochistic"><![CDATA[I must feel Her warmth!]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_masochistic"><![CDATA[I cannot feel the Fire's heat!]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_masochistic"><![CDATA[I am but a moth to a flame!]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_masochistic"><![CDATA[Hit me! Come on, ye bastard, HIT ME!]]></entry>    
+	
+	<entry id="gourmet+str_random_command_masochistic"><![CDATA[Let's make this interesting!]]></entry>    
+	<entry id="gourmet+str_random_command_masochistic"><![CDATA[Why worship the Light when there's Fire!]]></entry>    
+	<entry id="gourmet+str_random_command_masochistic"><![CDATA[I must be as unpredictable as a forest fire!]]></entry>    
+	<entry id="gourmet+str_random_command_masochistic"><![CDATA[The Fire burns me with glorious purpose!]]></entry>    
+	<entry id="gourmet+str_random_command_masochistic"><![CDATA[If you aren't going to try your best then don't try at all!]]></entry>    
+	
+	<entry id="gourmet+str_mark_self_masochistic"><![CDATA[Come now...light my FIRE!]]></entry>   
+	<entry id="gourmet+str_mark_self_masochistic"><![CDATA[You're worst wasn't enough and neither is your best!]]></entry>   
+	
+	<entry id="gourmet+str_block_combat_retreat_masochistic"><![CDATA[I won't leave until everything in this room is ashes!]]></entry>    
+	<entry id="gourmet+str_block_combat_retreat_masochistic"><![CDATA[Not before this entire room is engulfed in flames!]]></entry>    
+	
+	<entry id="gourmet+str_attack_self_masochistic"><![CDATA[BURN THEM ALL! BURN THEM ALL!!!]]></entry>    
+	<entry id="gourmet+str_attack_self_masochistic"><![CDATA[I'll set my own body ablaze to keep the vengeance in my heart burning!]]></entry>   
+	
+	<entry id="gourmet+str_comment_self_missed_masochistic"><![CDATA[IMPOSSIBLE!]]></entry>    
+	<entry id="gourmet+str_comment_self_missed_masochistic"><![CDATA[I must have smoke in my eyes!]]></entry>  
+	
+	<entry id="gourmet+str_comment_ally_hit_masochistic"><![CDATA[The best way to stop the bleeding is to cauderize it! ]]></entry>    
+	<entry id="gourmet+str_comment_ally_hit_masochistic"><![CDATA[Let me seal the wound with my hot iron!]]></entry>  
+	
+	<entry id="gourmet+str_block_move_masochistic"><![CDATA[Does a roaring fire move when it is told?]]></entry>    
+	<entry id="gourmet+str_block_move_masochistic"><![CDATA[Ineptitude is the true killer.]]></entry>  
+	
+	<entry id="gourmet+str_block_item_masochistic"><![CDATA[I don't need this! Where's my bottle of petrol?]]></entry>   
+	<entry id="gourmet+str_block_item_masochistic"><![CDATA[No! Bring me my box of flint!]]></entry>
+	
+	<entry id="gourmet+str_block_heal_masochistic"><![CDATA[No! Let the Fire burn my weaknesses away.]]></entry>   
+	<entry id="gourmet+str_block_heal_masochistic"><![CDATA[No! I will cauderize the wound myself when we're done.]]></entry>    
+	
+	<entry id="gourmet+str_block_buff_masochistic"><![CDATA[No! Let the Fire burn my weaknesses away.]]></entry>    
+	
+	<entry id="gourmet+str_bark_stress_camp_masochistic"><![CDATA[This campfire needs more space to breathe, yes?]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_masochistic"><![CDATA[I need to get a...closer look at this campfire.]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_masochistic"><![CDATA[The Fire is...mesmerizing, isn't She?]]></entry>    
+	
+	<entry id="gourmet+str_block_camping_skill_performer_masochistic"><![CDATA[I'm too busy watching the flames flicker to bother with you.]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_masochistic"><![CDATA[Eh?! Don't make me punch you...]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_masochistic"><![CDATA[You don't interest me.]]></entry>
+	
+	<entry id="gourmet+str_block_camping_skill_target_masochistic"><![CDATA[Can't you see I'm busy applying my burn ointment?]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_masochistic"><![CDATA[Don't touch me.]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_masochistic"><![CDATA[Startle me like that again, and I'll punch you.]]></entry>
+	
+	<entry id="gourmet+str_block_camping_meal_masochistic"><![CDATA[It's raw. Put mine back on the flame.]]></entry>    
+	<entry id="gourmet+str_block_camping_meal_masochistic"><![CDATA[Make mine, "well done". Heh.]]></entry> 
+	
+	<!--Affliction: Selfish -->
+	<entry id="gourmet+str_afflicted_selfish"><![CDATA[I have sacrificed much...and I deserve so much more!]]></entry>   
+	<entry id="gourmet+str_afflicted_selfish"><![CDATA[A wild fire takes all, and so will I!]]></entry>   
+	<entry id="gourmet+str_afflicted_selfish"><![CDATA[You have no idea what I have gone through to finally see justice!]]></entry>   
+	<entry id="gourmet+str_afflicted_selfish"><![CDATA[If I cannot have my vengence, I'll settle for gold.]]></entry>   
+	<entry id="gourmet+str_afflicted_selfish"><![CDATA[Bah! More ashes...more dissapointments!]]></entry>   
+	
+	<entry id="gourmet+str_bark_stress_selfish"><![CDATA[I was foolish to put my trust in all of you...]]></entry>    
+	<entry id="gourmet+str_bark_stress_selfish"><![CDATA[You and I are not equals. Remember this.]]></entry>    
+	<entry id="gourmet+str_bark_stress_selfish"><![CDATA[ In time, the strong will burn away the weak.]]></entry>   
+	<entry id="gourmet+str_bark_stress_selfish"><![CDATA[I'll keep the gold, I'll use it better than you could.]]></entry>    
+	<entry id="gourmet+str_bark_stress_selfish"><![CDATA[It seems I'm the only one who has a plan, *again.*]]></entry>  
+	
+	<entry id="gourmet+str_change_pos_fwd_selfish"><![CDATA[That's my kill!]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_selfish"><![CDATA[That one's mine.]]></entry>   
+	<entry id="gourmet+str_change_pos_fwd_selfish"><![CDATA[Grrr! You're blocking me!]]></entry>   
+	<entry id="gourmet+str_change_pos_fwd_selfish"><![CDATA[Out of the way, you imp!]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_selfish"><![CDATA[Someone has to take the reins!]]></entry>   
+	
+	<entry id="gourmet+str_change_pos_back_selfish"><![CDATA[Oh so you think you can do better? Go on ahead.]]></entry>   
+	<entry id="gourmet+str_change_pos_back_selfish"><![CDATA[Why am I doing this again?]]></entry>    
+	<entry id="gourmet+str_change_pos_back_selfish"><![CDATA[I've taken enough hits, how about you take a turn?]]></entry>    
+	<entry id="gourmet+str_change_pos_back_selfish"><![CDATA[At least you can be a competent shield.]]></entry>    
+	<entry id="gourmet+str_change_pos_back_selfish"><![CDATA[You should take the next hit]]></entry>   
+	
+	<entry id="gourmet+str_ignore_command_selfish"><![CDATA[I think I know how to deal with this one...]]></entry>   
+	<entry id="gourmet+str_ignore_command_selfish"><![CDATA[Like Hell I will!]]></entry>   
+	<entry id="gourmet+str_ignore_command_selfish"><![CDATA[You think I'm going to take orders from YOU of all people?]]></entry>    
+	<entry id="gourmet+str_ignore_command_selfish"><![CDATA[Hah. I think not.]]></entry>    
+	<entry id="gourmet+str_ignore_command_selfish"><![CDATA[What mkes you think I'll cooperate?]]></entry>  
+	
+	<entry id="gourmet+str_random_command_selfish"><![CDATA[Watch a master at work!]]></entry>
+	<entry id="gourmet+str_random_command_selfish"><![CDATA[Sod off. You don't command me.]]></entry>   
+	<entry id="gourmet+str_random_command_selfish"><![CDATA[NO! I'm the one that's in charge here!]]></entry>   
+	<entry id="gourmet+str_random_command_selfish"><![CDATA[Know your place. I know mine!]]></entry>    
+	<entry id="gourmet+str_random_command_selfish"><![CDATA[I know what I'm doing!]]></entry>
+	
+	<entry id="gourmet+str_comment_self_hit_selfish"><![CDATA[One more like that and you're on your own!]]></entry>    
+	<entry id="gourmet+str_comment_self_hit_selfish"><![CDATA[As if I should be frightened?]]></entry> 
+	
+	<entry id="gourmet+str_comment_ally_attack_hit_selfish"><![CDATA[Get out of my way! You're fouling up my aim!]]></entry>    
+	<entry id="gourmet+str_comment_ally_attack_hit_selfish"><![CDATA[Trying to steal my thunder, eh?]]></entry>  
+	
+	<entry id="gourmet+str_comment_ally_attack_missed_selfish"><![CDATA[Good. I wanted to kill that one myself!]]></entry>    
+	<entry id="gourmet+str_comment_ally_attack_missed_selfish"><![CDATA[More for me then...]]></entry>    
+	
+	<entry id="gourmet+str_block_camping_skill_performer_selfish"><![CDATA[This was a failure...for one of us.]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_selfish"><![CDATA[...And why should I help you?]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_selfish"><![CDATA[What I need to do is rest, and what I need comes first.]]></entry> 	
+	
+	<entry id="gourmet+str_bark_stress_camp_selfish"><![CDATA[(mumbling) If I could, I'd burn this entire place to the ground...]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_selfish"><![CDATA[If I die today, I blame my insipid comrades...]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_selfish"><![CDATA[It's simple really. (coughs) I'm just better than you.]]></entry> 
+	
+	<!--Affliction: Depressed -->
+	<entry id="gourmet+str_afflicted_depressed"><![CDATA[This vendetta.. it is to much...]]></entry>    
+	<entry id="gourmet+str_afflicted_depressed"><![CDATA[I've betrayed everything that I believed...]]></entry>    
+	<entry id="gourmet+str_afflicted_depressed"><![CDATA[Revenge turns to ash in my mouth...]]></entry>  
+	<entry id="gourmet+str_afflicted_depressed"><![CDATA[It's all just cold embers now...]]></entry>
+	<entry id="gourmet+str_afflicted_depressed"><![CDATA[Is this really my final stand?]]></entry>
+	
+	<entry id="gourmet+str_bark_stress_depressed"><![CDATA[I've been burning the candle at both ends for too long...]]></entry>    
+	<entry id="gourmet+str_bark_stress_depressed"><![CDATA[What am I to do when the flames die down?]]></entry>    
+	<entry id="gourmet+str_bark_stress_depressed"><![CDATA[The light dims...]]></entry>   
+	<entry id="gourmet+str_bark_stress_depressed"><![CDATA[This mission is impossible.]]></entry>   
+	<entry id="gourmet+str_bark_stress_depressed"><![CDATA[My life holds nothing but ashes...]]></entry>   
+	
+	<entry id="gourmet+str_change_pos_fwd_depressed"><![CDATA[...]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_depressed"><![CDATA[Best get it over with.]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_depressed"><![CDATA[I've already lost everything...]]></entry>   
+	<entry id="gourmet+str_change_pos_fwd_depressed"><![CDATA[I'm just another fool for the fire.]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_depressed"><![CDATA[That's just the way it is...]]></entry>    
+	
+	<entry id="gourmet+str_change_pos_back_depressed"><![CDATA[I slink back to the shadows...]]></entry>    
+	<entry id="gourmet+str_change_pos_back_depressed"><![CDATA[I am finished...]]></entry>    
+	<entry id="gourmet+str_change_pos_back_depressed"><![CDATA[I can't catch my breath...]]></entry>    
+	<entry id="gourmet+str_change_pos_back_depressed"><![CDATA[She burned alive...]]></entry>    
+	<entry id="gourmet+str_change_pos_back_depressed"><![CDATA[There's no redemption for me, is there?]]></entry> 
+	
+	<entry id="gourmet+str_ignore_command_depressed"><![CDATA[I'd just screw it up...]]></entry>   
+	<entry id="gourmet+str_ignore_command_depressed"><![CDATA[There's nothing I can do now...]]></entry>    
+	<entry id="gourmet+str_ignore_command_depressed"><![CDATA[I didn't prepare for this...]]></entry>    
+	<entry id="gourmet+str_ignore_command_depressed"><![CDATA[...]]></entry>    
+	<entry id="gourmet+str_ignore_command_depressed"><![CDATA[Nothing could've prepared me for this.]]></entry>   
+	
+	<entry id="gourmet+str_random_command_depressed"><![CDATA[I'll just do what I can.]]></entry>    
+	<entry id="gourmet+str_random_command_depressed"><![CDATA[What does it matter? We've lost.]]></entry>    
+	<entry id="gourmet+str_random_command_depressed"><![CDATA[(growl) I told you... It is pointless.]]></entry>    
+	<entry id="gourmet+str_random_command_depressed"><![CDATA[What's the point anymore?]]></entry>    
+	<entry id="gourmet+str_random_command_depressed"><![CDATA[...]]></entry>   
+	
+	<entry id="gourmet+str_mark_self_depressed"><![CDATA[Just darker days ahead... no hope left.]]></entry>   
+	<entry id="gourmet+str_mark_self_depressed"><![CDATA[Lets just end this...]]></entry>   
+	
+	<entry id="gourmet+str_attack_self_depressed"><![CDATA[The end can't come soon enough...]]></entry>    
+	<entry id="gourmet+str_attack_self_depressed"><![CDATA[Pain and fire, my faithful friends...]]></entry> 
+	
+	<entry id="gourmet+str_block_combat_retreat_depressed"><![CDATA[Let this be my funeral pyre.]]></entry>    
+	<entry id="gourmet+str_block_combat_retreat_depressed"><![CDATA[At least grant this Viking Funeral.]]></entry>
+	
+	<entry id="gourmet+str_block_item_depressed"><![CDATA[It's useless! Leave me be!]]></entry>    
+	<entry id="gourmet+str_block_item_depressed"><![CDATA[Useless...it's all useless.]]></entry>
+	
+	<entry id="gourmet+str_block_heal_depressed"><![CDATA[Please... I'm so exhausted...]]></entry>   
+	<entry id="gourmet+str_block_heal_depressed"><![CDATA[These burns hardly sting anymore...]]></entry>   
+	
+	<entry id="gourmet+str_block_buff_depressed"><![CDATA[This cannot go on...]]></entry>   
+	<entry id="gourmet+str_block_buff_depressed"><![CDATA[Please... I'm so exhausted...]]></entry>   
+   	
+	<entry id="gourmet+str_bark_stress_camp_depressed"><![CDATA[I feel so...cold...]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_depressed"><![CDATA[There's no redemption for me, is there?]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_depressed"><![CDATA[I must confess, Fire is an awfully lonely friend...]]></entry>    
+	
+	<entry id="gourmet+str_block_camping_skill_performer_depressed"><![CDATA[Why? Whats the point? We are lost.]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_depressed"><![CDATA[...]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_depressed"><![CDATA[Leave me to my thoughts.]]></entry> 
+	
+	<entry id="gourmet+str_block_camping_skill_target_depressed"><![CDATA[You must like wasting your time...]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_depressed"><![CDATA[Don't bother.]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_depressed"><![CDATA[Begone. Leave me to my fate...]]></entry>
+	
+	<entry id="gourmet+str_block_camping_meal_depressed"><![CDATA[Tastes like ashes...]]></entry>    
+	<entry id="gourmet+str_block_camping_meal_depressed"><![CDATA[I've lost my appetite.]]></entry>    
+	
+	<!--Affliction: Irrational -->
+	<entry id="gourmet+str_afflicted_irrational"><![CDATA[Ah yes...I love the smell of burnt flesh in the morning.]]></entry>    
+	<entry id="gourmet+str_afflicted_irrational"><![CDATA[They can't grab me if I'm already on fire!]]></entry>    
+	<entry id="gourmet+str_afflicted_irrational"><![CDATA[The pull toward chaos is relentless, I embrace it.]]></entry>    
+	<entry id="gourmet+str_afflicted_irrational"><![CDATA[The flames speak and they hunger!]]></entry>   
+	<entry id="gourmet+str_afflicted_irrational"><![CDATA[Such warmth when embraced by FIRE!]]></entry>   
+	
+	<entry id="gourmet+str_bark_stress_irrational"><![CDATA[Where there is smoke there is fire...]]></entry>    
+	<entry id="gourmet+str_bark_stress_irrational"><![CDATA[Watch them light up with just a spark!]]></entry>   
+	<entry id="gourmet+str_bark_stress_irrational"><![CDATA[Want to watch me juggle these explosives?]]></entry>    
+	<entry id="gourmet+str_bark_stress_irrational"><![CDATA[Let's see how flammable you really are!]]></entry>    
+	<entry id="gourmet+str_bark_stress_irrational"><![CDATA[Fire cleanses EVERYTHING it touches!]]></entry>  
+	
+	<entry id="gourmet+str_change_pos_fwd_irrational"><![CDATA[Like a moth to a flame!]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_irrational"><![CDATA[Mistress Fire, embrace me!]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_irrational"><![CDATA[I just mixed a new concoction! Time to test it out!]]></entry>   
+	<entry id="gourmet+str_change_pos_fwd_irrational"><![CDATA[These monsters won't light themselves!]]></entry>    
+	<entry id="gourmet+str_change_pos_fwd_irrational"><![CDATA[I'll catch them by surprise!]]></entry>   
+	
+	<entry id="gourmet+str_change_pos_back_irrational"><![CDATA[Time for a final blow!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_irrational"><![CDATA[Let me just mix a new concoction, give me a moment!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_irrational"><![CDATA[They'll never see it coming, heehee!]]></entry>    
+	<entry id="gourmet+str_change_pos_back_irrational"><![CDATA[You may get caught in the cross-fire...]]></entry>    
+	<entry id="gourmet+str_change_pos_back_irrational"><![CDATA[Don't worry, I've got everything under control! (laughs)]]></entry>    
+	
+	<entry id="gourmet+str_ignore_command_irrational"><![CDATA[I'll get to it later.]]></entry>    
+	<entry id="gourmet+str_ignore_command_irrational"><![CDATA[I'm still mixing my concoctions!]]></entry>    
+	<entry id="gourmet+str_ignore_command_irrational"><![CDATA[Anyone have a light?]]></entry>    
+	<entry id="gourmet+str_ignore_command_irrational"><![CDATA[Has anyone seen my tinder box?]]></entry>   
+	<entry id="gourmet+str_ignore_command_irrational"><![CDATA[Well that doesn't make any sense.]]></entry>   
+	
+	<entry id="gourmet+str_random_command_irrational"><![CDATA[We've got to keep them off their balance!]]></entry>    
+	<entry id="gourmet+str_random_command_irrational"><![CDATA[What do you think burns faster?]]></entry>    
+	<entry id="gourmet+str_random_command_irrational"><![CDATA[I put the "spontaneous" in "spontaneous combustion."]]></entry>    
+	<entry id="gourmet+str_random_command_irrational"><![CDATA[You're in for a big surprise!]]></entry>    
+	<entry id="gourmet+str_random_command_irrational"><![CDATA[I'm sure this is safe...]]></entry>    
+	
+	<entry id="gourmet+str_mark_self_irrational"><![CDATA[You think you can stop me?!]]></entry>   
+	<entry id="gourmet+str_mark_self_irrational"><![CDATA[I AM FIREPROOF!]]></entry> 
+
+	<entry id="gourmet+str_attack_friendly_irrational"><![CDATA[Close combat gets messy...]]></entry>    
+	<entry id="gourmet+str_attack_friendly_irrational"><![CDATA[You stole my hammer didn't you!]]></entry>	
+	
+	<entry id="gourmet+str_attack_self_irrational"><![CDATA[You think I'm crazy?! You haven't seen crazy yet!]]></entry>    
+	<entry id="gourmet+str_attack_self_irrational"><![CDATA[I am cleansed in the Everlasting Flame!]]></entry> 
+	
+	<entry id="gourmet+str_block_combat_retreat_irrational"><![CDATA[(laughs manically) The Fire is LIT! The path is clear! We have the strength to follow!]]></entry>    
+	<entry id="gourmet+str_block_combat_retreat_irrational"><![CDATA[NO! I'M NOT FINISHED HERE!]]></entry> 
+	
+	<entry id="gourmet+str_comment_self_missed_irrational"><![CDATA[I meant to do that!]]></entry>    
+	<entry id="gourmet+str_comment_self_missed_irrational"><![CDATA[Hmm, that usually doesn't happen.]]></entry>
+	
+	<entry id="gourmet+str_comment_ally_hit_irrational"><![CDATA[You make a good point!]]></entry>    
+	<entry id="gourmet+str_comment_ally_hit_irrational"><![CDATA[My turn next!]]></entry>   
+	
+	<entry id="gourmet+str_comment_ally_missed_irrational"><![CDATA[Stick 'em with the pointy end!]]></entry>    
+	<entry id="gourmet+str_comment_ally_missed_irrational"><![CDATA[Got some smoke in your eye, eh?]]></entry> 
+	
+	<entry id="gourmet+str_block_move_irrational"><![CDATA[Can't you see I'm holding explosives?!]]></entry>    
+	<entry id="gourmet+str_block_move_irrational"><![CDATA[Nothing gets past me!]]></entry>      
+	
+	<entry id="gourmet+str_block_item_irrational"><![CDATA[I already have enough things to carry.]]></entry>    
+	<entry id="gourmet+str_block_item_irrational"><![CDATA[This thing is useless! Toss it into the flame!]]></entry>  
+	
+	<entry id="gourmet+str_block_heal_irrational"><![CDATA[ Maybe you want a scar of your own? (pulls out poker)]]></entry>    
+	<entry id="gourmet+str_block_heal_irrational"><![CDATA[What's wrong with another scar?]]></entry>      
+	
+	<entry id="gourmet+str_block_buff_irrational"><![CDATA[You will only make it worse!]]></entry>    
+	
+	<entry id="gourmet+str_bark_stress_camp_irrational"><![CDATA[Look how these flames in this campfire dance for me!]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_irrational"><![CDATA[Oh look! I found an extra box of matches!]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_irrational"><![CDATA[I can't recall the last time I saw the sun...]]></entry>    
+		
+	<entry id="gourmet+str_block_camping_skill_performer_irrational"><![CDATA[Not now! I'm mixing a *very* unstable concoction.]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_irrational"><![CDATA[Did you know the strongest lye is made from burnt human fat?]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_irrational"><![CDATA[I wouldn't come near, you're quite flammable.]]></entry>  
+	
+	<entry id="gourmet+str_block_camping_skill_target_irrational"><![CDATA[As if you can offer me something fire cannot.]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_target_irrational"><![CDATA[(nonsensical mumbling)]]></entry>  
+	
+	<entry id="gourmet+str_block_camping_meal_irrational"><![CDATA[I like my meat burnt, black as ash...]]></entry>    
+	<entry id="gourmet+str_block_camping_meal_irrational"><![CDATA[You never forget the smell of burning flesh.]]></entry>
+	
+	<!--Virtue: Stalwart -->
+	<entry id="gourmet+str_virtued_stalwart"><![CDATA[Like a Phoenix, I rise from the ashes!]]></entry> 
+	<entry id="gourmet+str_virtued_stalwart"><![CDATA[I've walked through fire...literally.]]></entry>   
+	<entry id="gourmet+str_virtued_stalwart"><![CDATA[I strike with Righteous Fire!]]></entry>   
+	<entry id="gourmet+str_virtued_stalwart"><![CDATA[I will not succumb to this darkness!]]></entry>   
+	<entry id="gourmet+str_virtued_stalwart"><![CDATA[I am the Everlasting Flame!]]></entry>   
+	
+	<entry id="gourmet+str_stress_heal_self_stalwart"><![CDATA[(chuckles) Barely a scratch.]]></entry>  
+	<entry id="gourmet+str_stress_heal_self_stalwart"><![CDATA[I come prepared.  Always.]]></entry>   
+	
+	<!--Virtue: Courageous -->
+	<entry id="gourmet+str_virtued_courageous"><![CDATA[WE ARE THE FLAME!]]></entry>   
+	<entry id="gourmet+str_virtued_courageous"><![CDATA[I'm prepared to go out in a Blaze of Glory!]]></entry>   
+	<entry id="gourmet+str_virtued_courageous"><![CDATA[I've been through Hell and back, this is nothing.]]></entry>    
+	<entry id="gourmet+str_virtued_courageous"><![CDATA[The Flame burns within me!]]></entry>    
+	<entry id="gourmet+str_virtued_courageous"><![CDATA[My fire rages on!]]></entry>  
+	
+	<entry id="gourmet+str_stress_heal_party_courageous"><![CDATA[The enemy falters at our sight!]]></entry>    
+	<entry id="gourmet+str_stress_heal_party_courageous"><![CDATA[Worry not, I always have a plan!]]></entry>  
+	
+	<!--Virtue: Focused -->
+	<entry id="gourmet+str_virtued_focused"><![CDATA[WE ARE THE FLAME!]]></entry>    
+	<entry id="gourmet+str_virtued_focused"><![CDATA[Stick to the plan, we'll see this through.]]></entry>   
+	<entry id="gourmet+str_virtued_focused"><![CDATA[The flames consume the wicked!]]></entry>    
+	<entry id="gourmet+str_virtued_focused"><![CDATA[My devotion will not be swayed!]]></entry>   
+	<entry id="gourmet+str_virtued_focused"><![CDATA[I've got one last trick up my sleeve.]]></entry>   
+	
+	<entry id="gourmet+str_buff_random_party_member_focused"><![CDATA[Strike hard, strike fast!]]></entry>    
+	<entry id="gourmet+str_buff_random_party_member_focused"><![CDATA[Focus on their weakpoints!]]></entry> 
+	
+	<!--Virtue: Powerful -->
+	<entry id="gourmet+str_virtued_powerful"><![CDATA[Heh, let's get dangerous!]]></entry>    
+	<entry id="gourmet+str_virtued_powerful"><![CDATA[Let us burn out this evil.]]></entry>   
+	<entry id="gourmet+str_virtued_powerful"><![CDATA[WE ARE THE FLAME!]]></entry>   
+	<entry id="gourmet+str_virtued_powerful"><![CDATA[I'm through playing around.]]></entry>    
+	<entry id="gourmet+str_virtued_powerful"><![CDATA[EVIL SHALL FEAR MY MIGHT!]]></entry>  
+	
+	<entry id="gourmet+str_buff_party_powerful"><![CDATA[Together we're as strong as a roaring fire!]]></entry>   
+	<entry id="gourmet+str_buff_party_powerful"><![CDATA[They won't even know what hit 'em.]]></entry>   
+	
+	<!--Virtue: Vigorous -->
+	<entry id="gourmet+str_virtued_vigorous"><![CDATA[I've got fire in my veins.]]></entry>   
+	<entry id="gourmet+str_virtued_vigorous"><![CDATA[I've been baptized by fire!]]></entry>    
+	<entry id="gourmet+str_virtued_vigorous"><![CDATA[My path remains true!]]></entry>       
+	<entry id="gourmet+str_virtued_vigorous"><![CDATA[Fast as a flash fire!]]></entry>   
+	
+	<entry id="gourmet+str_heal_self_vigorous"><![CDATA[Haven't even broken a sweat.]]></entry>   
+	<entry id="gourmet+str_heal_self_vigorous"><![CDATA[You thought that would stop me?)]]></entry> 
+	
+	<!-- Shared Camping Barks -->
+	<entry id="gourmet+str_bark_first_aid"><![CDATA[Bite down on this. I need to cauterize the wound.]]></entry>
+	<entry id="gourmet+str_bark_first_aid"><![CDATA[This balm should soothe the burn.]]></entry>
+	<entry id="gourmet+str_bark_first_aid"><![CDATA[Here. Keep that wound clean.]]></entry>
+	
+	<entry id="gourmet+str_bark_encourage"><![CDATA[You've had a few close calls friend, but you'll make it through.]]></entry>
+	<entry id="gourmet+str_bark_encourage"><![CDATA[The night is always darkest before the dawn. But I do have a match.]]></entry>
+	<entry id="gourmet+str_bark_encourage"><![CDATA[Warm your hands by the fire, you'll feel better. I promise.]]></entry>
+	
+	<entry id="gourmet+str_bark_pep_talk"><![CDATA[We seem... capable enough.]]></entry>
+	<entry id="gourmet+str_bark_pep_talk"><![CDATA[The odds seem to be in our favour.]]></entry>
+	<entry id="gourmet+str_bark_pep_talk"><![CDATA[There will be brighter days ahead, this I promise.]]></entry>
+	
+	<!--Critical Hit Barks -->
+	<entry id="gourmet+str_critbyhero"><![CDATA[Burn't to a crisp!]]></entry>   
+	<entry id="gourmet+str_critbyhero"><![CDATA[Feeling the heat, yet?]]></entry>   
+	<entry id="gourmet+str_critbyhero"><![CDATA[More fuel for the Fire!]]></entry>   
+	<entry id="gourmet+str_critbyhero"><![CDATA[Taste my wrath!]]></entry>   
+	<entry id="gourmet+str_critbyhero"><![CDATA[Just as you deserved!]]></entry>   
+	<entry id="gourmet+str_critbyhero"><![CDATA[I'm on fire!]]></entry>   
+
+  </language>
+
+
+</root>

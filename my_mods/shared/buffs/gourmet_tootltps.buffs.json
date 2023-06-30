@@ -1,0 +1,265 @@
+{
+    "buffs":
+    [
+        {
+            "id" : "g_tt_bleed_mark_1",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_bleed_mark_1",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_bleed_mark_2",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_bleed_mark_2",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_bleed_mark_3",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_bleed_mark_3",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_bleed_mark_4",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_bleed_mark_4",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_bleed_mark_5",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_bleed_mark_5",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_bleed_1",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_bleed_1",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_bleed_2",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_bleed_2",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_bleed_3",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_bleed_3",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_bleed_4",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_bleed_4",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_bleed_5",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_bleed_5",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_blight_1",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_blight_1",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_blight_2",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_blight_2",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_blight_3",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_blight_3",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_blight_4",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_blight_4",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_taste_vs_blight_5",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_vs_blight_5",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_vs_healthy",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_vs_healthy",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_buffs_1",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_buffs_1",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_buffs_2",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_buffs_2",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_buffs_3",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_buffs_3",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_debuff",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_debuff",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         }
+    ]
+}

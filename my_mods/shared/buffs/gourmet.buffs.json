@@ -1,0 +1,669 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "gourmet_on_crit",
+         "stat_type" : "hp_dot_heal",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_1",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_2",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_3",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_4",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_5",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_end_1",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : -3.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_end_2",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : -3.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_end_3",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : -3.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_end_4",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : -3.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_cut_bleed_vs_marked_end_5",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : -3.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+
+      {
+         "id" : "gourmet_dmg_received_marked_1",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_dmg_received_marked_2",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_dmg_received_marked_3",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_dmg_received_marked_4",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_dmg_received_marked_5",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "gourmet_shield_move_resist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+      {
+         "id" : "gourmet_devour_kill_buff_debuffr_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_debuffr_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_debuffr_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_hpmax_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_hpmax_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_hpmax_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_dmgl_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_dmgl_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_dmgl_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_dmgh_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_dmgh_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_kill_buff_dmgh_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_debuff_speed",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -3,
+         "remove_if_not_active": false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false
+      },
+      {
+         "id" : "gourmet_devour_debuff_sanity_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.30,
+         "remove_if_not_active": false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false
+      },
+      {
+         "id" : "gourmet_devour_dmgh_vs_healthy",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -100,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgl_vs_healthy",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -100,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_acc_healthy",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -100000,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgh_vs_corpse",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -100,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgl_vs_corpse",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -100,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgh_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 20,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgh_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 25,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgh_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 30,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgl_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 20,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgl_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 25,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "gourmet_devour_dmgl_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 30,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+
+
+
+
+
+
+      {
+         "id" : "gourmet_taste_bleed_on",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 50,
+         "remove_if_not_active": true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+      {
+         "id": "gourmet_taste_bleed_off",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount": -50,
+         "remove_if_not_active": true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string": "bleeding"
+         }
+      },
+
+      {
+         "id" : "gourmet_taste_bleed_buff_self_dmgh1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+      {
+         "id" : "gourmet_taste_bleed_buff_self_dmgl1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+
+      {
+         "id" : "gourmet_taste_blight_on",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 50,
+         "remove_if_not_active": true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+      },
+      {
+         "id": "gourmet_taste_blight_off",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount": -50,
+         "remove_if_not_active": true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string": "poisoned"
+         }
+      },
+
+      {
+         "id" : "gourmet_taste_blight_buff_self_dmgh1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+      },
+      {
+         "id" : "gourmet_taste_blight_buff_self_dmgl1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+      }
+
+   ]
+}
