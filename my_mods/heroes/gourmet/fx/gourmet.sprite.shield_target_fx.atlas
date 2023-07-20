@@ -1,0 +1,62 @@
+
+gourmet.sprite.shield_target_fx.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shield_target_fx/shading
+  rotate: false
+  xy: 1, 1
+  size: 285, 284
+  orig: 285, 284
+  offset: 0, 0
+  index: -1
+shield_target_fx/yummy_icon
+  rotate: false
+  xy: 288, 1
+  size: 221, 234
+  orig: 221, 234
+  offset: 0, 0
+  index: -1
+shield_target_fx/fork_glow
+  rotate: false
+  xy: 97, 287
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+shield_target_fx/knife_glow
+  rotate: false
+  xy: 160, 287
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+shield_target_fx/fork
+  rotate: false
+  xy: 392, 237
+  size: 108, 228
+  orig: 108, 228
+  offset: 0, 0
+  index: -1
+shield_target_fx/knife
+  rotate: false
+  xy: 288, 237
+  size: 102, 243
+  orig: 102, 243
+  offset: 0, 0
+  index: -1
+shield_target_fx/fork_shine
+  rotate: false
+  xy: 1, 384
+  size: 94, 95
+  orig: 94, 95
+  offset: 0, 0
+  index: -1
+shield_target_fx/knife_shine
+  rotate: false
+  xy: 1, 287
+  size: 94, 95
+  orig: 94, 95
+  offset: 0, 0
+  index: -1

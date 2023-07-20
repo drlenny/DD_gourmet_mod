@@ -1,0 +1,118 @@
+
+gourmet.sprite.heal_target_fx.png
+size: 257,1007
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+short_ray01
+  rotate: false
+  xy: 220, 331
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+short_ray02
+  rotate: false
+  xy: 1, 767
+  size: 52, 101
+  orig: 52, 101
+  offset: 0, 0
+  index: -1
+short_ray03
+  rotate: false
+  xy: 52, 870
+  size: 36, 61
+  orig: 36, 61
+  offset: 0, 0
+  index: -1
+short_ray04
+  rotate: false
+  xy: 1, 870
+  size: 49, 61
+  orig: 49, 61
+  offset: 0, 0
+  index: -1
+short_ray05
+  rotate: false
+  xy: 220, 149
+  size: 34, 62
+  orig: 34, 62
+  offset: 0, 0
+  index: -1
+short_ray06
+  rotate: false
+  xy: 220, 213
+  size: 35, 58
+  orig: 35, 58
+  offset: 0, 0
+  index: -1
+short_ray07
+  rotate: false
+  xy: 220, 75
+  size: 35, 72
+  orig: 35, 72
+  offset: 0, 0
+  index: -1
+short_ray08
+  rotate: false
+  xy: 39, 933
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+short_ray09
+  rotate: false
+  xy: 220, 442
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+short_ray10
+  rotate: false
+  xy: 220, 387
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+short_ray11
+  rotate: false
+  xy: 220, 1
+  size: 35, 72
+  orig: 35, 72
+  offset: 0, 0
+  index: -1
+short_ray12
+  rotate: false
+  xy: 1, 933
+  size: 36, 72
+  orig: 36, 72
+  offset: 0, 0
+  index: -1
+short_ray13
+  rotate: false
+  xy: 220, 273
+  size: 35, 56
+  orig: 35, 56
+  offset: 0, 0
+  index: -1
+short_ray14
+  rotate: false
+  xy: 77, 933
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+aura
+  rotate: false
+  xy: 1, 1
+  size: 217, 528
+  orig: 217, 528
+  offset: 0, 0
+  index: -1
+pig_icon/yummy_icon
+  rotate: false
+  xy: 1, 531
+  size: 221, 234
+  orig: 221, 234
+  offset: 0, 0
+  index: -1

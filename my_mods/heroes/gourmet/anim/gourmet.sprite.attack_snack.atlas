@@ -1,0 +1,20 @@
+
+gourmet.sprite.attack_snack.png
+size: 622,812
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/shadow
+  rotate: false
+  xy: 1, 747
+  size: 473, 63
+  orig: 473, 63
+  offset: 0, 0
+  index: -1
+gourmet/attack_snack
+  rotate: false
+  xy: 1, 1
+  size: 619, 744
+  orig: 619, 744
+  offset: 0, 0
+  index: -1

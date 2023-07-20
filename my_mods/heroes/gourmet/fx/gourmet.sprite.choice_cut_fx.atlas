@@ -1,0 +1,41 @@
+
+gourmet.sprite.choice_cut_fx.png
+size: 678,1012
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/cleaver_dark_blood
+  rotate: false
+  xy: 1, 595
+  size: 397, 174
+  orig: 397, 174
+  offset: 0, 0
+  index: -1
+gourmet/cleaver_bright_blood
+  rotate: false
+  xy: 1, 919
+  size: 271, 91
+  orig: 271, 91
+  offset: 0, 0
+  index: -1
+gourmet/blood_splat
+  rotate: false
+  xy: 296, 771
+  size: 119, 144
+  orig: 119, 144
+  offset: 0, 0
+  index: -1
+gourmet/cleaver_trail
+  rotate: false
+  xy: 1, 1
+  size: 675, 592
+  orig: 675, 592
+  offset: 0, 0
+  index: -1
+gourmet/blood_splash
+  rotate: false
+  xy: 1, 771
+  size: 293, 146
+  orig: 293, 146
+  offset: 0, 0
+  index: -1

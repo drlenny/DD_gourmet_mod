@@ -1,0 +1,20 @@
+
+gourmet.sprite.attack_devour.png
+size: 928,834
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/shadow
+  rotate: false
+  xy: 1, 756
+  size: 641, 76
+  orig: 641, 76
+  offset: 0, 0
+  index: -1
+gourmet/attack_devour
+  rotate: false
+  xy: 1, 1
+  size: 925, 753
+  orig: 925, 753
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+gourmet.sprite.attack_chop.png
+size: 1344,765
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/shadow
+  rotate: false
+  xy: 1, 694
+  size: 672, 69
+  orig: 672, 69
+  offset: 0, 0
+  index: -1
+gourmet/attack_chop
+  rotate: false
+  xy: 1, 1
+  size: 1341, 691
+  orig: 1341, 691
+  offset: 0, 0
+  index: -1

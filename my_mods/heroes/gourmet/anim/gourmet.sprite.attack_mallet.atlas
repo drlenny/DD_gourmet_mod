@@ -1,0 +1,20 @@
+
+gourmet.sprite.attack_mallet.png
+size: 837,799
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/shadow
+  rotate: false
+  xy: 1, 717
+  size: 608, 80
+  orig: 608, 80
+  offset: 0, 0
+  index: -1
+gourmet/attack_mallet
+  rotate: false
+  xy: 1, 1
+  size: 834, 714
+  orig: 834, 714
+  offset: 0, 0
+  index: -1

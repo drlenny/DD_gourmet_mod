@@ -12,12 +12,12 @@ armour: .name "gourmet_armour_2" .icon "eqp_armour_2.png"
 armour: .name "gourmet_armour_3" .icon "eqp_armour_3.png"
 armour: .name "gourmet_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "choice_cut" .icon "one" .anim "attack_sword" .fx "smite" .targchestfx "blood_splatter"
-combat_skill: .id "tenderize" .icon "two" .anim "attack_scroll" .fx "zealous_accusation" .targchestfx "blood_splatter"
-combat_skill: .id "obliterate" .icon "three" .anim "attack_stun" .fx "stunning_blow" .targheadfx "stunning_blow_target"
-combat_skill: .id "quick_snack" .icon "four" .anim "attack_scroll" .fx "bulwark_of_faith" .can_display_performer_selection_after_turn false
-combat_skill: .id "meat_shield" .icon "five" .anim "attack_heal" .fx "battle_heal" .targfx "battle_heal_target" .can_display_performer_selection_after_turn false
-combat_skill: .id "devour" .icon "six" .anim "attack_charge" .fx "holy_lance" .targchestfx "blood_splatter"
+combat_skill: .id "choice_cut" .icon "one" .anim "attack_chop" .fx "choice_cut_fx" .targchestfx "blood_splatter"
+combat_skill: .id "tenderize" .icon "two" .anim "attack_mallet" .fx "tenderize_fx" .targheadfx "blood_splatter"
+combat_skill: .id "obliterate" .icon "three" .anim "attack_chop" .fx "obliterate_fx" .targchestfx "blood_splatter"
+combat_skill: .id "quick_snack" .icon "four" .anim "attack_snack" .fx "snack_fx" .targfx "snack_target_fx" .can_display_performer_selection_after_turn false
+combat_skill: .id "meat_shield" .icon "five" .anim "defend" .fx "meat_shield_fx" .targchestfx "meat_shield_target_fx" .can_display_performer_selection_after_turn false
+combat_skill: .id "devour" .icon "six" .anim "attack_devour" .fx "devour_fx" .targchestfx "blood_splatter"
 combat_skill: .id "taste_test" .icon "seven" .anim "attack_banner" .fx "inspiring_cry" .can_display_performer_selection_after_turn false
 				
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"

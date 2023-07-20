@@ -1,0 +1,62 @@
+
+gourmet.sprite.obliterate_fx.png
+size: 1292,1969
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/head_shadow
+  rotate: false
+  xy: 383, 1366
+  size: 207, 188
+  orig: 207, 188
+  offset: 0, 0
+  index: -1
+gourmet/shadow
+  rotate: false
+  xy: 1, 1
+  size: 1289, 668
+  orig: 1289, 668
+  offset: 0, 0
+  index: -1
+gourmet/rim_light
+  rotate: false
+  xy: 1, 1773
+  size: 607, 194
+  orig: 607, 194
+  offset: 0, 0
+  index: -1
+gourmet/cleaver_trail
+  rotate: false
+  xy: 1, 671
+  size: 780, 693
+  orig: 780, 693
+  offset: 0, 0
+  index: -1
+gourmet/long_rays
+  rotate: false
+  xy: 1, 1366
+  size: 380, 405
+  orig: 380, 405
+  offset: 0, 0
+  index: -1
+gourmet/short_rays
+  rotate: false
+  xy: 557, 1556
+  size: 145, 146
+  orig: 145, 146
+  offset: 0, 0
+  index: -1
+gourmet/glow
+  rotate: false
+  xy: 592, 1366
+  size: 124, 138
+  orig: 124, 138
+  offset: 0, 0
+  index: -1
+gourmet/ring
+  rotate: false
+  xy: 383, 1556
+  size: 172, 164
+  orig: 172, 164
+  offset: 0, 0
+  index: -1

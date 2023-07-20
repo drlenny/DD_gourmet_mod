@@ -381,6 +381,19 @@
          }
       },
       {
+         "id" : "gourmet_devour_kill_heal_1",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "eat",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
          "id" : "gourmet_devour_debuff_speed",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
@@ -553,10 +566,6 @@
       },
 
 
-
-
-
-
       {
          "id" : "gourmet_taste_bleed_on",
          "stat_type" : "debuff_chance",
@@ -585,7 +594,7 @@
       },
 
       {
-         "id" : "gourmet_taste_bleed_buff_self_dmgh1",
+         "id" : "gourmet_taste_bleed_buff_self_dmgh_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.33,
@@ -598,7 +607,7 @@
          }
       },
       {
-         "id" : "gourmet_taste_bleed_buff_self_dmgl1",
+         "id" : "gourmet_taste_bleed_buff_self_dmgl_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.33,
@@ -639,7 +648,7 @@
       },
 
       {
-         "id" : "gourmet_taste_blight_buff_self_dmgh1",
+         "id" : "gourmet_taste_blight_buff_self_dmgh_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.33,
@@ -652,7 +661,7 @@
          }
       },
       {
-         "id" : "gourmet_taste_blight_buff_self_dmgl1",
+         "id" : "gourmet_taste_blight_buff_self_dmgl_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.33,
@@ -664,6 +673,7 @@
             "string" : "poisoned"
          }
       }
+
 
    ]
 }

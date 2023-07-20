@@ -1,0 +1,62 @@
+
+gourmet.sprite.attack_shield_fx.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/shading
+  rotate: false
+  xy: 1, 1
+  size: 629, 745
+  orig: 629, 745
+  offset: 0, 0
+  index: -1
+gourmet/glow
+  rotate: false
+  xy: 1222, 1
+  size: 474, 462
+  orig: 474, 462
+  offset: 0, 0
+  index: -1
+gourmet/inner_glow
+  rotate: false
+  xy: 1697, 769
+  size: 233, 240
+  orig: 233, 240
+  offset: 0, 0
+  index: -1
+gourmet/short_rays
+  rotate: false
+  xy: 1222, 465
+  size: 473, 451
+  orig: 473, 451
+  offset: 0, 0
+  index: -1
+gourmet/rays
+  rotate: false
+  xy: 632, 1
+  size: 588, 595
+  orig: 588, 595
+  offset: 0, 0
+  index: -1
+gourmet/shield
+  rotate: false
+  xy: 1697, 465
+  size: 244, 302
+  orig: 244, 302
+  offset: 0, 0
+  index: -1
+gourmet/sausage_1
+  rotate: false
+  xy: 1854, 1
+  size: 154, 315
+  orig: 154, 315
+  offset: 0, 0
+  index: -1
+gourmet/sausage_2
+  rotate: false
+  xy: 1698, 1
+  size: 154, 315
+  orig: 154, 315
+  offset: 0, 0
+  index: -1

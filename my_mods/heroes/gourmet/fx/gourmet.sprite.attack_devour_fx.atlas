@@ -1,0 +1,125 @@
+
+gourmet.sprite.attack_devour_fx.png
+size: 2004,1586
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/shading
+  rotate: false
+  xy: 1, 1
+  size: 925, 753
+  orig: 925, 753
+  offset: 0, 0
+  index: -1
+gourmet/gore
+  rotate: false
+  xy: 872, 1057
+  size: 413, 368
+  orig: 413, 368
+  offset: 0, 0
+  index: -1
+gourmet/flecks
+  rotate: false
+  xy: 1, 1447
+  size: 106, 137
+  orig: 106, 137
+  offset: 0, 0
+  index: -1
+gourmet/blood_ring
+  rotate: false
+  xy: 338, 1200
+  size: 273, 287
+  orig: 273, 287
+  offset: 0, 0
+  index: -1
+gourmet/dust
+  rotate: false
+  xy: 928, 596
+  size: 878, 459
+  orig: 878, 459
+  offset: 0, 0
+  index: -1
+gourmet/speck_1
+  rotate: false
+  xy: 906, 791
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+gourmet/speck_2
+  rotate: false
+  xy: 900, 853
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+gourmet/speck_3
+  rotate: false
+  xy: 901, 826
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+gourmet/speck_4
+  rotate: false
+  xy: 872, 853
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+gourmet/speck_5
+  rotate: false
+  xy: 872, 826
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+gourmet/speck_6
+  rotate: false
+  xy: 872, 791
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+gourmet/speck_7
+  rotate: false
+  xy: 872, 756
+  size: 40, 33
+  orig: 40, 33
+  offset: 0, 0
+  index: -1
+gourmet/highlights
+  rotate: false
+  xy: 1, 756
+  size: 869, 442
+  orig: 869, 442
+  offset: 0, 0
+  index: -1
+gourmet/highlights_glow
+  rotate: false
+  xy: 928, 1
+  size: 1074, 593
+  orig: 1074, 593
+  offset: 0, 0
+  index: -1
+gourmet/eye_glow
+  rotate: false
+  xy: 906, 805
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+gourmet/eye_ring
+  rotate: false
+  xy: 109, 1447
+  size: 82, 75
+  orig: 82, 75
+  offset: 0, 0
+  index: -1
+gourmet/eye_trail
+  rotate: false
+  xy: 1, 1200
+  size: 335, 245
+  orig: 335, 245
+  offset: 0, 0
+  index: -1
