@@ -6,6 +6,8 @@
     <entry id="hero_class_name_gourmet"><![CDATA[Gourmet]]></entry>
 	
 	<!--Mode/Missing things/Tooltips-->
+
+		<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when Guarding]]></entry>
 	
 		<!-- Quick Snack -->
     	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>

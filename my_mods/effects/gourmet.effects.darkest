@@ -1,5 +1,5 @@
 // On Crit
-effect: .name "Gourmet On Crit" .target "performer".chance 100% .buff_source_type bsrc_crit .buff_ids "gourmet_on_crit" .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "Gourmet On Crit" .target "performer".chance 100% .buff_source_type bsrc_crit .buff_ids "gourmet_on_crit" .duration 2 .on_hit true .on_miss false .apply_once true .queue true
 
 // Choice Cut
 effect: .name "Gourmet Cut Debuff 1" .target "target" .chance 100%  .combat_stat_buff 1 .speed_rating_add -2 .duration 3 .on_hit true .on_miss false
@@ -75,11 +75,11 @@ effect: .name "Gourmet Snack Heal Target 3" .target "target" .chance 100% .heal 
 effect: .name "Gourmet Snack Heal Target 4" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
 effect: .name "Gourmet Snack Heal Target 5" .target "target" .chance 100% .heal 6 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
 
-effect: .name "Gourmet Snack Self Regen 1" .target "performer" .chance 45% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
-effect: .name "Gourmet Snack Self Regen 2" .target "performer" .chance 50% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
-effect: .name "Gourmet Snack Self Regen 3" .target "performer" .chance 55% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
-effect: .name "Gourmet Snack Self Regen 4" .target "performer" .chance 60% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
-effect: .name "Gourmet Snack Self Regen 5" .target "performer" .chance 65% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Self Regen 1" .target "performer" .chance 45% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Snack Self Regen 2" .target "performer" .chance 50% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Snack Self Regen 3" .target "performer" .chance 55% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Snack Self Regen 4" .target "performer" .chance 60% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Snack Self Regen 5" .target "performer" .chance 65% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false .queue true
 
 effect: .name "Gourmet Snack Target Regen 1" .target "target" .chance 45% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
 effect: .name "Gourmet Snack Target Regen 2" .target "target" .chance 50% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
@@ -90,19 +90,23 @@ effect: .name "Gourmet Snack Target Regen 5" .target "target" .chance 65% .dotHp
 // Meat Shield
 effect: .name "Gourmet Shield Guard"  .target "target" .guard 1 .on_hit true .on_miss true .duration 3
 
-effect: .name "Gourmet Shield H Received Self 1" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 17.5% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Shield H Received Self 2" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 20% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Shield H Received Self 3" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 22.5% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Shield H Received Self 4" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Shield H Received Self 5" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 30% .duration 3 .on_hit true .on_miss false
+//effect: .name "Gourmet Shield H Received Self 1" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 17.5% .duration 3 .on_hit true .on_miss false
+//effect: .name "Gourmet Shield H Received Self 2" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 20% .duration 3 .on_hit true .on_miss false
+//effect: .name "Gourmet Shield H Received Self 3" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 22.5% .duration 3 .on_hit true .on_miss false
+//effect: .name "Gourmet Shield H Received Self 4" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .duration 3 .on_hit true .on_miss false
+//effect: .name "Gourmet Shield H Received Self 5" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 30% .duration 3 .on_hit true .on_miss false
 
-effect: .name "Gourmet Shield H Received Target 1" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 17.5% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Shield H Received Target 2" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 20% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Shield H Received Target 3" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 22.5% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Shield H Received Target 4" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Shield H Received Target 5" .target "target" .chance 100% .buff_type hp_heal_received_percent .buff_amount 30% .duration 3 .on_hit true .on_miss false
+effect: .name "Gourmet Shield Buff Target 1" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_1" "gourmet_shield_guarded_dmgh_1" "gourmet_shield_guarded_dmgl_1" "gourmet_shield_guarded_crit_1" .on_hit true .on_miss false
+effect: .name "Gourmet Shield Buff Target 2" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_2" "gourmet_shield_guarded_dmgh_2" "gourmet_shield_guarded_dmgl_2" "gourmet_shield_guarded_crit_2" .on_hit true .on_miss false
+effect: .name "Gourmet Shield Buff Target 3" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_3" "gourmet_shield_guarded_dmgh_3" "gourmet_shield_guarded_dmgl_3" "gourmet_shield_guarded_crit_3" .on_hit true .on_miss false
+effect: .name "Gourmet Shield Buff Target 4" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_4" "gourmet_shield_guarded_dmgh_4" "gourmet_shield_guarded_dmgl_4" "gourmet_shield_guarded_crit_4" .on_hit true .on_miss false
+effect: .name "Gourmet Shield Buff Target 5" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_5" "gourmet_shield_guarded_dmgh_5" "gourmet_shield_guarded_dmgl_5" "gourmet_shield_guarded_crit_5" .on_hit true .on_miss false
 
-effect: .name "Gourmet Shield Move Resist" .target "performer" .chance 100% .duration 3 .buff_ids "gourmet_shield_move_resist" .on_hit true .on_miss false
+effect: .name "Gourmet Shield Buff Self 1" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_1" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 2" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_2" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 3" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_3" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 4" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_4" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 5" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_5" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
 
 // Devour
 effect: .name "Gourmet Devour Tooltip vs Healthy" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_vs_healthy" .on_hit true .on_miss false
