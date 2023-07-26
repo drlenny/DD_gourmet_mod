@@ -18,7 +18,7 @@ combat_skill: .id "obliterate" .icon "three" .anim "attack_chop" .fx "obliterate
 combat_skill: .id "quick_snack" .icon "four" .anim "attack_snack" .fx "snack_fx" .targfx "snack_target_fx" .can_display_performer_selection_after_turn false
 combat_skill: .id "meat_shield" .icon "five" .anim "defend" .fx "meat_shield_fx" .targchestfx "meat_shield_target_fx" .can_display_performer_selection_after_turn false
 combat_skill: .id "devour" .icon "six" .anim "attack_devour" .fx "devour_fx" .targchestfx "blood_splatter"
-combat_skill: .id "taste_test" .icon "seven" .anim "attack_banner" .fx "inspiring_cry" .can_display_performer_selection_after_turn false
+combat_skill: .id "taste_test" .icon "seven" .anim "attack_taste" .fx "taste_fx" .targfx "taste_target_fx"
 				
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
 

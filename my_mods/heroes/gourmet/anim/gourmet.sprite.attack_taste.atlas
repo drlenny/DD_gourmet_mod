@@ -1,0 +1,20 @@
+
+gourmet.sprite.attack_taste.png
+size: 942,836
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/shadow
+  rotate: false
+  xy: 1, 748
+  size: 613, 86
+  orig: 613, 86
+  offset: 0, 0
+  index: -1
+gourmet/attcak_taste
+  rotate: false
+  xy: 1, 1
+  size: 939, 745
+  orig: 939, 745
+  offset: 0, 0
+  index: -1

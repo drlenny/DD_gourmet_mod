@@ -1,0 +1,41 @@
+
+gourmet.sprite.attack_taste_fx.png
+size: 1020,992
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/highlights
+  rotate: false
+  xy: 1, 734
+  size: 177, 236
+  orig: 177, 236
+  offset: 0, 0
+  index: -1
+gourmet/spit_3
+  rotate: false
+  xy: 937, 1
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+gourmet/spit_1
+  rotate: false
+  xy: 1003, 1
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+gourmet/spit_2
+  rotate: false
+  xy: 1, 972
+  size: 25, 18
+  orig: 25, 18
+  offset: 0, 0
+  index: -1
+gourmet/shading
+  rotate: false
+  xy: 1, 1
+  size: 934, 731
+  orig: 934, 731
+  offset: 0, 0
+  index: -1

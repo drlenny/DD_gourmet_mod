@@ -19,28 +19,24 @@
 	
 		<!-- Taste Test -->
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_1"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
-		{colour_start|buff}Self:{colour_end} {colour_start|healhp}Heal{colour_end} 1 pts/rd for 3 rds / -10%% CRT]]></entry>
+		{colour_start|buff}Buff Self:{colour_end} +25%% DMG vs {colour_start|bleed}Bleeding{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_2"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
-		{colour_start|buff}Self:{colour_end} {colour_start|healhp}Heal{colour_end} 2 pts/rd for 3 rds / -10%% CRT]]></entry>
+		{colour_start|buff}Buff Self:{colour_end} +30%% DMG vs {colour_start|bleed}Bleeding{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_3"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
-		{colour_start|buff}Self:{colour_end} {colour_start|healhp}Heal{colour_end} 3 pts/rd for 3 rds / -10%% CRT]]></entry>
+		{colour_start|buff}Buff Self:{colour_end} +35%% DMG vs {colour_start|bleed}Bleeding{colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_1"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
-		{colour_start|buff}Self:{colour_end} {colour_start|blight}Blight{colour_end} 1 pts/rd for 3 rds / +10 ACC]]></entry>
+		{colour_start|buff}Buff Self:{colour_end} +25%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_2"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
-		{colour_start|buff}Self:{colour_end} {colour_start|blight}Blight{colour_end} 2 pts/rd for 3 rds / +10 ACC]]></entry>
+		{colour_start|buff}Buff Self:{colour_end} +30%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_3"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
-		{colour_start|buff}Self:{colour_end} {colour_start|blight}Blight{colour_end} 3 pts/rd for 3 rds / +10 ACC]]></entry>
+		{colour_start|buff}Buff Self:{colour_end} +35%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
 
 		<!-- Devour -->
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_vs_healthy"><![CDATA[{colour_start|debuff}Targets with over 25%% total HP remaining will avoid this attack{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buffs_1"><![CDATA[{colour_start|buff}For each Corpse and Target hit:{colour_end}
-		{colour_start|healhp}Heal{colour_end} 2 / +3%% Max Hp / +3%% DMG / +3%% Debuff Resist]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buffs_2"><![CDATA[{colour_start|buff}For each Corpse and Target hit:{colour_end}
-		{colour_start|healhp}Heal{colour_end} 3 / +4%% Max Hp / +4%% DMG / +4%% Debuff Resist]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buffs_3"><![CDATA[{colour_start|buff}For each Corpse and Target hit:{colour_end}
-		{colour_start|healhp}Heal{colour_end} 4 / +5%% Max Hp / +5%% DMG / +5%% Debuff Resist]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_debuff"><![CDATA[-3 SPD / -30%% Stress Healing Received]]></entry>		
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_1"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 2 HP for each target and corpse]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_2"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 3 HP for each target and corpse]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_3"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 4 HP for each target and corpse]]></entry>
 
 	<!--Sunward Isle Tooltips-->
 	<entry id="enemy_type_name_spectral"><![CDATA[Yokai]]></entry>

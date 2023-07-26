@@ -210,9 +210,9 @@
             }
          },
          {
-            "id" : "g_tt_devour_buffs_1",
+            "id" : "g_tt_devour_heal_1",
             "stat_type" : "upgrade_discount",
-            "stat_sub_type" : "g_tt_devour_buffs_1",
+            "stat_sub_type" : "g_tt_devour_heal_1",
             "amount" : 0,
             "remove_if_not_active" : false,
             "rule_type" : "always",
@@ -223,9 +223,9 @@
             }
          },
          {
-            "id" : "g_tt_devour_buffs_2",
+            "id" : "g_tt_devour_heal_2",
             "stat_type" : "upgrade_discount",
-            "stat_sub_type" : "g_tt_devour_buffs_2",
+            "stat_sub_type" : "g_tt_devour_heal_2",
             "amount" : 0,
             "remove_if_not_active" : false,
             "rule_type" : "always",
@@ -236,22 +236,9 @@
             }
          },
          {
-            "id" : "g_tt_devour_buffs_3",
+            "id" : "g_tt_devour_heal_3",
             "stat_type" : "upgrade_discount",
-            "stat_sub_type" : "g_tt_devour_buffs_3",
-            "amount" : 0,
-            "remove_if_not_active" : false,
-            "rule_type" : "always",
-            "is_false_rule" : false,
-            "rule_data" : {
-               "float" : 0,
-               "string" : ""
-            }
-         },
-         {
-            "id" : "g_tt_devour_debuff",
-            "stat_type" : "upgrade_discount",
-            "stat_sub_type" : "g_tt_devour_debuff",
+            "stat_sub_type" : "g_tt_devour_heal_3",
             "amount" : 0,
             "remove_if_not_active" : false,
             "rule_type" : "always",
