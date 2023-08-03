@@ -1,0 +1,69 @@
+
+gourmet.sprite.devour_target_fx.png
+size: 492,610
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/splat1
+  rotate: false
+  xy: 281, 1
+  size: 209, 216
+  orig: 209, 216
+  offset: 0, 0
+  index: -1
+gourmet/splat2
+  rotate: false
+  xy: 1, 1
+  size: 278, 249
+  orig: 278, 249
+  offset: 0, 0
+  index: -1
+gourmet/splat3
+  rotate: false
+  xy: 281, 219
+  size: 178, 148
+  orig: 178, 148
+  offset: 0, 0
+  index: -1
+gourmet/flecks1
+  rotate: false
+  xy: 118, 524
+  size: 151, 84
+  orig: 151, 84
+  offset: 0, 0
+  index: -1
+gourmet/flecks3
+  rotate: false
+  xy: 318, 483
+  size: 159, 100
+  orig: 159, 100
+  offset: 0, 0
+  index: -1
+gourmet/flecks2
+  rotate: false
+  xy: 1, 410
+  size: 115, 152
+  orig: 115, 152
+  offset: 0, 0
+  index: -1
+gourmet/flecks4
+  rotate: false
+  xy: 318, 369
+  size: 155, 112
+  orig: 155, 112
+  offset: 0, 0
+  index: -1
+gourmet/bite
+  rotate: false
+  xy: 1, 252
+  size: 155, 156
+  orig: 155, 156
+  offset: 0, 0
+  index: -1
+gourmet/bite2
+  rotate: false
+  xy: 158, 369
+  size: 158, 153
+  orig: 158, 153
+  offset: 0, 0
+  index: -1

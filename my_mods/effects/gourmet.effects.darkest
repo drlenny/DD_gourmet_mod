@@ -90,12 +90,6 @@ effect: .name "Gourmet Snack Target Regen 5" .target "target" .chance 65% .dotHp
 // Meat Shield
 effect: .name "Gourmet Shield Guard"  .target "target" .guard 1 .on_hit true .on_miss true .duration 3
 
-//effect: .name "Gourmet Shield H Received Self 1" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 17.5% .duration 3 .on_hit true .on_miss false
-//effect: .name "Gourmet Shield H Received Self 2" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 20% .duration 3 .on_hit true .on_miss false
-//effect: .name "Gourmet Shield H Received Self 3" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 22.5% .duration 3 .on_hit true .on_miss false
-//effect: .name "Gourmet Shield H Received Self 4" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 25% .duration 3 .on_hit true .on_miss false
-//effect: .name "Gourmet Shield H Received Self 5" .target "performer" .chance 100% .buff_type hp_heal_received_percent .buff_amount 30% .duration 3 .on_hit true .on_miss false
-
 effect: .name "Gourmet Shield Buff Target 1" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_1" "gourmet_shield_guarded_dmgh_1" "gourmet_shield_guarded_dmgl_1" "gourmet_shield_guarded_crit_1" .on_hit true .on_miss false
 effect: .name "Gourmet Shield Buff Target 2" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_2" "gourmet_shield_guarded_dmgh_2" "gourmet_shield_guarded_dmgl_2" "gourmet_shield_guarded_crit_2" .on_hit true .on_miss false
 effect: .name "Gourmet Shield Buff Target 3" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_3" "gourmet_shield_guarded_dmgh_3" "gourmet_shield_guarded_dmgl_3" "gourmet_shield_guarded_crit_3" .on_hit true .on_miss false
@@ -110,11 +104,6 @@ effect: .name "Gourmet Shield Buff Self 5" .target "performer" .chance 100% .dur
 
 // Devour
 effect: .name "Gourmet Devour Tooltip vs Healthy" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_vs_healthy" .on_hit true .on_miss false
-
-//effect: .name "Gourmet Devour Tooltip Buffs 1" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_buffs_1" .on_hit true .on_miss false
-//effect: .name "Gourmet Devour Tooltip Buffs 2" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_buffs_2" .on_hit true .on_miss false
-//effect: .name "Gourmet Devour Tooltip Buffs 3" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_buffs_3" .on_hit true .on_miss false
-//effect: .name "Gourmet Devour Tooltip Debuff" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_debuff" .on_hit true .on_miss false
 
 effect: .name "Gourmet Devour Heal Tooltip 1" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_heal_1" .on_hit true .on_miss false
 effect: .name "Gourmet Devour Heal Tooltip 2" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_heal_2" .on_hit true .on_miss false
@@ -172,24 +161,4 @@ effect: .name "Gourmet vs Blight Tooltip 1" .target "performer" .chance 100% .sk
 effect: .name "Gourmet vs Blight Tooltip 2" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_blight_2" .on_hit true .on_miss false
 effect: .name "Gourmet vs Blight Tooltip 3" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_blight_3" .on_hit true .on_miss false
 
-//effect: .name "Gourmet Taste Bleed Regen 1" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss false
-//effect: .name "steal_regen_test" .target "performer" .chance 100% .steal_buff_stat_type 
 
-//effect: .name "Gourmet Taste Bleed Debuff 1" .target "performer" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .crit_chance_add -10% .duration 3 .on_hit true .on_miss false
-
-// Old Devour Effects
-//effect: .name "Gourmet Devour Heal Kill" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .can_crit_heal false .source_heal_type hero_skill .apply_with_result true
-//effect: .name "Gourmet Devour Buff Kill" .target "performer" .chance 100% .duration -1 .buff_ids "gourmet_devour_kill_buff_dmgh" "gourmet_devour_kill_buff_dmgl" "gourmet_devour_kill_buff_hpmax" "gourmet_devour_kill_buff_debuffr" .on_hit true .on_miss false .apply_with_result true
-//effect: .name "Gourmet Devour actor_dot" .target "performer" .chance 100% .actor_dot "Gourmet_Devour_Kill_actor" .on_hit true .on_miss false .queue false .skill_instant true .apply_with_result true
-//effect: .name "Gourmet Devour Corpse Heal" .target "performer" .chance 100% .skill_instant true .buff_ids "gourmet_devour_corpse_heal_1" "gourmet_devour_corpse_heal_2" "gourmet_devour_corpse_heal_3" .on_hit true .on_miss true .apply_once true .source_heal_type hero_skill
-//effect: .name "Gourmet Devour Base Heal 1" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .apply_once true .source_heal_type hero_skill .queue true
-//effect: .name "Gourmet Devour Base Heal 2" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .apply_once true .source_heal_type hero_skill .queue true
-//effect: .name "Gourmet Devour Base Heal 3" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .apply_once true .source_heal_type hero_skill .queue true
-//effect: .name "Gourmet Devour Base Heal 4" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .apply_once true .source_heal_type hero_skill .queue true
-//effect: .name "Gourmet Devour Base Heal 5" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .apply_once true .source_heal_type hero_skill .queue true
-//effect: .name "testing_heal_kill_neg" .target "target" .chance 9000% .on_hit true .on_miss true .swap_source_and_target true .buff_ids "testing_heal_kill_neg" .duration 1 .has_description false .buff_source_type bsrc_notspecified .queue true .source_heal_type hero_skill
-//effect: .name "testing_heal_kill_end" .target "target" .chance 9000% .on_hit true .on_miss true .swap_source_and_target true .buff_ids "testing_heal_kill_end" .duration 1 .has_description false .buff_source_type bsrc_notspecified .queue true .source_heal_type hero_skill
-//effect: .name "testing_heal_kill" .target "performer_group" .chance 100% .on_hit true .on_miss true .apply_once true .heal 2 .queue true .has_description false .source_heal_type hero_skill
-//effect: .name "Gourmet Devour Dmg 1" .target "performer" .chance 100% .skill_instant true .buff_ids "gourmet_devour_dmgh_1" "gourmet_devour_dmgl_1" .on_hit true .on_miss false
-//effect: .name "Gourmet Devour Dmg 2" .target "performer" .chance 100% .skill_instant true .buff_ids "gourmet_devour_dmgh_2" "gourmet_devour_dmgl_2" .on_hit true .on_miss false
-//effect: .name "Gourmet Devour Dmg 3" .target "performer" .chance 100% .skill_instant true .buff_ids "gourmet_devour_dmgh_3" "gourmet_devour_dmgl_3" .on_hit true .on_miss false
