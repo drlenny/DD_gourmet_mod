@@ -25,11 +25,11 @@ combat_skill: .id "choice_cut" .level 3 .type "melee" .atk 100% .dmg -10% .crit 
 combat_skill: .id "choice_cut" .level 4 .type "melee" .atk 105% .dmg -10% .crit 4% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Bleed Tooltip 5" "Gourmet Cut Debuff 5" "Gourmet Bleed vs Marked 5" "Gourmet Cut Bleed 5" "Gourmet Bleed Bonus End 5"
 
 // Tenderize
-combat_skill: .id "tenderize" .level 0 .type "melee" .atk 90% .dmg -65% .crit -4% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 1" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 1" "Gourmet Dmg Received Marked Debuff 1"
-combat_skill: .id "tenderize" .level 1 .type "melee" .atk 95% .dmg -65% .crit -3% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 2" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 2" "Gourmet Dmg Received Marked Debuff 2"
-combat_skill: .id "tenderize" .level 2 .type "melee" .atk 100% .dmg -65% .crit -2% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 3" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 3" "Gourmet Dmg Received Marked Debuff 3"
-combat_skill: .id "tenderize" .level 3 .type "melee" .atk 105% .dmg -65% .crit -1% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 4" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 4" "Gourmet Dmg Received Marked Debuff 4"
-combat_skill: .id "tenderize" .level 4 .type "melee" .atk 110% .dmg -65% .crit 0% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 5" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 5" "Gourmet Dmg Received Marked Debuff 5"
+combat_skill: .id "tenderize" .level 0 .type "melee" .atk 90% .dmg -70% .crit -4% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 1" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 1" "Gourmet Dmg Received Marked Debuff 1"
+combat_skill: .id "tenderize" .level 1 .type "melee" .atk 95% .dmg -70% .crit -3% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 2" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 2" "Gourmet Dmg Received Marked Debuff 2"
+combat_skill: .id "tenderize" .level 2 .type "melee" .atk 100% .dmg -70% .crit -2% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 3" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 3" "Gourmet Dmg Received Marked Debuff 3"
+combat_skill: .id "tenderize" .level 3 .type "melee" .atk 105% .dmg -70% .crit -1% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 4" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 4" "Gourmet Dmg Received Marked Debuff 4"
+combat_skill: .id "tenderize" .level 4 .type "melee" .atk 110% .dmg -70% .crit 0% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 5" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 5" "Gourmet Dmg Received Marked Debuff 5"
 
 // Obliterate Scraps
 combat_skill: .id "obliterate" .level 0 .type "melee" .atk 10% .dmg 60% .crit 8% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 1" "Gourmet Clear Marked Target"

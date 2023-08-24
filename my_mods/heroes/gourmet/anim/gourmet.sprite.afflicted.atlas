@@ -1,27 +1,27 @@
 
-crusader.sprite.afflicted.png
-size: 2015,1186
+gourmet.sprite.afflicted.png
+size: 1665,2157
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-afflicted
-  rotate: false
-  xy: 1345, 297
-  size: 668, 887
-  orig: 668, 887
-  offset: 0, 0
-  index: -1
 background
   rotate: false
-  xy: 2, 57
+  xy: 1, 1
   size: 1341, 1127
   orig: 1341, 1127
   offset: 0, 0
   index: -1
 crown
   rotate: false
-  xy: 1345, 2
+  xy: 1294, 1130
   size: 369, 293
   orig: 369, 293
+  offset: 0, 0
+  index: -1
+afflicted
+  rotate: false
+  xy: 1, 1130
+  size: 1291, 1025
+  orig: 1291, 1025
   offset: 0, 0
   index: -1

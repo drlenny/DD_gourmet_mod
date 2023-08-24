@@ -35,11 +35,11 @@ effect: .name "Gourmet Bleed Tooltip 5" .target "performer" .chance 100% .skill_
 // Tenderize
 effect: .name "Gourmet Mallet Mark" .target "target" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false
 
-effect: .name "Gourmet Mallet Prot Debuff 1" .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -15% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Mallet Prot Debuff 2" .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -17.5% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Mallet Prot Debuff 3" .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -19% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Mallet Prot Debuff 4" .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -22.5% .duration 3 .on_hit true .on_miss false
-effect: .name "Gourmet Mallet Prot Debuff 5" .target "target" .chance 150% .combat_stat_buff 1 .protection_rating_add -25% .duration 3 .on_hit true .on_miss false
+effect: .name "Gourmet Mallet Prot Debuff 1" .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -8% .duration 3 .on_hit true .on_miss false
+effect: .name "Gourmet Mallet Prot Debuff 2" .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -11% .duration 3 .on_hit true .on_miss false
+effect: .name "Gourmet Mallet Prot Debuff 3" .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -14% .duration 3 .on_hit true .on_miss false
+effect: .name "Gourmet Mallet Prot Debuff 4" .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -17% .duration 3 .on_hit true .on_miss false
+effect: .name "Gourmet Mallet Prot Debuff 5" .target "target" .chance 150% .combat_stat_buff 1 .protection_rating_add -20% .duration 3 .on_hit true .on_miss false
 
 effect: .name "Gourmet Dmg Received Marked Debuff 1" .target "target" .chance 100% .duration 2 .buff_ids "gourmet_dmg_received_marked_1" .on_hit true .on_miss false
 effect: .name "Gourmet Dmg Received Marked Debuff 2" .target "target" .chance 110% .duration 2 .buff_ids "gourmet_dmg_received_marked_2" .on_hit true .on_miss false
@@ -88,7 +88,7 @@ effect: .name "Gourmet Snack Target Regen 4" .target "target" .chance 60% .dotHp
 effect: .name "Gourmet Snack Target Regen 5" .target "target" .chance 65% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
 
 // Meat Shield
-effect: .name "Gourmet Shield Guard"  .target "target" .guard 1 .on_hit true .on_miss true .duration 3
+effect: .name "Gourmet Shield Guard" .target "target" .guard 1 .on_hit true .on_miss true .duration 3
 
 effect: .name "Gourmet Shield Buff Target 1" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_1" "gourmet_shield_guarded_dmgh_1" "gourmet_shield_guarded_dmgl_1" "gourmet_shield_guarded_crit_1" .on_hit true .on_miss false
 effect: .name "Gourmet Shield Buff Target 2" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_2" "gourmet_shield_guarded_dmgh_2" "gourmet_shield_guarded_dmgl_2" "gourmet_shield_guarded_crit_2" .on_hit true .on_miss false
