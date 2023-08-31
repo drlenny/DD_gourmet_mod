@@ -46,11 +46,11 @@ combat_skill: .id "quick_snack" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% 
 combat_skill: .id "quick_snack" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 4321 .target @1234  .is_crit_valid True .effect "Gourmet Snack Heal Self 5" "Gourmet Snack Heal Target 5" "Gourmet Snack Self Regen 5" "Gourmet Snack Target Regen 5" "Gourmet Snack Clear Debuff Self" "Gourmet Snack Clear Debuff Target" "Gourmet Snack Stress Heal Self" "Gourmet Snack Stress Dmg Target" .is_stall_invalidating false
 
 // Meat Shield
-combat_skill: .id "meat_shield" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @12 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 1" "Gourmet Shield Buff Self 1" .is_stall_invalidating false .generation_guaranteed true
-combat_skill: .id "meat_shield" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @12 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 2" "Gourmet Shield Buff Self 2" .is_stall_invalidating false
-combat_skill: .id "meat_shield" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @12 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 3" "Gourmet Shield Buff Self 3" .is_stall_invalidating false
-combat_skill: .id "meat_shield" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @12 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 4" "Gourmet Shield Buff Self 4" .is_stall_invalidating false
-combat_skill: .id "meat_shield" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @12 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 5" "Gourmet Shield Buff Self 5" .is_stall_invalidating false
+combat_skill: .id "meat_shield" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @123 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 1" "Gourmet Shield Buff Self 1" .is_stall_invalidating false .generation_guaranteed true
+combat_skill: .id "meat_shield" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @123 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 2" "Gourmet Shield Buff Self 2" .is_stall_invalidating false
+combat_skill: .id "meat_shield" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @123 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 3" "Gourmet Shield Buff Self 3" .is_stall_invalidating false
+combat_skill: .id "meat_shield" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @123 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 4" "Gourmet Shield Buff Self 4" .is_stall_invalidating false
+combat_skill: .id "meat_shield" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 1 .self_target_valid false .launch 21 .target @123 .effect "Clear Guard Performer" "Clear Guard Target" "Gourmet Shield Guard" "Gourmet Shield Buff Target 5" "Gourmet Shield Buff Self 5" .is_stall_invalidating false
 
 // Devour
 combat_skill: .id "devour" .level 0 .type "melee" .per_battle_limit 1 .atk 95% .dmg 225% .crit 0%  .move 0 3 .launch 123 .target 1234 .is_crit_valid False .can_be_riposted false .effect "Gourmet Devour Heal Base 1" "Gourmet Devour Corpse Heal Scaling" "Gourmet Devour Debuff" "Gourmet Devour Buffs 1" "Gourmet Devour Corpse Clear" "Gourmet Devour Dmg vs Healthy" "Gourmet Devour Dmg vs Corpse"
@@ -104,4 +104,16 @@ deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHigh
 controlled: .target_rank 1
 id_index: .index 1418
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+
+extra_curio_loot: .code "gourmet_curio" .count 1
+extra_battle_loot: .code "gourmet_crypts" .count 1
+extra_battle_loot: .code "gourmet_cove" .count 1
+extra_battle_loot: .code "gourmet_warrens" .count 1
+extra_battle_loot: .code "gourmet_weald" .count 1
+extra_battle_loot: .code "gourmet_courtyard" .count 1
+extra_curio_loot: .code "gourmet_farm" .count 1
+extra_battle_loot: .code "gourmet_SI" .count 1
+extra_battle_loot: .code "gourmet_generic" .count 1
+extra_stack_limit: .id gourmet_food
+
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1

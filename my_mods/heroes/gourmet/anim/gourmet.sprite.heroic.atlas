@@ -1,26 +1,26 @@
 
 gourmet.sprite.heroic.png
-size: 1569,2163
+size: 2913,1131
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 background
   rotate: false
-  xy: 1, 1
+  xy: 2, 2
   size: 1341, 1127
   orig: 1341, 1127
   offset: 0, 0
   index: -1
 halo
   rotate: false
-  xy: 1258, 1130
+  xy: 2602, 831
   size: 309, 298
   orig: 309, 298
   offset: 0, 0
   index: -1
 heroic
   rotate: false
-  xy: 1, 1130
+  xy: 1345, 98
   size: 1255, 1031
   orig: 1255, 1031
   offset: 0, 0

@@ -1,0 +1,24 @@
+inventory_item: .type "supply" .id "gourmet_common_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_common_A"
+inventory_item: .type "supply" .id "gourmet_common_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_common_B"
+inventory_item: .type "supply" .id "gourmet_common_C" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_common_C"
+
+inventory_item: .type "supply" .id "gourmet_crypts_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_crypts_A"
+inventory_item: .type "supply" .id "gourmet_crypts_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_crypts_B"
+
+inventory_item: .type "supply" .id "gourmet_cove_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_cove_A"
+inventory_item: .type "supply" .id "gourmet_cove_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_cove_B"
+
+inventory_item: .type "supply" .id "gourmet_warrens_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_warrens_A"
+inventory_item: .type "supply" .id "gourmet_warrens_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_warrens_B"
+
+inventory_item: .type "supply" .id "gourmet_weald_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_weald_A"
+inventory_item: .type "supply" .id "gourmet_weald_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_weald_B"
+
+inventory_item: .type "supply" .id "gourmet_courtyard_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_courtyard_A"
+inventory_item: .type "supply" .id "gourmet_courtyard_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_courtyard_B"
+
+inventory_item: .type "supply" .id "gourmet_farm_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_farm_A"
+inventory_item: .type "supply" .id "gourmet_farm_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_farm_B"
+
+inventory_item: .type "supply" .id "gourmet_SI_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_SI_A"
+inventory_item: .type "supply" .id "gourmet_SI_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "gourmet_SI_B"

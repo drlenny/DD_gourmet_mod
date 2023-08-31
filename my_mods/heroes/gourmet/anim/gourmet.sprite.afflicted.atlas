@@ -1,27 +1,27 @@
 
 gourmet.sprite.afflicted.png
-size: 1665,2157
+size: 2933,1131
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+afflicted
+  rotate: false
+  xy: 1345, 104
+  size: 1291, 1025
+  orig: 1291, 1025
+  offset: 0, 0
+  index: -1
 background
   rotate: false
-  xy: 1, 1
+  xy: 2, 2
   size: 1341, 1127
   orig: 1341, 1127
   offset: 0, 0
   index: -1
 crown
-  rotate: false
-  xy: 1294, 1130
+  rotate: true
+  xy: 2638, 760
   size: 369, 293
   orig: 369, 293
-  offset: 0, 0
-  index: -1
-afflicted
-  rotate: false
-  xy: 1, 1130
-  size: 1291, 1025
-  orig: 1291, 1025
   offset: 0, 0
   index: -1

@@ -161,4 +161,22 @@ effect: .name "Gourmet vs Blight Tooltip 1" .target "performer" .chance 100% .sk
 effect: .name "Gourmet vs Blight Tooltip 2" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_blight_2" .on_hit true .on_miss false
 effect: .name "Gourmet vs Blight Tooltip 3" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_blight_3" .on_hit true .on_miss false
 
+// food supplies
 
+effect: .name "gourmet_common_A" .target "target" .chance 100%  .buff_ids "S_gourmet_common_A" .on_hit true .on_miss false
+effect: .name "gourmet_common_B" .target "target" .chance 100%  .buff_ids "S_gourmet_common_B" .on_hit true .on_miss false
+effect: .name "gourmet_common_C" .target "target" .chance 100%  .buff_ids "S_gourmet_common_C" .on_hit true .on_miss false
+effect: .name "gourmet_crypts_A" .target "target" .chance 100%  .buff_ids "S_gourmet_crypts_A" .on_hit true .on_miss false
+effect: .name "gourmet_crypts_B" .target "target" .chance 100%  .buff_ids "S_gourmet_crypts_B" .on_hit true .on_miss false
+effect: .name "gourmet_cove_A" .target "target" .chance 100%  .buff_ids "S_gourmet_cove_A" .on_hit true .on_miss false
+effect: .name "gourmet_cove_B" .target "target" .chance 100%  .buff_ids "S_gourmet_cove_B" .on_hit true .on_miss false
+effect: .name "gourmet_warrens_A" .target "target" .chance 100%  .buff_ids "S_gourmet_warrens_A" .on_hit true .on_miss false
+effect: .name "gourmet_warrens_B" .target "target" .chance 100%  .buff_ids "S_gourmet_warrens_B" .on_hit true .on_miss false
+effect: .name "gourmet_weald_A" .target "target" .chance 100%  .buff_ids "S_gourmet_weald_A" .on_hit true .on_miss false
+effect: .name "gourmet_weald_B" .target "target" .chance 100%  .buff_ids "S_gourmet_weald_B" .on_hit true .on_miss false
+effect: .name "gourmet_courtyard_A" .target "target" .chance 100%  .buff_ids "S_gourmet_courtyard_A" .on_hit true .on_miss false
+effect: .name "gourmet_courtyard_B" .target "target" .chance 100%  .buff_ids "S_gourmet_courtyard_B" .on_hit true .on_miss false
+effect: .name "gourmet_farm_A" .target "target" .chance 100%  .buff_ids "S_gourmet_farm_AL" "S_gourmet_farm_AH" .on_hit true .on_miss false
+effect: .name "gourmet_farm_B" .target "target" .chance 100%  .buff_ids "S_gourmet_farm_B" .on_hit true .on_miss false
+effect: .name "gourmet_SI_A" .target "target" .chance 100%  .buff_ids "S_gourmet_SI_A" .on_hit true .on_miss false
+effect: .name "gourmet_SI_B" .target "target" .chance 100%  .buff_ids "S_gourmet_SI_B" .on_hit true .on_miss false
