@@ -19,10 +19,9 @@
           "dungeon" : "crypts",
           "entries" :
           [
-             { "type" : "nothing", "chances" : 0, "data" : { }},
+             { "type" : "nothing", "chances" : 4, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }},
-             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_C", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_crypts_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_crypts_B", "amount" : 1 }}
           ]
@@ -36,7 +35,6 @@
              { "type" : "nothing", "chances" : 4, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }},
-             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_C", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_cove_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_cove_B", "amount" : 1 }}
           ]
@@ -50,7 +48,6 @@
              { "type" : "nothing", "chances" : 4, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }},
-             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_C", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_warrens_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_warrens_B", "amount" : 1 }}
           ]
@@ -64,7 +61,6 @@
              { "type" : "nothing", "chances" : 4, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }},
-             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_C", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_weald_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_weald_B", "amount" : 1 }}
           ]
@@ -78,7 +74,6 @@
              { "type" : "nothing", "chances" : 4, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }},
-             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_C", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_courtyard_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_courtyard_B", "amount" : 1 }}
           ]
@@ -102,7 +97,6 @@
              { "type" : "nothing", "chances" : 4, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }},
-             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_C", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_SI_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_SI_B", "amount" : 1 }}
           ]
@@ -115,8 +109,7 @@
         [
            { "type" : "nothing", "chances" : 4, "data" : { }},
            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
-           { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }},
-           { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_C", "amount" : 1 }}
+           { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }}
         ]
      } 
     ]
