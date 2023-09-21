@@ -84,8 +84,11 @@
           "dungeon" : "farm",
           "entries" :
           [
-             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_farm_A", "amount" : 1 }},
-             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_farm_B", "amount" : 1 }}
+            { "type" : "nothing", "chances" : 4, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }}, 
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_farm_A", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_farm_B", "amount" : 1 }}
           ]
        },
        {
