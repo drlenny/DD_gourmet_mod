@@ -1,0 +1,44 @@
+{
+    "buffs":
+    [
+        {
+            "id": "gourmet_common_stun_buff",
+            "stat_type" : "stun_chance",
+            "stat_sub_type" : "",
+            "amount" : 0.15,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_common_move_buff",
+            "stat_type" : "move_chance",
+            "stat_sub_type" : "",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_common_speed_debuff",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "speed_rating",
+            "amount" : -1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "entries": [
+        {
+            "id": "gourmet_spatula",
+            "buffs": [
+                "gourmet_common_stun_buff",
+                "gourmet_common_move_buff",
+                "gourmet_common_speed_debuff"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "rarity": "common",
+            "price": 7500,
+            "limit": 1,
+            "origin_dungeon": ""
+        }
+    ]
+}
