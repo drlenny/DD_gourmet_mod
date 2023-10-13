@@ -194,4 +194,4 @@ effect: .name "gourmet_farm_B" .target "target" .chance 100% .health_damage_bloc
 
 effect: .name "gourmet_SI_A" .target "target" .chance 100% .health_damage_blocks 1 .buff_ids "S_gourmet_SI_A_prot_vs_yokai" "S_gourmet_SI_A_acc_vs_yokai" "S_gourmet_SI_A_speed_vs_yokai" "S_gourmet_SI_A_acc" "S_gourmet_SI_A_scouting" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration -1
 
-effect: .name "gourmet_SI_B" .target "target" .chance 100% .heal 3 .healstress 50 .buff_ids "S_gourmet_SI_B_stress_received" "S_gourmet_SI_B_stress_heal_received" "S_gourmet_SI_B_talisman_stress_received" "S_gourmet_SI_B_talisman_debuff_resist" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration -1
+effect: .name "gourmet_SI_B" .target "target" .chance 100% .heal 2 .healstress 40 .buff_ids "S_gourmet_SI_B_stress_received" "S_gourmet_SI_B_stress_heal_received" "S_gourmet_SI_B_talisman_stress_received" "S_gourmet_SI_B_talisman_debuff_resist" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration -1
