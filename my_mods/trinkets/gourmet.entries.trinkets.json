@@ -47,7 +47,7 @@
                 "gourmet"
             ],
             "rarity": "rare",
-            "price": 10000,
+            "price": 15000,
             "limit": 1,
             "origin_dungeon": ""
         },
@@ -63,7 +63,7 @@
                 "gourmet"
             ],
             "rarity": "rare",
-            "price": 10000,
+            "price": 15000,
             "limit": 1,
             "origin_dungeon": "",
             "was_hit_additional_effects":
