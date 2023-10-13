@@ -161,7 +161,12 @@ effect: .name "Gourmet vs Blight Tooltip 1" .target "performer" .chance 100% .sk
 effect: .name "Gourmet vs Blight Tooltip 2" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_blight_2" .on_hit true .on_miss false
 effect: .name "Gourmet vs Blight Tooltip 3" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_blight_3" .on_hit true .on_miss false
 
-// food supplies
+// Trinkets
+
+effect: .name "gourmet_rare_shuffle_self" .target "performer" .shuffletarget .chance 100% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "gourmet_rare_attacker_acc_debuff" .target "target" .attack_rating_add -20% .chance 120% .on_hit true .on_miss true .apply_once true
+
+// Food Supplies
 
 effect: .name "gourmet_common_A" .target "target" .chance 100% .heal_percent 0.25 .stress 15 .buff_ids "S_gourmet_common_A_food_consume" "S_gourmet_common_A_stress_heal_received" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration -1
 

@@ -14,6 +14,63 @@
             "price": 7500,
             "limit": 1,
             "origin_dungeon": ""
+        },
+        {
+            "id": "gourmet_mit",
+            "buffs": [
+                "gourmet_uncommon_bleed_resist_buff",
+                "gourmet_uncommon_blight_resist_buff",
+                "gourmet_uncommon_prot_buff",
+                "gourmet_uncommon_dmgH_debuff",
+                "gourmet_uncommon_dmgL_debuff",
+                "gourmet_uncommon_trap_debuff"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "rarity": "uncommon",
+            "price": 10000,
+            "limit": 1,
+            "origin_dungeon": ""
+        },
+        {
+            "id": "gourmet_pot",
+            "buffs": [
+                "gourmet_rare_hpmax_buff",
+                "gourmet_rare_gluttony_debuff",
+                "gourmet_rare_gluttony_buff",
+                "gourmet_rare_healing_buff",
+                "gourmet_rare_starve_dmg_reduce",
+                "gourmet_rare_speed_debuff"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "rarity": "rare",
+            "price": 10000,
+            "limit": 1,
+            "origin_dungeon": ""
+        },
+        {
+            "id": "gourmet_oil",
+            "buffs": [
+                "gourmet_rare_dodge_buff",
+                "gourmet_rare_debuff_skill_buff",
+                "gourmet_rare_speed_buff",
+                "gourmet_rare_prot_debuff"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "rarity": "rare",
+            "price": 10000,
+            "limit": 1,
+            "origin_dungeon": "",
+            "was_hit_additional_effects":
+            [
+                "gourmet_rare_shuffle_self",
+                "gourmet_rare_attacker_acc_debuff"
+            ]
         }
     ]
 }
