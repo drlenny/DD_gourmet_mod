@@ -164,7 +164,7 @@ effect: .name "Gourmet vs Blight Tooltip 3" .target "performer" .chance 100% .sk
 // Trinkets
 
 effect: .name "gourmet_rare_shuffle_self" .target "performer" .shuffletarget .chance 100% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "gourmet_rare_attacker_acc_debuff" .target "target" .attack_rating_add -20% .chance 120% .on_hit true .on_miss true .apply_once true
+effect: .name "gourmet_rare_attacker_acc_debuff" .target "target" .combat_stat_buff 1 .attack_rating_add -20% .chance 120% .duration 3 .on_hit true .on_miss true .apply_once true
 
 // Food Supplies
 
