@@ -286,6 +286,45 @@
                "float": 65,
                "string": ""
             }
+         },
+         {
+            "id": "gourmet_cc_dmgh_vs_beast_buff",
+            "stat_type": "combat_stat_multiply",
+            "stat_sub_type": "damage_high",
+            "amount": 0.5,
+            "remove_if_not_active": false,
+            "rule_type": "monsterType",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": "beast"
+            }
+         },
+         {
+            "id": "gourmet_cc_dmgl_vs_beast_buff",
+            "stat_type": "combat_stat_multiply",
+            "stat_sub_type": "damage_low",
+            "amount": 0.5,
+            "remove_if_not_active": false,
+            "rule_type": "monsterType",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": "beast"
+            }
+         },
+         {
+            "id": "gourmet_cc_virtue_debuff",
+            "stat_type": "resolve_check_percent",
+            "stat_sub_type": "",
+            "amount": -0.25,
+            "remove_if_not_active": false,
+            "rule_type": "always",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": ""
+            }
          }
     ]
 }

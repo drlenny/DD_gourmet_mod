@@ -170,6 +170,8 @@ effect: .name "gourmet_very_rare_on_attack_effects" .target "performer_group_oth
 
 effect: .name "gourmet_very_rare_on_friendly_skill_effects" .target "target" .chance 100% .stress -10 .buff_ids "gourmet_bell_stress_received_when_healthy" .duration 2 .on_hit true .on_miss false .apply_once true
 
+effect: name "gourmet_cc_on_attack_heal" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill .can_crit_heal false
+
 // Food Supplies
 
 effect: .name "gourmet_common_A" .target "target" .chance 100% .heal_percent 0.25 .stress 15 .buff_ids "S_gourmet_common_A_food_consume" "S_gourmet_common_A_stress_heal_received" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration -1

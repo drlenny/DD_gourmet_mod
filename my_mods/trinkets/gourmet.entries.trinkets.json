@@ -93,6 +93,26 @@
             [
                 "gourmet_very_rare_on_friendly_skill_effects"
             ]
+        },
+        {
+            "id": "gourmet_cc_roast",
+            "buffs": [
+                "gourmet_cc_dmgh_vs_beast_buff",
+                "gourmet_cc_dmgl_vs_beast_buff",
+                "gourmet_cc_virtue_debuff"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "set_id": "gourmet_cc",
+            "rarity": "crimson_court",
+            "price": 50000,
+            "limit": 1,
+            "origin_dungeon": "courtyard",
+            "attack_skill_additional_effects":
+            [
+                "gourmet_cc_on_attack_heal"
+            ]
         }
     ]
 }
