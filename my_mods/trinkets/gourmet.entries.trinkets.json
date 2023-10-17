@@ -71,6 +71,28 @@
                 "gourmet_rare_shuffle_self",
                 "gourmet_rare_attacker_acc_debuff"
             ]
+        },
+        {
+            "id": "gourmet_bell",
+            "buffs": [
+                "gourmet_very_rare_speed_buff",
+                "gourmet_very_rare_stress_debuff"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "rarity": "very_rare",
+            "price": 25000,
+            "limit": 1,
+            "origin_dungeon": "",
+            "attack_skill_additional_effects":
+            [
+                "gourmet_very_rare_on_attack_effects"
+            ],
+            "friendly_skill_additional_effects":
+            [
+                "gourmet_very_rare_on_friendly_skill_effects"
+            ]
         }
     ]
 }
