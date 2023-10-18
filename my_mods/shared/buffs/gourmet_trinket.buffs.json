@@ -533,6 +533,97 @@
                "float" : 0,
                "string" : "spice"
             }
+        },
+        {
+            "id": "gourmet_si_crit_vs_mark",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "crit_chance",
+            "amount" : 0.05,
+            "remove_if_not_active" : false,
+            "rule_type" : "actorStatus",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : "tagged"
+            }
+        },
+        {
+            "id": "gourmet_si_dmgh_vs_mark",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "actorStatus",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : "tagged"
+            }
+        },
+        {
+            "id": "gourmet_si_dmgl_vs_mark",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "actorStatus",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : "tagged"
+            }
+        },
+        {
+            "id": "gourmet_si_acc_vs_mark",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "attack_rating",
+            "amount" : 0.1,
+            "remove_if_not_active" : false,
+            "rule_type" : "actorStatus",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : "tagged"
+            }
+        },
+        {
+            "id": "gourmet_si_50_hp_speed",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "speed_rating",
+            "amount" : 8,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 50,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_si_25_hp_dmgh",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 25,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_si_25_hp_dmgl",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 25,
+               "string" : ""
+            }
         }
     ]
 }

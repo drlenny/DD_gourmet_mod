@@ -150,6 +150,29 @@
             "shard": 55,
             "limit": 1,
             "origin_dungeon": ""
+        },
+        {
+            "id": "gourmet_si_wasabi",
+            "buffs": [
+                "gourmet_si_crit_vs_mark",
+                "gourmet_si_dmgh_vs_mark",
+                "gourmet_si_dmgl_vs_mark",
+                "gourmet_si_acc_vs_mark",
+                "gourmet_si_50_hp_speed",
+                "gourmet_si_25_hp_dmgh",
+                "gourmet_si_25_hp_dmgl"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "rarity": "sakura",
+            "price": 30000,
+            "limit": 1,
+            "origin_dungeon": "ship",
+            "friendly_skill_additional_effects":
+            [
+                "gourmet_si_friendly_dmg_self"
+            ]
         }
     ]
 }
