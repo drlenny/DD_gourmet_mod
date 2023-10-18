@@ -134,6 +134,22 @@
             [
                 "gourmet_cc_on_hit_regen"
             ]
+        },
+        {
+            "id": "gourmet_com_truffle",
+            "buffs": [
+                "gourmet_com_dmg_received",
+                "gourmet_com_guard_duration",
+                "gourmet_com_dmg_reflect_guarding",
+                "gourmet_com_shard_given"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "rarity": "comet",
+            "shard": 55,
+            "limit": 1,
+            "origin_dungeon": ""
         }
     ]
 }

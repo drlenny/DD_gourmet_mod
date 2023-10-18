@@ -481,6 +481,58 @@
                "float": 0,
                "string": ""
             }
-         }
+         },
+         {
+            "id": "gourmet_com_dmg_received",
+            "stat_type" : "damage_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_com_guard_duration",
+            "stat_type" : "guard_duration_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.33,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_com_dmg_reflect_guarding",
+            "stat_type" : "damage_reflect_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.75,
+            "remove_if_not_active" : false,
+            "rule_type" : "is_guarding",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_com_shard_given",
+            "stat_type" : "shard_reward_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "has_item_id",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : "spice"
+            }
+        }
     ]
 }
