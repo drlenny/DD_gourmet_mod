@@ -2375,7 +2375,7 @@
 			"id": "gourmet_camp_stress_res_buff",
 			"stat_type": "stress_dmg_received_percent",
 			"stat_sub_type": "",
-			"amount": -0.25,
+			"amount": -0.2,
 			"duration_type" : "combat_end",
          "duration" : 4,
 			"remove_if_not_active": false,
@@ -2390,7 +2390,202 @@
 			"id": "gourmet_camp_stress_res_debuff_others",
 			"stat_type": "stress_dmg_received_percent",
 			"stat_sub_type": "",
-			"amount": 0.25,
+			"amount": 0.2,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_party_speed_debuff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": -4,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_party_max_hp",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "max_hp",
+			"amount": 0.1,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_party_food_consumed",
+			"stat_type": "food_consumption_percent",
+			"stat_sub_type": "",
+			"amount": -0.5,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_speed_buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 3,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_speed_debuff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": -3,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_crit_buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.03,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_crit_debuff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": -0.03,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_dodge_buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": 0.08,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_dodge_debuff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.08,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_disease_buff",
+			"stat_type": "resistance",
+			"stat_sub_type": "disease",
+			"amount": 0.3,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_disease_debuff",
+			"stat_type": "resistance",
+			"stat_sub_type": "disease",
+			"amount": -0.3,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_stress_buff",
+			"stat_type": "stress_dmg_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.15,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_sample_stress_debuff",
+			"stat_type": "stress_dmg_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.15,
 			"duration_type" : "combat_end",
          "duration" : 4,
 			"remove_if_not_active": false,

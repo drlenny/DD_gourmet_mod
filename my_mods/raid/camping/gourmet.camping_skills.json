@@ -187,18 +187,20 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_stress_res_buff",
-					"amount": -0.25
+					"amount": -0.2
 				},
 				{
 					"selection": "self",
-					"requirements": ["afflicted"],
+					"requirements": [
+						"afflicted"
+					],
 					"chance": {
 						"code": "b",
 						"amount": 1.0
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_stress_res_buff",
-					"amount": -0.25
+					"amount": -0.2
 				},
 				{
 					"selection": "party_other",
@@ -209,15 +211,18 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_stress_res_debuff_others",
-					"amount": 0.25
+					"amount": 0.2
 				},
-				{ 
-					"selection" : "party_other",
-					"requirements" : [],
-					"chance" : { "code" : "d", "amount": 0.75 },
-                    "type": "stress_damage_amount",
-                    "sub_type" : "",
-					"amount" :  15
+				{
+					"selection": "party_other",
+					"requirements": [],
+					"chance": {
+						"code": "d",
+						"amount": 0.75
+					},
+					"type": "stress_damage_amount",
+					"sub_type": "",
+					"amount": 15
 				}
 			],
 			"hero_classes": [
@@ -237,35 +242,35 @@
 			]
 		},
 		{
-			"id": "tranquility",
+			"id": "gourmet_feast",
 			"level": 0,
-			"cost": 4,
+			"cost": 5,
 			"use_limit": 1,
 			"effects": [
 				{
-					"selection": "self",
+					"selection": "party",
 					"requirements": [],
 					"chance": {
 						"code": "a",
 						"amount": 1.0
 					},
-					"type": "stress_heal_amount",
-					"sub_type": "",
-					"amount": 20
+					"type": "buff",
+					"sub_type": "gourmet_camp_party_max_hp",
+					"amount": 0.1
 				},
 				{
-					"selection": "self",
+					"selection": "party",
 					"requirements": [],
 					"chance": {
 						"code": "b",
 						"amount": 1.0
 					},
-					"type": "buff",
-					"sub_type": "campingStressResistBuff",
-					"amount": -0.20
+					"type": "health_heal_max_health_percent",
+					"sub_type": "",
+					"amount": 0.5
 				},
 				{
-					"selection": "self",
+					"selection": "party",
 					"requirements": [],
 					"chance": {
 						"code": "c",
@@ -274,6 +279,28 @@
 					"type": "remove_deaths_door_recovery_buffs",
 					"sub_type": "",
 					"amount": 0
+				},
+				{
+					"selection": "party",
+					"requirements": [],
+					"chance": {
+						"code": "d",
+						"amount": 1.0
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_party_speed_debuff",
+					"amount": -4
+				},
+				{
+					"selection": "party",
+					"requirements": [],
+					"chance": {
+						"code": "e",
+						"amount": 0.75
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_party_food_consumed",
+					"amount": -0.5
 				}
 			],
 			"hero_classes": [
@@ -293,54 +320,164 @@
 			]
 		},
 		{
-			"id": "conviction_mantra",
+			"id": "gourmet_food_sample",
 			"level": 0,
 			"cost": 4,
 			"use_limit": 1,
 			"effects": [
 				{
-					"selection": "party",
+					"selection": "individual",
 					"requirements": [],
 					"chance": {
 						"code": "a",
-						"amount": 0.5
+						"amount": 0.75
 					},
-					"type": "buff",
-					"sub_type": "campingDMGLowBuff",
-					"amount": 0.15
+					"type": "stress_heal_amount",
+					"sub_type": "",
+					"amount": 15
 				},
 				{
-					"selection": "party",
+					"selection": "individual",
 					"requirements": [],
 					"chance": {
 						"code": "a",
-						"amount": 0.5
+						"amount": 0.25
 					},
-					"type": "buff",
-					"sub_type": "campingCRITBuff",
-					"amount": 0.07
+					"type": "stress_damage_amount",
+					"sub_type": "",
+					"amount": 15
 				},
 				{
-					"selection": "party",
+					"selection": "individual",
 					"requirements": [],
 					"chance": {
 						"code": "b",
-						"amount": 1
+						"amount": 0.75
 					},
-					"type": "buff",
-					"sub_type": "campingDMGHighBuff",
+					"type": "health_heal_max_health_percent",
+					"sub_type": "",
 					"amount": 0.15
 				},
 				{
-					"selection": "party",
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "b",
+						"amount": 0.25
+					},
+					"type": "health_damage_max_health_percent",
+					"sub_type": "",
+					"amount": 0.15
+				},
+				{
+					"selection": "individual",
 					"requirements": [],
 					"chance": {
 						"code": "c",
-						"amount": 1
+						"amount": 0.75
 					},
 					"type": "buff",
-					"sub_type": "campingStressResistBuff",
+					"sub_type": "gourmet_camp_sample_speed_buff",
+					"amount": 3
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "c",
+						"amount": 0.25
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_speed_debuff",
+					"amount": -3
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "d",
+						"amount": 0.75
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_crit_buff",
+					"amount": 0.03
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "d",
+						"amount": 0.25
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_crit_debuff",
+					"amount": -0.03
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "e",
+						"amount": 0.75
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_dodge_buff",
+					"amount": 0.08
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "e",
+						"amount": 0.25
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_dodge_debuff",
+					"amount": -0.08
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "f",
+						"amount": 0.75
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_disease_buff",
+					"amount": 0.3
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "f",
+						"amount": 0.25
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_disease_debuff",
+					"amount": -0.3
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "g",
+						"amount": 0.75
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_stress_buff",
 					"amount": -0.15
+				},
+				{
+					"selection": "individual",
+					"requirements": [],
+					"chance": {
+						"code": "g",
+						"amount": 0.25
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_sample_stress_debuff",
+					"amount": 0.15
 				}
 			],
 			"hero_classes": [

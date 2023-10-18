@@ -200,7 +200,7 @@
             "id": "gourmet_rare_dodge_buff",
             "stat_type" : "combat_stat_add",
             "stat_sub_type" : "defense_rating",
-            "amount" : 0.8,
+            "amount" : 0.08,
             "remove_if_not_active" : false,
             "rule_type" : "always",
             "is_false_rule" : false,
