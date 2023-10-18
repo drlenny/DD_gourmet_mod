@@ -197,6 +197,58 @@
             }
         },
         {
+            "id": "gourmet_rare_dodge_buff",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "defense_rating",
+            "amount" : 0.8,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_rare_debuff_skill_buff",
+            "stat_type" : "debuff_chance",
+            "stat_sub_type" : "",
+            "amount" : 0.3,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_rare_speed_buff",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "speed_rating",
+            "amount" : 5,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id": "gourmet_rare_prot_debuff",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "protection_rating",
+            "amount" : -0.08,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
             "id": "gourmet_very_rare_speed_buff",
             "stat_type" : "combat_stat_add",
             "stat_sub_type" : "speed_rating",
@@ -320,6 +372,110 @@
             "amount": -0.25,
             "remove_if_not_active": false,
             "rule_type": "always",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": ""
+            }
+         },
+         {
+            "id": "gourmet_cc_stress_debuff",
+            "stat_type": "stress_dmg_received_percent",
+            "stat_sub_type": "",
+            "amount": 0.3,
+            "remove_if_not_active": false,
+            "rule_type": "always",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": ""
+            }
+         },
+         {
+            "id": "gourmet_cc_50_food_consumed",
+            "stat_type": "food_consumption_percent",
+            "stat_sub_type": "",
+            "amount": -0.5,
+            "remove_if_not_active": false,
+            "rule_type": "always",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": ""
+            }
+         },
+         {
+            "id": "gourmet_cc_35_debuff_skill",
+            "stat_type" : "debuff_chance",
+            "stat_sub_type" : "",
+            "amount" : 0.35,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+        },
+        {
+            "id" : "gourmet_cc_camp_heal_buff",
+            "stat_type" : "hp_heal_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "in_camp",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id": "gourmet_cc_set_stress_afflicted",
+            "stat_type": "stress_dmg_received_percent",
+            "stat_sub_type": "",
+            "amount": -0.75,
+            "remove_if_not_active": false,
+            "rule_type": "afflicted",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": ""
+            }
+         },
+         {
+            "id": "gourmet_cc_set_dmgh_afflicted",
+            "stat_type": "combat_stat_multiply",
+            "stat_sub_type": "damage_high",
+            "amount": 0.3,
+            "remove_if_not_active": false,
+            "rule_type": "afflicted",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": ""
+            }
+         },
+         {
+            "id": "gourmet_cc_set_dmgl_afflicted",
+            "stat_type": "combat_stat_multiply",
+            "stat_sub_type": "damage_low",
+            "amount": 0.3,
+            "remove_if_not_active": false,
+            "rule_type": "afflicted",
+            "is_false_rule": false,
+            "rule_data": {
+               "float": 0,
+               "string": ""
+            }
+         },
+         {
+            "id": "gourmet_cc_set_dmgh_afflicted",
+            "stat_type": "combat_stat_add",
+            "stat_sub_type": "attack_rating",
+            "amount": 0.15,
+            "remove_if_not_active": false,
+            "rule_type": "afflicted",
             "is_false_rule": false,
             "rule_data": {
                "float": 0,

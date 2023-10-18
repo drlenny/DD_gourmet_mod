@@ -1,6 +1,13 @@
 {
-    "sets":
-    [
-        
+    "sets": [
+        {
+            "id": "gourmet_cc",
+            "buffs": [
+                "gourmet_cc_set_stress_afflicted",
+                "gourmet_cc_set_dmgh_afflicted",
+                "gourmet_cc_set_dmgl_afflicted",
+                "gourmet_cc_set_acc_afflicted"
+            ]
+        }
     ]
 }

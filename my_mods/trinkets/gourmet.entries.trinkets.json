@@ -113,6 +113,27 @@
             [
                 "gourmet_cc_on_attack_heal"
             ]
+        },
+        {
+            "id": "gourmet_cc_sandwich",
+            "buffs": [
+                "gourmet_cc_stress_debuff",
+                "gourmet_cc_50_food_consumed",
+                "gourmet_cc_35_debuff_skill",
+                "gourmet_cc_camp_heal_buff"
+            ],
+            "hero_class_requirements": [
+                "gourmet"
+            ],
+            "set_id": "gourmet_cc",
+            "rarity": "crimson_court",
+            "price": 50000,
+            "limit": 1,
+            "origin_dungeon": "courtyard",
+            "attack_skill_additional_effects":
+            [
+                "gourmet_cc_on_hit_regen"
+            ]
         }
     ]
 }
