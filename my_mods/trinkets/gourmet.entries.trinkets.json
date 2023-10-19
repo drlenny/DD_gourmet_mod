@@ -173,6 +173,25 @@
             [
                 "gourmet_si_friendly_dmg_self"
             ]
+        },
+        {
+            "id": "gourmet_head",
+            "buffs": [
+                "gourmet_collector_eat_heal_buff",
+                "gourmet_collector_disease_buff",
+                "gourmet_collector_stress_debuff"
+            ],
+            "hero_class_requirements": [
+                
+            ],
+            "rarity": "collector",
+            "price": 15000,
+            "limit": 1,
+            "origin_dungeon": "",
+            "attack_skill_additional_effects":
+            [
+                "gourmet_collector_on_hit_prot_debuff"
+            ]
         }
     ]
 }
