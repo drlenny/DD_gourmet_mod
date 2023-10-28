@@ -45,16 +45,12 @@
 	<entry id="buff_rule_data_tooltip_spectral"><![CDATA[Yokai]]></entry>
 	
 	<!--Town Descriptions--> 
-    <entry id="action_verbose_body_guild_gourmet"><![CDATA[A notorious vigilante with an affection for fire, he brings his own personal vendetta against the chaotic forces that lurk in the darkest reaches of the estate. His expertise in close combat and use of fire makes him a reliable damage dealer while his various explosives can disrupt enemy lines]]></entry>
-    <entry id="action_verbose_body_blacksmith_gourmet"><![CDATA[The gourmet favors a fire iron and molotovs as his weapons of choice. These tools allow him to bring mayhem and destruction to his enemies. His light armor grants moderate protection while allowing him to remain highly mobile and evasive...]]></entry>
-    <entry id="action_verbose_body_camping_trainer_gourmet"><![CDATA[The gourmet knows first hand that to defeat an enemy is to know it. To this end, the gourmet uses his acquired knowledge to better prepare for future combat encounters. While almost always focused, the gourmet will let his guard down to find serenity in the hypnotic campfire.]]></entry>
+    <entry id="action_verbose_body_guild_gourmet"><![CDATA[Much like the rest of its porcine kin, the Gourmet harbors a brutal ferocity with a combination of debilitating strikes and devastating blows. The culinary skills it has developed can be witnessed in combat, peppering foes with attacks in preparation for a final savory onslaught of violence. Ensuring the customer is satisfied is critical for any chef, and the Gourmet is proficient at supporting allies so they may partake in the feast as well.]]></entry>
+    <entry id="action_verbose_body_blacksmith_gourmet"><![CDATA[Wielding massive cooking implements, the Gourmet is always ready to prepare a new meal from the remains of anything unfortunate enough to be considered fresh ingredients. While an apron does not provide much defense from antagonistic food, the swine's massive bulk ensures it will outlast any and all dining confrontation.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_gourmet"><![CDATA[The swine's frightening visage may be oppressive and its methods unnerving at best, but there is no denying the exquisite results of its gastronomical skills. With only a makeshift kitchen, the Gourmet can prepare a hearty feast that can bolster the endurance of all willing to partake. Just don't ask what is in it...]]></entry>
 	
 	<!--Town Event-->
-    <entry id="town_event_title_first_gourmet"><![CDATA[A Roaring Flame!]]></entry>
-    <entry id="town_event_description_first_gourmet"><![CDATA[He proclaims that his cause is noble and that his ends justify his means but to what length will he go to achieve them?]]></entry>
-	<entry id="town_event_title_idle_resolve_level_gourmet"><![CDATA[BUSY HANDS]]></entry>
-	<entry id="town_event_description_idle_resolve_level_gourmet"><![CDATA[Evil never rests, nor do we. Crime around the Hamlet has been in a recent steady decline..]]></entry>
-	<entry id="str_vo_town_gourmet_Stagecoach_1_0"><![CDATA[An engineer of the all consuming power of fire and feats of unhinged cunning!]]></entry>
+
 	
 	<!--Skill Names -->
     <entry id="combat_skill_name_gourmet_choice_cut"><![CDATA[Choice Cut]]></entry>
@@ -90,75 +86,79 @@
     <entry id="upgrade_tree_name_gourmet.armour"><![CDATA[Apron]]></entry>
 	
 	<!-- Trinkets -->
-    <entry id="str_inventory_title_trinketgreased_rags"><![CDATA[Greased Rags]]></entry>
-	<entry id="str_inventory_title_trinketfirestarter_kit"><![CDATA[Firestarter Kit]]></entry>
-	<entry id="str_inventory_title_trinkettopical_burning_balm"><![CDATA[Topical Burning Balm]]></entry>
-	<entry id="str_inventory_title_trinketwelding_goggles"><![CDATA[Welding Goggles]]></entry>
-	<entry id="str_inventory_title_trinketantique_tinderbox"><![CDATA[Antique Tinderbox]]></entry>
-	<entry id="str_inventory_set_title_cc_gourmet"><![CDATA["Eat... Food. GOOD food... Want MORE... Make. More. MORE!!!"]]></entry>
-	<entry id="str_inventory_title_trinketsoot_covered_blanket"><![CDATA[Soot Covered Blanket]]></entry>
-	<entry id="str_inventory_title_trinketmissing_child_poster"><![CDATA[Missing Child Poster]]></entry>
-	<entry id="str_inventory_title_trinketfire_glass_crystals"><![CDATA[Fire Glass Crystals]]></entry>	
-	<entry id="str_inventory_title_trinketdragonflame_cannon"><![CDATA[Dragonflame Cannon]]></entry>
+    <entry id="str_inventory_title_trinketgourmet_spatula"><![CDATA[Trusty Spatula]]></entry>
+	<entry id="str_inventory_title_trinketgourmet_mit"><![CDATA[Protective Oven Mitts]]></entry>
+	<entry id="str_inventory_title_trinketgourmet_oil"><![CDATA[Special Cooking Oil]]></entry>
+	<entry id="str_inventory_title_trinketgourmet_pot"><![CDATA[Mystery Meal]]></entry>
+	<entry id="str_inventory_title_trinketgourmet_bell"><![CDATA[Cacaphonous Dinner Bell]]></entry>
+	<entry id="str_inventory_set_title_cc_gourmet"><![CDATA["Want food. GOOD food... Want MORE. Make. MORE!!!"]]></entry>
+	<entry id="str_inventory_title_trinketgourmet_cc_roast"><![CDATA[Vengeful Entrée]]></entry>
+	<entry id="str_inventory_title_trinketgourmet_cc_sandwich"><![CDATA[Spoiled Delicacy]]></entry>
+	<entry id="str_inventory_title_trinketgourmet_com_truffle"><![CDATA[Moon Shadow Truffles]]></entry>	
+	<entry id="str_inventory_title_trinketgourmet_si_wasabi"><![CDATA[Infernal Wasabi]]></entry>
+	<entry id="str_inventory_title_trinketgourmet_head"><![CDATA[Napoleon's Head]]></entry>
 	
 	<!--Camping Skill Names & Barks -->
 
-	<entry id="gourmet+str_bark_encourage"><![CDATA[Smile! NOW.]]></entry>
-    <entry id="gourmet+str_bark_encourage"><![CDATA[Force a smile or I will force one from you.]]></entry>
-    <entry id="gourmet+str_bark_first_aid"><![CDATA[You're hardly bleeding.]]></entry>
-    <entry id="gourmet+str_bark_first_aid"><![CDATA[It's just a flesh wound!]]></entry>
-    <entry id="gourmet+str_bark_pep_talk"><![CDATA[The rabble does not tolerate weakness.]]></entry>
-    <entry id="gourmet+str_bark_pep_talk"><![CDATA[Good enough for our feature match!]]></entry>
+	<entry id="gourmet+str_bark_encourage"><![CDATA[You smell... (SNIFF) ...good.]]></entry>
+    <entry id="gourmet+str_bark_encourage"><![CDATA[Taste this. It good. Has no man meat... This time.]]></entry>
+    <entry id="gourmet+str_bark_encourage"><![CDATA[Here. Sweet snack. Stop whine.]]></entry>
+    <entry id="gourmet+str_bark_first_aid"><![CDATA[Little taste... or nibble]]></entry>
+    <entry id="gourmet+str_bark_first_aid"><![CDATA[Rub dirt in. It good.]]></entry>
+    <entry id="gourmet+str_bark_first_aid"><![CDATA[Save bandage. Will use in stew. Add flavor.]]></entry>
+    <entry id="gourmet+str_bark_pep_talk"><![CDATA[Hunt. Cook. Eat. Sleep. Repeat. Is good.]]></entry>
+    <entry id="gourmet+str_bark_pep_talk"><![CDATA[Full. Not eat you.]]></entry>
 
-    <entry id="camping_skill_name_acupressure"><![CDATA[REINFORCE ARMOR]]></entry>
-	<entry id="str_bark_acupressure"><![CDATA[Any blow could be the last...Best prepare.]]></entry>   
-	<entry id="str_bark_acupressure"><![CDATA[(Whistles)]]></entry>   
+    <entry id="camping_skill_name_gourmet_brutish"><![CDATA[BRUTISH NATURE]]></entry>
+	<entry id="str_bark_gourmet_brutish"><![CDATA[(low growl)]]></entry>   
+	<entry id="str_bark_gourmet_brutish"><![CDATA[(a warning grunt)]]></entry>   
 	
-    <entry id="camping_skill_name_cleanse_incense"><![CDATA[EVERLASTING FLAME]]></entry>
-	<entry id="str_bark_cleanse_incense"><![CDATA[Of darkest times, of darkest plight, may we be guided by this light!]]></entry>
-	<entry id="str_bark_cleanse_incense"><![CDATA[Stokes the fire! Fan the flames!]]></entry>
+    <entry id="camping_skill_name_gourmet_feast"><![CDATA[BOUNTIFUL FEAST]]></entry>
+	<entry id="str_bark_gourmet_feast"><![CDATA[Hmph. You can have... some.]]></entry>
+	<entry id="str_bark_gourmet_feast"><![CDATA[We eat. Then hunt. Then eat again.]]></entry>
 	
-    <entry id="camping_skill_name_conviction_mantra"><![CDATA[PYROMANIA]]></entry>
-	<entry id="str_bark_conviction_mantra"><![CDATA[Look how beautifully she burns!]]></entry>   
-	<entry id="str_bark_conviction_mantra"><![CDATA[I won’t let the flame get out of control, I promise.]]></entry>   
-	<entry id="str_bark_conviction_mantra"><![CDATA[It is a pleasure to burn...]]></entry>   
+    <entry id="camping_skill_name_food_sample"><![CDATA[HAVE A TASTE]]></entry>
+	<entry id="str_bark_food_sample"><![CDATA[You. Taste this. What think?]]></entry>   
+	<entry id="str_bark_food_sample"><![CDATA[You like? (grunt) Yes. You do.]]></entry>   
+	<entry id="str_bark_food_sample"><![CDATA[Hrrmmm... Need salt?]]></entry>   
 	
-    <entry id="camping_skill_name_tranquility"><![CDATA[DESTROY EVIL]]></entry>
-	<entry id="str_bark_tranquility"><![CDATA[No evil shall escape our grasp!]]></entry>   
+    <entry id="camping_skill_name_gourmet_leftovers"><![CDATA[LEFTOVERS]]></entry>
+	<entry id="str_bark_gourmet_leftovers"><![CDATA[Was saving this...]]></entry>
+	<entry id="str_bark_gourmet_leftovers"><![CDATA[(sniff) Good. Mold is ripe.]]></entry>
 	
 	<!--Death's Door Barks-->
-	<entry id="gourmet+str_bark_deathsdoor"><![CDATA[A fire can only burn for so long...]]></entry>
-	<entry id="gourmet+str_bark_deathsdoor"><![CDATA[Has my time finally gone up in smoke?]]></entry>
+	<entry id="gourmet+str_bark_deathsdoor"><![CDATA[Taste... Blood... Mmmm...]]></entry>
+	<entry id="gourmet+str_bark_deathsdoor"><![CDATA[NO. NOT EATEN. ME EAT!]]></entry>
 
-    <entry id="gourmet+str_bark_deathsdoor_recovered"><![CDATA[Out of the frying pan...]]></entry>
-    <entry id="gourmet+str_bark_deathsdoor_recovered"><![CDATA[I return to the fray!]]></entry>
+    <entry id="gourmet+str_bark_deathsdoor_recovered"><![CDATA[Second course...]]></entry>
+    <entry id="gourmet+str_bark_deathsdoor_recovered"><![CDATA[Room for dessert.]]></entry>
 	
 	<!--Wasting Time Barks -->
-	<entry id="gourmet+str_combat_wastingtime"><![CDATA[Quit stringing this along and end it already!]]></entry>
-	<entry id="gourmet+str_combat_wastingtime"><![CDATA[My fuse is growing short. Let's finish this!]]></entry>
+	<entry id="gourmet+str_combat_wastingtime"><![CDATA[Food get cold. Eat now!]]></entry>
+	<entry id="gourmet+str_combat_wastingtime"><![CDATA[Me get hungry...]]></entry>
 	
 	<!--Knock back Barks -->
-	<entry id="gourmet+str_combat_knockback"><![CDATA[Hoof! Knocked the wind right out of me.]]></entry>
-	<entry id="gourmet+str_combat_knockback"><![CDATA[That'll leave a scar...]]></entry>
-	<entry id="gourmet+str_combat_knockback"><![CDATA[Good thing I've got a hard head...]]></entry>
+	<entry id="gourmet+str_combat_knockback"><![CDATA[(snort) grrrr...]]></entry>
+	<entry id="gourmet+str_combat_knockback"><![CDATA[NO PUSH.]]></entry>
+	<entry id="gourmet+str_combat_knockback"><![CDATA[(growls) WAIT IN LINE.]]></entry>
 	
 	<!--Ability Barks -->
 	
 	<!--Siren Boss Barks -->
-	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[I no longer worship Fire, but this Mistress of the Ocean instead!]]></entry>
-	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[The flames of my heart have been doused with love!]]></entry>
-	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[She's the only one who sets my heart aflame!]]></entry>
+	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[Cook for fish lady! You be meal!]]></entry>
+	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[NO MORE SWINE. NOW FISH.]]></entry>
+	<entry id="gourmet+str_control_before_turn_siren"><![CDATA[NO EAT FISH. FISH EAT YOU!]]></entry>
 	
-	<entry id="gourmet+str_control_return_siren"><![CDATA[(spits) I've always hated magic...]]></entry>
-	<entry id="gourmet+str_control_return_siren"><![CDATA[I've returned! Now let's fry some fish.]]></entry>
+	<entry id="gourmet+str_control_return_siren"><![CDATA[(licks maw) Seafood...]]></entry>
+	<entry id="gourmet+str_control_return_siren"><![CDATA[(sniff) Smell fishy...]]></entry>
 	
 	<!--Necromancer Boss Barks -->
-	<entry id="gourmet+str_monster_attack_unholy_smite"><![CDATA[Unearthly strength!]]></entry>
-    <entry id="gourmet+str_monster_attack_unholy_judgement"><![CDATA[I've seen this magic before...they are mere tricks.]]></entry>
-    <entry id="gourmet+str_monster_attack_unholy_curse"><![CDATA[I can smell the fire, but I see nothing but ashes!]]></entry>
+	<entry id="gourmet+str_monster_attack_unholy_smite"><![CDATA[Taste rotten.]]></entry>
+    <entry id="gourmet+str_monster_attack_unholy_judgement"><![CDATA[(grunt) No good meat.]]></entry>
+    <entry id="gourmet+str_monster_attack_unholy_curse"><![CDATA[Me cook, eat, and eat again!]]></entry>
 	
 	<!-- Final Boss -->
-	<entry id="gourmet+str_monster_user_selected_targets_kill_pill"><![CDATA[One last breath of defiance...]]></entry>
+	<entry id="gourmet+str_monster_user_selected_targets_kill_pill"><![CDATA[Last meal...]]></entry>
 	
 	<!--Affliction: Fearful -->
 	<entry id="gourmet+str_afflicted_fearful"><![CDATA[This is it... They won!]]></entry>   
@@ -662,8 +662,8 @@
 	<entry id="gourmet+str_bark_pep_talk"><![CDATA[There will be brighter days ahead, this I promise.]]></entry>
 	
 	<!--Critical Hit Barks -->
-	<entry id="gourmet+str_critbyhero"><![CDATA[Burn't to a crisp!]]></entry>   
-	<entry id="gourmet+str_critbyhero"><![CDATA[Feeling the heat, yet?]]></entry>   
+	<entry id="gourmet+str_critbyhero"><![CDATA[(slurp)]]></entry>   
+	<entry id="gourmet+str_critbyhero"><![CDATA[Hrrmmm... Need salt.]]></entry>   
 	<entry id="gourmet+str_critbyhero"><![CDATA[More fuel for the Fire!]]></entry>   
 	<entry id="gourmet+str_critbyhero"><![CDATA[Taste my wrath!]]></entry>   
 	<entry id="gourmet+str_critbyhero"><![CDATA[Just as you deserved!]]></entry>   
