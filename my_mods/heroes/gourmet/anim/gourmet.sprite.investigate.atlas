@@ -1,20 +1,20 @@
 
-crusader.sprite.investigate.png
-size: 635,417
+gourmet.sprite.investigate.png
+size: 720,822
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-investigate
-  rotate: true
-  xy: 2, 2
-  size: 413, 566
-  orig: 413, 566
+gourmet/shadow
+  rotate: false
+  xy: 1, 740
+  size: 537, 80
+  orig: 537, 80
   offset: 0, 0
   index: -1
-shadow
-  rotate: true
-  xy: 570, 58
-  size: 357, 63
-  orig: 357, 63
+gourmet/sprite_investigate
+  rotate: false
+  xy: 1, 1
+  size: 717, 737
+  orig: 717, 737
   offset: 0, 0
   index: -1
