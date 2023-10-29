@@ -57,8 +57,17 @@ effect: .name "Gourmet Obliterate Acc Marked 5" .target "performer" .chance 100%
 effect: .name "Gourmet Clear Marked Target" .target "target" .chance 100% .untag 1 .on_hit true .on_miss true
 
 // Quick Snack
-effect: .name "Gourmet Snack Clear Debuff Self" .target "performer" .chance 100% .clear_debuff 1 .on_hit true .on_miss false
-effect: .name "Gourmet Snack Clear Debuff Target" .target "target" .chance 100% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Self 1" .target "performer" .chance 60% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Self 2" .target "performer" .chance 70% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Self 3" .target "performer" .chance 80% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Self 4" .target "performer" .chance 90% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Self 5" .target "performer" .chance 100% .clear_debuff 1 .on_hit true .on_miss false
+
+effect: .name "Gourmet Snack Clear Debuff Target 1" .target "target" .chance 60% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Target 2" .target "target" .chance 70% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Target 3" .target "target" .chance 80% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Target 4" .target "target" .chance 90% .clear_debuff 1 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Clear Debuff Target 5" .target "target" .chance 100% .clear_debuff 1 .on_hit true .on_miss false
 
 effect: .name "Gourmet Snack Stress Heal Self" .target "performer" .chance 33% .healstress 5 .on_hit true .on_miss false
 effect: .name "Gourmet Snack Stress Dmg Target" .target "target" .chance 33% .stress 5 .on_hit true .on_miss false
