@@ -1,8 +1,10 @@
 inventory_item: .type "supply" .id "gourmet_common_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 125
+inventory_item: .type "supply" .id "gourmet_common_A2" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0
 inventory_item: .type "supply" .id "gourmet_common_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 125
 
 inventory_item: .type "supply" .id "gourmet_crypts_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 125
 inventory_item: .type "supply" .id "gourmet_crypts_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 125
+inventory_item: .type "supply" .id "gourmet_crypts_B2" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0
 
 inventory_item: .type "supply" .id "gourmet_cove_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 125
 inventory_item: .type "supply" .id "gourmet_cove_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 125

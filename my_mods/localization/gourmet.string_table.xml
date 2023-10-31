@@ -6,20 +6,24 @@
     <entry id="hero_class_name_gourmet"><![CDATA[Gourmet]]></entry>
 	
 	<!--Mode/Missing things/Tooltips-->
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when Guarding]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <!-- <entry id="buff_stat_tooltip_food_consumption_percent"><![CDATA[%+d%% Food Consumed]]></entry> -->
 
-		<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when Guarding]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_guard_duration_buff"><![CDATA[Guard duration received: +50%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_food_consume_common_A"><![CDATA[%+d%% Food Consumed]]></entry>
 	
-		<!-- Quick Snack -->
-    	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
+	<!-- Quick Snack -->
+   	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 
-		<!-- Choice Cut -->
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_1"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_2"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_3"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_4"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_5"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 2 rds]]></entry>
+	<!-- Choice Cut -->
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_1"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_2"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_3"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_4"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_5"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 2 rds]]></entry>
 	
-		<!-- Taste Test -->
+	<!-- Taste Test -->
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_1"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
 		{colour_start|buff}Buff Self:{colour_end} +25%% DMG vs {colour_start|bleed}Bleeding{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_2"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
@@ -34,11 +38,11 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_3"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
 		{colour_start|buff}Buff Self:{colour_end} +35%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
 
-		<!-- Devour -->
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_vs_healthy"><![CDATA[{colour_start|debuff}Targets with over 25%% total HP remaining will avoid this attack{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_1"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 2 HP for each target and corpse]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_2"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 3 HP for each target and corpse]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_3"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 4 HP for each target and corpse]]></entry>
+	<!-- Devour -->
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_vs_healthy"><![CDATA[{colour_start|debuff}Targets with over 25%% total HP remaining will avoid this attack{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_1"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 2 HP for each target and corpse]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_2"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 3 HP for each target and corpse]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_3"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 4 HP for each target and corpse]]></entry>
 
 	<!--Sunward Isle Tooltips-->
 	<entry id="enemy_type_name_spectral"><![CDATA[Yokai]]></entry>
@@ -98,10 +102,51 @@
 	<entry id="str_inventory_title_trinketgourmet_si_wasabi"><![CDATA[Infernal Wasabi]]></entry>
 	<entry id="str_inventory_title_trinketgourmet_head"><![CDATA[Napoleon's Head]]></entry>
 	
-	<!--Camping Skill Names & Barks -->
+	<!--Supply Items-->
+	<entry id="str_inventory_title_supplygourmet_common_A"><![CDATA[Monster Lasagna]]></entry>
+	<entry id="str_inventory_title_supplygourmet_common_B"><![CDATA[Everything Burger]]></entry>
+	<entry id="str_inventory_title_supplygourmet_crypts_A"><![CDATA[Grilled Cursed Marrow]]></entry>
+	<entry id="str_inventory_title_supplygourmet_crypts_B"><![CDATA[Living Bone Soup]]></entry>
+	<entry id="str_inventory_title_supplygourmet_cove_A"><![CDATA[Pelagic Sashimi]]></entry>
+	<entry id="str_inventory_title_supplygourmet_cove_B"><![CDATA[Abyssal Platter]]></entry>
+	<entry id="str_inventory_title_supplygourmet_warrens_A"><![CDATA[Wretch Ribs and Potatoes]]></entry>
+	<entry id="str_inventory_title_supplygourmet_warrens_B"><![CDATA[Swine Folk Trotters]]></entry>
+	<entry id="str_inventory_title_supplygourmet_weald_A"><![CDATA[Shrieker and Mushroom Skewer]]></entry>
+	<entry id="str_inventory_title_supplygourmet_weald_B"><![CDATA[The Hag's Special]]></entry>
+	<entry id="str_inventory_title_supplygourmet_courtyard_A"><![CDATA[Bloodsucker Haggis]]></entry>
+	<entry id="str_inventory_title_supplygourmet_courtyard_B"><![CDATA[Bloody Sangria]]></entry>
+	<entry id="str_inventory_title_supplygourmet_farm_A"><![CDATA[Non-Euclidian Pastry]]></entry>
+	<entry id="str_inventory_title_supplygourmet_farm_B"><![CDATA[Paradox Omelette]]></entry>
+	<entry id="str_inventory_title_supplygourmet_SI_A"><![CDATA[Stuffed Heinke Crab]]></entry>
+	<entry id="str_inventory_title_supplygourmet_SI_B"><![CDATA[Treasured Tofu]]></entry>
 
+	<entry id="str_inventory_description_supplygourmet_common_A"><![CDATA[Say pal, you don't look so good.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_common_B"><![CDATA[A hearty meal with a bit of everything! The sheer amount will leave one sluggish after consuming.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_crypts_A"><![CDATA[Have a taste of the wicked power over life your foes wield, however brittle it may leave you feeling.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_crypts_B"><![CDATA[A simple meal lacking robust ingredients, but the quality of what has been utilized fills one with a hardy sensation.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_cove_A"><![CDATA[The sharp and savory flavor inspires enjoyers into doubling their efforts to procure more!]]></entry>
+	<entry id="str_inventory_description_supplygourmet_cove_B"><![CDATA[The bewitching tastes of the deep give adventurers an appreciation for the quiet and safety it provides.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_warrens_A"><![CDATA[An enriching meal from the finest cut of swine. It will leave you craving more!]]></entry>
+	<entry id="str_inventory_description_supplygourmet_warrens_B"><![CDATA[For those with an adventurous palate, the swine's appendages make for an exhilarating treat.]]></entry>
+
+	<entry id="str_gourmet_supply"><![CDATA[(gagging) Oh yeah... that was good...]]></entry>
+	<entry id="str_gourmet_supply"><![CDATA[Fine. Just don't tell me what's in it.]]></entry>
+	<entry id="str_gourmet_supply"><![CDATA[Oh hells that... was not so bad actually.]]></entry>
+	<entry id="str_gourmet_supply"><![CDATA[Well it does look better than I expected.]]></entry>
+	<entry id="str_gourmet_supply"><![CDATA[Urp!... thanks...]]></entry>
+	<entry id="str_gourmet_supply"><![CDATA[Wait, YOU made this? It's surprisingly good.]]></entry>
+	<entry id="str_gourmet_supply"><![CDATA[Mmmm.. what's this crunchy pa- Wait. No. Don't answer that...]]></entry>
+	<entry id="str_gourmet_supply"><![CDATA[At this point, I will eat just about anything.]]></entry>
+	<entry id="gourmet+str_gourmet_supply"><![CDATA[Mmmmm... perfect.]]></entry>
+	<entry id="gourmet+str_gourmet_supply"><![CDATA[<chomp!> <scarf!> <slurp!>]]></entry>
+	<entry id="gourmet+str_gourmet_supply"><![CDATA[This... what you call "art."]]></entry>
+	<entry id="gourmet+str_gourmet_supply"><![CDATA[Me give five star!]]></entry>
+	<entry id="gourmet+str_gourmet_supply"><![CDATA[You no want? Hmmph. More for me.]]></entry>
+	<entry id="gourmet+str_gourmet_supply"><![CDATA[<BELCH>]]></entry>
+
+	<!--Camping Skill Names & Barks -->
 	<entry id="gourmet+str_bark_encourage"><![CDATA[You smell... (SNIFF) ...good.]]></entry>
-    <entry id="gourmet+str_bark_encourage"><![CDATA[Taste this. It good. Has no human meat... This time.]]></entry>
+    <entry id="gourmet+str_bark_encourage"><![CDATA[Taste this. It good. No has human meat... This time.]]></entry>
     <entry id="gourmet+str_bark_encourage"><![CDATA[Here. Sweet snack. Stop whine.]]></entry>
     <entry id="gourmet+str_bark_first_aid"><![CDATA[Little taste... No? Hmph.]]></entry>
     <entry id="gourmet+str_bark_first_aid"><![CDATA[Rub dirt in. It good.]]></entry>
@@ -136,7 +181,7 @@
 	<entry id="gourmet+str_bark_deathsdoor_ally"><![CDATA[If you die, me make you in good meal. No worry.]]></entry>
     <entry id="gourmet+str_bark_deathsdoor_ally"><![CDATA[(eyes shine with a cold glint)]]></entry>
 	<entry id="gourmet+str_bark_deathsdoorsurvive_ally"><![CDATA[...Hmph.]]></entry>
-	<entry id="gourmet+str_bark_deathsdoorsurvive_ally"><![CDATA[...(grunts)]]></entry>
+	<entry id="gourmet+str_bark_deathsdoorsurvive_ally"><![CDATA[Good. Now fight!]]></entry>
 
 	<!--Wasting Time Barks -->
 	<entry id="gourmet+str_combat_wastingtime"><![CDATA[Food get cold. Eat now!]]></entry>
@@ -521,7 +566,7 @@
 	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[AHHH! Do not startle me while handling such explosives!]]></entry>    
 	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[Unhand me!]]></entry>    
 	
-<!--Affliction: Paranoid -->
+	<!--Affliction: Paranoid -->
 	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[This is a trap! I know it!]]></entry>   
 	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[Enemies at every corner!]]></entry>    
 	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[Silence! I can hear their dark whispers...]]></entry>    
@@ -959,6 +1004,5 @@
 	<entry id="gourmet+str_heal_self_vigorous"><![CDATA[You thought that would stop me?)]]></entry>  
 
   </language>
-
 
 </root>

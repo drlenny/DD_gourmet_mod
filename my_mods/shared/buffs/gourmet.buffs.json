@@ -1106,7 +1106,9 @@
          "rule_data": {
             "float": 0,
             "string": ""
-         }
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
       },
       {
          "id": "S_gourmet_common_A_stress_heal_received",
@@ -1210,21 +1212,7 @@
          "id": "S_gourmet_common_B_maxhp",
          "stat_type": "combat_stat_multiply",
          "stat_sub_type": "max_hp",
-         "amount": 0.1,
-
-         "remove_if_not_active": false,
-         "rule_type": "always",
-         "is_false_rule": false,
-         "rule_data": {
-            "float": 0,
-            "string": ""
-         }
-      },
-      {
-         "id": "S_gourmet_common_B_food_consume",
-         "stat_type": "food_consumption_percent",
-         "stat_sub_type": "",
-         "amount": -0.5,
+         "amount": 0.05,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1238,7 +1226,7 @@
          "id": "S_gourmet_common_B_speed",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "speed_rating",
-         "amount": -4,
+         "amount": -3,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1252,21 +1240,7 @@
          "id": "S_gourmet_common_B_dodge",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "defense_rating",
-         "amount": -0.05,
-
-         "remove_if_not_active": false,
-         "rule_type": "always",
-         "is_false_rule": false,
-         "rule_data": {
-            "float": 0,
-            "string": ""
-         }
-      },
-      {
-         "id": "S_gourmet_common_B_acc",
-         "stat_type": "combat_stat_add",
-         "stat_sub_type": "attack_rating",
-         "amount": -0.05,
+         "amount": -0.03,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1280,7 +1254,7 @@
          "id": "S_gourmet_common_B_hpheal_received",
          "stat_type": "hp_heal_received_percent",
          "stat_sub_type": "",
-         "amount": -0.5,
+         "amount": -0.25,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1308,7 +1282,7 @@
          "id": "S_gourmet_crypts_A_stress_res",
          "stat_type": "stress_dmg_received_percent",
          "stat_sub_type": "",
-         "amount": 0.25,
+         "amount": 0.05,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1389,8 +1363,8 @@
          }
       },
       {
-         "id": "S_gourmet_crypts_B_guard_duration",
-         "stat_type": "guard_duration_percent",
+         "id": "S_gourmet_crypts_B_guard_duration_received",
+         "stat_type": "guard_duration_received_percent",
          "stat_sub_type": "",
          "amount": 0.5,
 
@@ -1400,7 +1374,9 @@
          "rule_data": {
             "float": 0,
             "string": ""
-         }
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
       },
       {
          "id": "S_gourmet_crypts_B_dmgl",
@@ -1434,7 +1410,7 @@
          "id": "S_gourmet_crypts_B_crit",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "crit_chance",
-         "amount": -0.1,
+         "amount": -0.05,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1462,7 +1438,7 @@
          "id": "S_gourmet_cove_A_crit",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "crit_chance",
-         "amount": 0.05,
+         "amount": 0.03,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1476,7 +1452,7 @@
          "id": "S_gourmet_cove_A_acc",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "attack_rating",
-         "amount": -0.1,
+         "amount": -0.05,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1616,7 +1592,7 @@
          "id": "S_gourmet_cove_B_dmgl",
          "stat_type": "combat_stat_multiply",
          "stat_sub_type": "damage_low",
-         "amount": -0.25,
+         "amount": -0.2,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1630,7 +1606,7 @@
          "id": "S_gourmet_cove_B_dmgh",
          "stat_type": "combat_stat_multiply",
          "stat_sub_type": "damage_high",
-         "amount": -0.25,
+         "amount": -0.2,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1686,7 +1662,7 @@
          "id": "S_gourmet_warrens_A_food_consumed",
          "stat_type": "food_consumption_percent",
          "stat_sub_type": "",
-         "amount": -0.5,
+         "amount": 0.5,
 
          "remove_if_not_active": false,
          "rule_type": "always",

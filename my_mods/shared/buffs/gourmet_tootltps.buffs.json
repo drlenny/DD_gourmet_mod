@@ -247,6 +247,32 @@
                "float" : 0,
                "string" : ""
             }
+         },
+         {
+            "id" : "g_TT_guard_duration_buff",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_TT_guard_duration_buff",
+            "amount" : 1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_TT_food_consume_common_A",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_TT_food_consume_common_A",
+            "amount" : 0.5,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
          }
     ]
 }
