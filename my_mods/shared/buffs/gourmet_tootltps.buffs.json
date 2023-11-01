@@ -265,7 +265,85 @@
             "id" : "g_TT_food_consume_common_A",
             "stat_type" : "upgrade_discount",
             "stat_sub_type" : "g_TT_food_consume_common_A",
-            "amount" : 0.5,
+            "amount" : 1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_TT_warrens_A_food_consume",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_TT_warrens_A_food_consume",
+            "amount" : -1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_TT_scouting_weald_A",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_TT_scouting_weald_A",
+            "amount" : 1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_TT_vamp_food_consume_court_A",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_TT_vamp_food_consume_court_A",
+            "amount" : 1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_TT_bloodlust_duration_court_B",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_TT_bloodlust_duration_court_B",
+            "amount" : 1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_TT_craving_duration_court_B",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_TT_craving_duration_court_B",
+            "amount" : -1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_TT_scouting_SI_A",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_TT_scouting_SI_A",
+            "amount" : -1,
             "remove_if_not_active" : false,
             "rule_type" : "always",
             "is_false_rule" : false,

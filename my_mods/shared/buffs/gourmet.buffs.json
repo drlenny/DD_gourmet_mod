@@ -5,7 +5,7 @@
          "stat_type": "hp_dot_heal",
          "stat_sub_type": "",
          "amount": 2,
-         "remove_if_not_active": false,
+         "remove_if_not_active": true,
          "rule_type": "always",
          "is_false_rule": false,
          "rule_data": {
@@ -1098,7 +1098,7 @@
          "id": "S_gourmet_common_A_food_consume",
          "stat_type": "food_consumption_percent",
          "stat_sub_type": "",
-         "amount": -0.5,
+         "amount": -100,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1452,7 +1452,7 @@
          "id": "S_gourmet_cove_A_acc",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "attack_rating",
-         "amount": -0.05,
+         "amount": -0.03,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1662,7 +1662,7 @@
          "id": "S_gourmet_warrens_A_food_consumed",
          "stat_type": "food_consumption_percent",
          "stat_sub_type": "",
-         "amount": 0.5,
+         "amount": 1,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1690,7 +1690,7 @@
          "id": "S_gourmet_warrens_B_dodge",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "defense_rating",
-         "amount": 0.1,
+         "amount": 0.05,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1774,7 +1774,7 @@
          "id": "S_gourmet_weald_A_acc",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "attack_rating",
-         "amount": 0.2,
+         "amount": 0.1,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1788,7 +1788,7 @@
          "id": "S_gourmet_weald_A_blight_res",
          "stat_type": "resistance",
          "stat_sub_type": "poison",
-         "amount": 0.2,
+         "amount": 0.35,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1802,7 +1802,7 @@
          "id": "S_gourmet_weald_A_dodge",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "defense_rating",
-         "amount": 0.1,
+         "amount": 0.07,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1816,7 +1816,7 @@
          "id": "S_gourmet_weald_A_stress_received",
          "stat_type": "stress_dmg_received_percent",
          "stat_sub_type": "",
-         "amount": 0.3,
+         "amount": 0.15,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1830,7 +1830,7 @@
          "id": "S_gourmet_weald_A_stress_heal_received",
          "stat_type": "stress_heal_received_percent",
          "stat_sub_type": "",
-         "amount": -0.3,
+         "amount": -0.2,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1844,7 +1844,7 @@
          "id": "S_gourmet_weald_A_maxhp",
          "stat_type": "combat_stat_multiply",
          "stat_sub_type": "max_hp",
-         "amount": -0.2,
+         "amount": -0.15,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1858,7 +1858,7 @@
          "id": "S_gourmet_weald_A_scouting",
          "stat_type": "scouting_chance",
          "stat_sub_type": "",
-         "amount": 0.5,
+         "amount": 0.35,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1914,7 +1914,7 @@
          "id": "S_gourmet_weald_B_dmg_received",
          "stat_type": "damage_received_percent",
          "stat_sub_type": "",
-         "amount": 0.2,
+         "amount": 0.15,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1942,7 +1942,7 @@
          "id": "S_gourmet_weald_B_dmgl",
          "stat_type": "combat_stat_multiply",
          "stat_sub_type": "damage_low",
-         "amount": -0.2,
+         "amount": -0.15,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1956,7 +1956,7 @@
          "id": "S_gourmet_weald_B_speed",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "speed_rating",
-         "amount": 1,
+         "amount": 2,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -2026,7 +2026,7 @@
          "id": "S_gourmet_courtyard_A_vamp_speed",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "speed_rating",
-         "amount": -3,
+         "amount": -5,
 
          "remove_if_not_active": false,
          "rule_type": "is_vampire",
@@ -2068,7 +2068,7 @@
          "id": "S_gourmet_courtyard_B_vamp_dmgl_vs_bleed",
          "stat_type": "combat_stat_multiply",
          "stat_sub_type": "damage_low",
-         "amount": 0.25,
+         "amount": 0.2,
 
          "remove_if_not_active": false,
          "rule_type": "actorStatus",
@@ -2082,7 +2082,7 @@
          "id": "S_gourmet_courtyard_B_vamp_dmgh_vs_bleed",
          "stat_type": "combat_stat_multiply",
          "stat_sub_type": "damage_high",
-         "amount": 0.25,
+         "amount": 0.2,
 
          "remove_if_not_active": false,
          "rule_type": "actorStatus",
@@ -2096,7 +2096,7 @@
          "id": "S_gourmet_courtyard_B_vamp_acc_while_bleed",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "attack_rating",
-         "amount": -0.25,
+         "amount": -0.1,
 
          "remove_if_not_active": false,
          "rule_type": "is_actor_status",
@@ -2134,6 +2134,33 @@
          }
       },
       {
+         "id": "S_gourmet_farm_A_regen",
+         "stat_type": "hp_dot_heal",
+         "stat_sub_type": "",
+         "amount": 1,
+         "remove_if_not_active": true,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         }
+      },
+      {
+         "id": "S_gourmet_farm_A_horror",
+         "stat_type": "stress_dot",
+         "stat_sub_type": "",
+         "amount": 1,
+         "remove_if_not_active": true,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         }
+      },
+
+      {
          "id": "S_gourmet_farm_B_random_target",
          "stat_type": "random_target_attack_chance",
          "stat_sub_type": "",
@@ -2148,10 +2175,10 @@
          "is_clear_debuff_valid": false
       },
       {
-         "id": "S_gourmet_farm_B_75_crit",
+         "id": "S_gourmet_farm_B_85_crit",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "crit_chance",
-         "amount": 0.75,
+         "amount": 0.85,
          "remove_if_not_active": false,
          "rule_type": "always",
          "is_false_rule": false,
@@ -2247,9 +2274,9 @@
          "id": "S_gourmet_SI_A_acc_vs_yokai",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "attack_rating",
-         "amount": 0.3,
+         "amount": 0.12,
          "remove_if_not_active": false,
-         "rule_type": "monster_type",
+         "rule_type": "monsterType",
          "is_false_rule": false,
          "rule_data": {
             "float": 0,
@@ -2273,7 +2300,7 @@
          "id": "S_gourmet_SI_A_acc",
          "stat_type": "combat_stat_add",
          "stat_sub_type": "attack_rating",
-         "amount": -0.15,
+         "amount": -0.05,
          "remove_if_not_active": false,
          "rule_type": "always",
          "is_false_rule": false,
@@ -2286,7 +2313,7 @@
          "id": "S_gourmet_SI_A_scouting",
          "stat_type": "scouting_chance",
          "stat_sub_type": "",
-         "amount": -0.5,
+         "amount": -0.35,
          "remove_if_not_active": false,
          "rule_type": "always",
          "is_false_rule": false,
@@ -2299,7 +2326,7 @@
          "id": "S_gourmet_SI_B_stress_received",
          "stat_type": "stress_dmg_received_percent",
          "stat_sub_type": "",
-         "amount": 0.5,
+         "amount": 0.2,
          "remove_if_not_active": false,
          "rule_type": "always",
          "is_false_rule": false,
@@ -2312,7 +2339,7 @@
          "id": "S_gourmet_SI_B_stress_heal_received",
          "stat_type": "stress_heal_received_percent",
          "stat_sub_type": "",
-         "amount": -0.75,
+         "amount": -0.6,
          "remove_if_not_active": false,
          "rule_type": "always",
          "is_false_rule": false,
@@ -2325,7 +2352,7 @@
          "id": "S_gourmet_SI_B_talisman_stress_received",
          "stat_type": "stress_dmg_received_percent",
          "stat_sub_type": "",
-         "amount": -0.65,
+         "amount": -0.35,
          "remove_if_not_active": false,
          "rule_type": "has_item_id",
          "is_false_rule": false,

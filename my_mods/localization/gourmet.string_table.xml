@@ -9,10 +9,26 @@
 	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when Guarding]]></entry>
     <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
     <!-- <entry id="buff_stat_tooltip_food_consumption_percent"><![CDATA[%+d%% Food Consumed]]></entry> -->
+    <entry id="buff_stat_tooltip_ignore_guard" arena_priority="1"><![CDATA[Bypass {colour_start|guard}Guard{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
+    <entry id="buff_rule_tooltip_is_vampire"><![CDATA[%s if has Crimson Curse]]></entry>
+    <entry id="buff_rule_data_tooltip_disease_vampire_blood_lust"><![CDATA[Crimson Curse - Bloodlust]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight Efficiency]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On Attack: Random target %d%%.]]></entry>
+    <entry id="effect_health_damage_blocks_format"><![CDATA[%d Blocks]]></entry>
+    <entry id="tray_icon_tooltip_health_damage_blocks_format"><![CDATA[%d Blocks Remain]]></entry>
+	<entry id="buff_rule_data_tooltip_talisman_charm"><![CDATA[Minor Omamori]]></entry>
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in Inventory]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_guard_duration_buff"><![CDATA[Guard duration received: +50%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_guard_duration_buff"><![CDATA[+50%% Guard duration received]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_food_consume_common_A"><![CDATA[%+d%% Food Consumed]]></entry>
-	
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_warrens_A_food_consume"><![CDATA[%+d%% Food Consumed]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_scouting_weald_A"><![CDATA[+35%% Scouting chance]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_vamp_food_consume_court_A"><![CDATA[%+d%% Food Consumed if has Crimson Curse]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_bloodlust_duration_court_B"><![CDATA[Increased Bloodlust state Duration for Crimson Curse]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_craving_duration_court_B"><![CDATA[Decreased Craving state Duration for Crimson Curse]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_scouting_SI_A"><![CDATA[-35%% Scouting chance]]></entry>
+
 	<!-- Quick Snack -->
    	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 
