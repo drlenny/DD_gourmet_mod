@@ -144,6 +144,15 @@
 	<entry id="str_inventory_description_supplygourmet_cove_B"><![CDATA[The bewitching tastes of the deep give adventurers an appreciation for the quiet and safety it provides.]]></entry>
 	<entry id="str_inventory_description_supplygourmet_warrens_A"><![CDATA[An enriching meal from the finest cut of swine. It will leave you craving more!]]></entry>
 	<entry id="str_inventory_description_supplygourmet_warrens_B"><![CDATA[For those with an adventurous palate, the swine's appendages make for an exhilarating treat.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_weald_A"><![CDATA[This humble treat will attune your senses to the wild granting you an excessive level of focus.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_weald_B"><![CDATA[Have a taste of the infamous Hag's very own recipe! Bolster your might and give in to the wild's influence!]]></entry>
+	<entry id="str_inventory_description_supplygourmet_weald_B"><![CDATA[Have a taste of the infamous Hag's very own recipe! Bolster your might and give in to the wild's influence!]]></entry>
+	<entry id="str_inventory_description_supplygourmet_courtyard_A"><![CDATA[A bloostuffed meal popular among the Crimson Elite, this has an empowering flavor for those afflicted by the Curse.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_courtyard_B"><![CDATA[This cocktail entices all enjoyers into a frenzy at the sight of blood and further enhances the potency of those already Cursed.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_farm_A"><![CDATA[This {colour_start|gourmet_com}!spUri0uS{colour_end} shard filled dessert will {colour_start|gourmet_com}REfr3sH Sk|l1 u$e?{colour_end} and leave you with a soothing {colour_start|gourmet_com}<H0rRor>{colour_end} bliss.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_farm_B"><![CDATA[The {colour_start|gourmet_com}e t e r n a l{colour_end} morning begins {colour_start|gourmet_com}an& en&s{colour_end} with an invigorating meal that guarantees {colour_start|gourmet_com}^fEeBle*{colour_end} critical success for{colour_start|debuff}EVER{colour_end} the day!]]></entry>
+	<entry id="str_inventory_description_supplygourmet_SI_A"><![CDATA[Culinarily appreciating these beasts grants one a better understanding on how to face them in combat.]]></entry>
+	<entry id="str_inventory_description_supplygourmet_SI_B"><![CDATA[The rich tofu procured from the locals refreshes the spirit but sits uneasily in the stomach. Enjoy with talismans on hand.]]></entry>
 
 	<entry id="str_gourmet_supply"><![CDATA[(gagging) Oh yeah... that was good...]]></entry>
 	<entry id="str_gourmet_supply"><![CDATA[Fine. Just don't tell me what's in it.]]></entry>

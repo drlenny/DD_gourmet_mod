@@ -1900,7 +1900,7 @@
          "id": "S_gourmet_weald_B_blight_res",
          "stat_type": "resistance",
          "stat_sub_type": "poison",
-         "amount": -0.2,
+         "amount": -0.3,
 
          "remove_if_not_active": false,
          "rule_type": "always",
@@ -1942,7 +1942,7 @@
          "id": "S_gourmet_weald_B_dmgl",
          "stat_type": "combat_stat_multiply",
          "stat_sub_type": "damage_low",
-         "amount": -0.15,
+         "amount": 0.15,
 
          "remove_if_not_active": false,
          "rule_type": "always",
