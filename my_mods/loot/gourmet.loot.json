@@ -19,7 +19,7 @@
           "dungeon" : "crypts",
           "entries" :
           [
-             { "type" : "nothing", "chances" : 3, "data" : { }},
+             { "type" : "nothing", "chances" : 2, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_crypts_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_crypts_B", "amount" : 1 }}
           ]
@@ -30,7 +30,7 @@
           "dungeon" : "cove",
           "entries" :
           [
-             { "type" : "nothing", "chances" : 3, "data" : { }},
+             { "type" : "nothing", "chances" : 2, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_cove_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_cove_B", "amount" : 1 }}
           ]
@@ -41,7 +41,7 @@
           "dungeon" : "warrens",
           "entries" :
           [
-             { "type" : "nothing", "chances" : 3, "data" : { }},
+             { "type" : "nothing", "chances" : 2, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_warrens_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_warrens_B", "amount" : 1 }}
           ]
@@ -52,7 +52,7 @@
           "dungeon" : "weald",
           "entries" :
           [
-             { "type" : "nothing", "chances" : 3, "data" : { }},
+             { "type" : "nothing", "chances" : 2, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_weald_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_weald_B", "amount" : 1 }}
           ]
@@ -63,7 +63,7 @@
           "dungeon" : "courtyard",
           "entries" :
           [
-             { "type" : "nothing", "chances" : 3, "data" : { }},
+             { "type" : "nothing", "chances" : 2, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_courtyard_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_courtyard_B", "amount" : 1 }}
           ]
@@ -74,7 +74,7 @@
           "dungeon" : "farm",
           "entries" :
           [
-            { "type" : "nothing", "chances" : 3, "data" : { }},
+            { "type" : "nothing", "chances" : 2, "data" : { }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_farm_A", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_farm_B", "amount" : 1 }}
           ]
@@ -85,7 +85,7 @@
           "dungeon" : "ship",
           "entries" :
           [
-             { "type" : "nothing", "chances" : 3, "data" : { }},
+             { "type" : "nothing", "chances" : 2, "data" : { }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_SI_A", "amount" : 1 }},
              { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_SI_B", "amount" : 1 }}
           ]
@@ -96,7 +96,7 @@
         "dungeon" : "",
         "entries" :
         [
-           { "type" : "nothing", "chances" : 3, "data" : { }},
+           { "type" : "nothing", "chances" : 2, "data" : { }},
            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }}
         ]
@@ -109,12 +109,6 @@
 		[
          { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_A", "amount" : 1 }},
          { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_common_B", "amount" : 1 }},
-         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_SI_A", "amount" : 1 }},
-         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_SI_B", "amount" : 1 }},
-         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_farm_A", "amount" : 1 }},
-         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_farm_B", "amount" : 1 }},
-         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_courtyard_A", "amount" : 1 }},
-         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_courtyard_B", "amount" : 1 }},
          { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_weald_A", "amount" : 1 }},
          { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_weald_B", "amount" : 1 }},
          { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "gourmet_warrens_A", "amount" : 1 }},
@@ -133,6 +127,16 @@
 		"entries" :
 		[
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "gourmet_camp_food" }}
+		]
+	},
+   {
+		"id" : "gourmet_produce_provision",
+		"difficulty" : 0,
+		"dungeon" : "",
+		"entries" :
+		[
+			{ "type" : "item", "chances" : 4, "data" : { "type" : "provision", "id" : "", "amount" : 2 }},
+			{ "type" : "item", "chances" : 2, "data" : { "type" : "provision", "id" : "", "amount" : 3 }}
 		]
 	}
     ]

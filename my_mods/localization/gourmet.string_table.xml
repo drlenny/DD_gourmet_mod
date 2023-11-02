@@ -169,7 +169,7 @@
 	<entry id="gourmet+str_gourmet_supply"><![CDATA[You no want? Hmmph. More for me.]]></entry>
 	<entry id="gourmet+str_gourmet_supply"><![CDATA[<BELCH>]]></entry>
 
-	<!--Camping Skill Names & Barks -->
+	<!--Camping Skill Names & Barks & Tooltips -->
 	<entry id="gourmet+str_bark_encourage"><![CDATA[You smell... (SNIFF) ...good.]]></entry>
     <entry id="gourmet+str_bark_encourage"><![CDATA[Taste this. It good. No has human meat... This time.]]></entry>
     <entry id="gourmet+str_bark_encourage"><![CDATA[Here. Sweet snack. Stop whine.]]></entry>
@@ -188,14 +188,17 @@
 	<entry id="str_bark_gourmet_feast"><![CDATA[Hmph. You can have... some.]]></entry>
 	<entry id="str_bark_gourmet_feast"><![CDATA[Much food. Eat fill. Need be strong!]]></entry>
 	
-    <entry id="camping_skill_name_food_sample"><![CDATA[HAVE A TASTE]]></entry>
-	<entry id="str_bark_food_sample"><![CDATA[You. Taste this. What think?]]></entry>   
-	<entry id="str_bark_food_sample"><![CDATA[You like? (grunt) Yes. You do.]]></entry>   
-	<entry id="str_bark_food_sample"><![CDATA[Hrrmmm... Need salt?]]></entry>   
+    <entry id="camping_skill_name_gourmet_food_sample"><![CDATA[HAVE A TASTE]]></entry>
+	<entry id="str_bark_gourmet_food_sample"><![CDATA[You. Taste this. What think?]]></entry>   
+	<entry id="str_bark_gourmet_food_sample"><![CDATA[You like? (grunt) Yes. You do.]]></entry>   
+	<entry id="str_bark_gourmet_food_sample"><![CDATA[Hrrmmm... Need salt?]]></entry>   
 	
     <entry id="camping_skill_name_gourmet_leftovers"><![CDATA[LEFTOVERS]]></entry>
 	<entry id="str_bark_gourmet_leftovers"><![CDATA[Hrmph. Was saving this...]]></entry>
 	<entry id="str_bark_gourmet_leftovers"><![CDATA[(sniff) Good. Mold is ripe.]]></entry>
+
+	<entry id="camping_skill_effect_loot_gourmet_produce_provision"><![CDATA[Produce a few {colour_start|notable}Food{colour_end} provisions]]></entry>
+	<entry id="camping_skill_effect_loot_gourmet_leftovers_food"><![CDATA[Produce 1 random {colour_start|notable}Gourmet Food Item{colour_end}]]></entry>
 	
 	<!--Death's Door Barks-->
 	<entry id="gourmet+str_bark_deathsdoor"><![CDATA[Taste... blood... mmmm...]]></entry>
@@ -313,37 +316,37 @@
     <entry id="gourmet+str_keep_loot_string"><![CDATA[Me find! Me keep!]]></entry>
 
 	<!--Camping Barks-->
-    <entry id="str_bark_stress_partyhigh"><![CDATA[Grrrr me no like you! And you! And you!]]></entry>
-    <entry id="str_bark_stress_partyhigh"><![CDATA[STOP YOU WHINE, RUNTS.]]></entry>
-    <entry id="str_bark_stress_partylow"><![CDATA[Me like you. Much quiet.]]></entry>
-    <entry id="str_bark_stress_partylow"><![CDATA[(excited snuffling)]]></entry>
-    <entry id="str_bark_hp_partylow"><![CDATA[We meal for food...]]></entry>
-    <entry id="str_bark_hp_partylow"><![CDATA[(grunts) When we sleep...]]></entry>
-    <entry id="str_bark_hp_partyhigh"><![CDATA[We full belly! We strong!]]></entry>
-    <entry id="str_bark_hp_partyhigh"><![CDATA[Good health! We good hunt!]]></entry>
-    <entry id="str_bark_hp_selflow"><![CDATA[Me hurt! No like!]]></entry>
-    <entry id="str_bark_hp_selflow"><![CDATA[Food hurt...]]></entry>
-    <entry id="str_bark_hp_selfhigh"><![CDATA[<belches>]]></entry>
-    <entry id="str_bark_hp_selfhigh"><![CDATA[Me more strong than food! Me hunt then cook food!]]></entry>
-    <entry id="str_bark_stress_selflow"><![CDATA[Hmmph. No scary.]]></entry>
-    <entry id="str_bark_stress_selflow"><![CDATA[This easy! Like cake piece!]]></entry>
-    <entry id="str_bark_stress_selfhigh"><![CDATA[(low growling)]]></entry>
-    <entry id="str_bark_stress_selfhigh"><![CDATA[(snarling)]]></entry>
-    <entry id="str_bark_party_great_condition"><![CDATA[We hunt! We cook! WE EAT!]]></entry>
-    <entry id="str_bark_party_great_condition"><![CDATA[(approving grunt)]]></entry>
-    <entry id="str_bark_party_poor_condition"><![CDATA[Grrrrr... me want go town. This place dumb!]]></entry>
-    <entry id="str_bark_party_poor_condition"><![CDATA[(anxious growling)]]></entry>
-    <entry id="str_bark_firewood_low"><![CDATA[No more fire. Cold food only now.]]></entry>
-    <entry id="str_bark_firewood_low"><![CDATA[No more fire wood? Hmmph. Me want s'mores...]]></entry>
-    <entry id="str_bark_provisions_low"><![CDATA[Need ingredients. Time for hunt.]]></entry>
-    <entry id="str_bark_provisions_low"><![CDATA[Guh?! What mean no food left?!]]></entry>
-    <entry id="str_bark_provisions_high"><![CDATA[Me bring many food! ... Fine. Can share.]]></entry>
-    <entry id="str_bark_provisions_high"><![CDATA[Much food for cook! Yum!]]></entry>
-    <entry id="str_bark_firewood_high"><![CDATA[Make big fire! Me want s'mores!]]></entry>
-    <entry id="str_bark_firewood_high"><![CDATA[Me use more fire for next meal.]]></entry>
-    <entry id="str_bark_companionship"><![CDATA[Me no like you least. Is praise.]]></entry>
-    <entry id="str_bark_companionship"><![CDATA[Me wash knife. Me take watch.]]></entry>
-    <entry id="str_bark_companionship"><![CDATA[You sleep. Need strong for hunt!]]></entry>
+    <entry id="gourmet+str_bark_stress_partyhigh"><![CDATA[Grrrr me no like you! And you! And you!]]></entry>
+    <entry id="gourmet+str_bark_stress_partyhigh"><![CDATA[STOP YOU WHINE, RUNTS.]]></entry>
+    <entry id="gourmet+str_bark_stress_partylow"><![CDATA[Me like you. Much quiet.]]></entry>
+    <entry id="gourmet+str_bark_stress_partylow"><![CDATA[(excited snuffling)]]></entry>
+    <entry id="gourmet+str_bark_hp_partylow"><![CDATA[We meal for food...]]></entry>
+    <entry id="gourmet+str_bark_hp_partylow"><![CDATA[(grunts) When we sleep...]]></entry>
+    <entry id="gourmet+str_bark_hp_partyhigh"><![CDATA[We full belly! We strong!]]></entry>
+    <entry id="gourmet+str_bark_hp_partyhigh"><![CDATA[Good health! We good hunt!]]></entry>
+    <entry id="gourmet+str_bark_hp_selflow"><![CDATA[Me hurt! No like!]]></entry>
+    <entry id="gourmet+str_bark_hp_selflow"><![CDATA[Food hurt...]]></entry>
+    <entry id="gourmet+str_bark_hp_selfhigh"><![CDATA[<belches>]]></entry>
+    <entry id="gourmet+str_bark_hp_selfhigh"><![CDATA[Me more strong than food! Me hunt then cook food!]]></entry>
+    <entry id="gourmet+str_bark_stress_selflow"><![CDATA[Hmmph. No scary.]]></entry>
+    <entry id="gourmet+str_bark_stress_selflow"><![CDATA[This easy! Like cake piece!]]></entry>
+    <entry id="gourmet+str_bark_stress_selfhigh"><![CDATA[(low growling)]]></entry>
+    <entry id="gourmet+str_bark_stress_selfhigh"><![CDATA[(snarling)]]></entry>
+    <entry id="gourmet+str_bark_party_great_condition"><![CDATA[We hunt! We cook! WE EAT!]]></entry>
+    <entry id="gourmet+str_bark_party_great_condition"><![CDATA[(approving grunt)]]></entry>
+    <entry id="gourmet+str_bark_party_poor_condition"><![CDATA[Grrrrr... me want go town. This place dumb!]]></entry>
+    <entry id="gourmet+str_bark_party_poor_condition"><![CDATA[(anxious growling)]]></entry>
+    <entry id="gourmet+str_bark_firewood_low"><![CDATA[No more fire. Cold food only now.]]></entry>
+    <entry id="gourmet+str_bark_firewood_low"><![CDATA[No more fire wood? Hmmph. Me want s'mores...]]></entry>
+    <entry id="gourmet+str_bark_provisions_low"><![CDATA[Need ingredients. Time for hunt.]]></entry>
+    <entry id="gourmet+str_bark_provisions_low"><![CDATA[Guh?! What mean no food left?!]]></entry>
+    <entry id="gourmet+str_bark_provisions_high"><![CDATA[Me bring many food! ... Fine. Can share.]]></entry>
+    <entry id="gourmet+str_bark_provisions_high"><![CDATA[Much food for cook! Yum!]]></entry>
+    <entry id="gourmet+str_bark_firewood_high"><![CDATA[Make big fire! Me want s'mores!]]></entry>
+    <entry id="gourmet+str_bark_firewood_high"><![CDATA[Me use more fire for next meal.]]></entry>
+    <entry id="gourmet+str_bark_companionship"><![CDATA[Me no like you least. Is praise.]]></entry>
+    <entry id="gourmet+str_bark_companionship"><![CDATA[Me wash knife. Me take watch.]]></entry>
+    <entry id="gourmet+str_bark_companionship"><![CDATA[You sleep. Need strong for hunt!]]></entry>
 
 	<!--Facility Barks-->
     <entry id="gourmet+str_bar_committed"><![CDATA[Drink good. Use in food!]]></entry>

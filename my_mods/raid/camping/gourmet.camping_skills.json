@@ -141,7 +141,7 @@
 						"amount": 1.0
 					},
 					"type": "loot",
-					"sub_type": "P",
+					"sub_type": "gourmet_produce_provision",
 					"amount": 1
 				},
 				{
