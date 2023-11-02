@@ -175,8 +175,8 @@ effect: .name "Gourmet vs Blight Tooltip 3" .target "performer" .chance 100% .sk
 effect: .name "gourmet_rare_shuffle_self" .target "performer" .shuffletarget .chance 100% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
 effect: .name "gourmet_rare_attacker_acc_debuff" .target "target" .combat_stat_buff 1 .attack_rating_add -20% .chance 120% .duration 3 .on_hit true .on_miss false .apply_once true
 
-effect: .name "gourmet_very_rare_on_attack_effects" .target "performer_group_other" .chance 100% .stress 10 .buff_ids "gourmet_bell_speed_buff" "gourmet_bell_dmgh_vs_mark_buff" "gourmet_bell_dmgl_vs_mark_buff" "gourmet_bell_dmgh_vs_stun_buff" "gourmet_bell_dmgl_vs_stun_buff" .duration 2 .on_hit true .on_miss false .apply_once true
-effect: .name "gourmet_very_rare_on_friendly_skill_effects" .target "target" .chance 100% .stress -10 .buff_ids "gourmet_bell_stress_received_when_healthy" .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "gourmet_very_rare_on_attack_effects" .target "performer_group_other" .chance 100% .stress 8 .buff_ids "gourmet_bell_speed_buff" "gourmet_bell_dmgh_vs_mark_buff" "gourmet_bell_dmgl_vs_mark_buff" "gourmet_bell_dmgh_vs_stun_buff" "gourmet_bell_dmgl_vs_stun_buff" .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "gourmet_very_rare_on_friendly_skill_effects" .target "target" .chance 100% .healstress 10 .buff_ids "gourmet_bell_stress_received_when_healthy" .duration 2 .on_hit true .on_miss false .apply_once true
 
 effect: .name "gourmet_cc_on_attack_heal" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill .can_crit_heal false
 
