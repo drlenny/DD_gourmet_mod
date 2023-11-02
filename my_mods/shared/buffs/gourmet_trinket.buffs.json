@@ -595,7 +595,7 @@
             "rule_type" : "hpbelow",
             "is_false_rule" : false,
             "rule_data" : {
-               "float" : 50,
+               "float" : 0.5,
                "string" : ""
             }
         },
@@ -608,7 +608,7 @@
             "rule_type" : "hpbelow",
             "is_false_rule" : false,
             "rule_data" : {
-               "float" : 25,
+               "float" : 0.25,
                "string" : ""
             }
         },
@@ -621,7 +621,7 @@
             "rule_type" : "hpbelow",
             "is_false_rule" : false,
             "rule_data" : {
-               "float" : 25,
+               "float" : 0.25,
                "string" : ""
             }
         },

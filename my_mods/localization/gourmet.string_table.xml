@@ -313,37 +313,37 @@
     <entry id="gourmet+str_keep_loot_string"><![CDATA[Me find! Me keep!]]></entry>
 
 	<!--Camping Barks-->
-    <entry id="str_bark_stress_partyhigh"><![CDATA[I did not think we'd have it this bad...]]></entry>
-    <entry id="str_bark_stress_partyhigh"><![CDATA[This is more daunting than I'd expected...]]></entry>
-    <entry id="str_bark_stress_partylow"><![CDATA[This is not so difficult after all.]]></entry>
-    <entry id="str_bark_stress_partylow"><![CDATA[This will be the easiest pay I've ever received.]]></entry>
-    <entry id="str_bark_hp_partylow"><![CDATA[Another battle may be the end of us.]]></entry>
-    <entry id="str_bark_hp_partylow"><![CDATA[We have paid for our folly in blood...]]></entry>
-    <entry id="str_bark_hp_partyhigh"><![CDATA[We are healthy and prepared for what may come.]]></entry>
-    <entry id="str_bark_hp_partyhigh"><![CDATA[At this rate, we should be home by dawn.]]></entry>
-    <entry id="str_bark_hp_selflow"><![CDATA[My wounds are many and I feel weak.]]></entry>
-    <entry id="str_bark_hp_selflow"><![CDATA[Just leave me here. I only slow you down.]]></entry>
-    <entry id="str_bark_hp_selfhigh"><![CDATA[I am ready for battle. Let them come.]]></entry>
-    <entry id="str_bark_hp_selfhigh"><![CDATA[I am blessed with good health. For today, at least.]]></entry>
-    <entry id="str_bark_stress_selflow"><![CDATA[I've seen nothing I am not prepared for.]]></entry>
-    <entry id="str_bark_stress_selflow"><![CDATA[It looks bad, but there is nothing to fear here.]]></entry>
-    <entry id="str_bark_stress_selfhigh"><![CDATA[I am not myself... Please, forgive me.]]></entry>
-    <entry id="str_bark_stress_selfhigh"><![CDATA[You must forgive me... this place -- it is getting to me.]]></entry>
-    <entry id="str_bark_party_great_condition"><![CDATA[We are healthy and mentally steeled for this challenge!]]></entry>
-    <entry id="str_bark_party_great_condition"><![CDATA[We are the flame!]]></entry>
-    <entry id="str_bark_party_poor_condition"><![CDATA[We must return to town... Please, listen to me!]]></entry>
-    <entry id="str_bark_party_poor_condition"><![CDATA[Hopeless. The mission is utterly hopeless.]]></entry>
-    <entry id="str_bark_firewood_low"><![CDATA[We are out of firewood. We must steel ourselves for a push to the end.]]></entry>
-    <entry id="str_bark_firewood_low"><![CDATA[We've used our last log. So that's the state of things.]]></entry>
-    <entry id="str_bark_provisions_low"><![CDATA[Our provisions run low. This journey best not last much longer.]]></entry>
-    <entry id="str_bark_provisions_low"><![CDATA[Perhaps we could forage some berries? ... No?]]></entry>
-    <entry id="str_bark_provisions_high"><![CDATA[Well, at least we won't go hungry.]]></entry>
-    <entry id="str_bark_provisions_high"><![CDATA[Whoever packed all this food, I could kiss you.]]></entry>
-    <entry id="str_bark_firewood_high"><![CDATA[Perhaps a bonfire would frighten away the monsters.]]></entry>
-    <entry id="str_bark_firewood_high"><![CDATA[Save the wood for when we need it. Danger ahead.]]></entry>
-    <entry id="str_bark_companionship"><![CDATA[I am glad to face these dangers with all of you.]]></entry>
-    <entry id="str_bark_companionship"><![CDATA[We must be on our guard. I'll take first watch.]]></entry>
-    <entry id="str_bark_companionship"><![CDATA[Sleep calls. We'll need our strength.]]></entry>
+    <entry id="str_bark_stress_partyhigh"><![CDATA[Grrrr me no like you! And you! And you!]]></entry>
+    <entry id="str_bark_stress_partyhigh"><![CDATA[STOP YOU WHINE, RUNTS.]]></entry>
+    <entry id="str_bark_stress_partylow"><![CDATA[Me like you. Much quiet.]]></entry>
+    <entry id="str_bark_stress_partylow"><![CDATA[(excited snuffling)]]></entry>
+    <entry id="str_bark_hp_partylow"><![CDATA[We meal for food...]]></entry>
+    <entry id="str_bark_hp_partylow"><![CDATA[(grunts) When we sleep...]]></entry>
+    <entry id="str_bark_hp_partyhigh"><![CDATA[We full belly! We strong!]]></entry>
+    <entry id="str_bark_hp_partyhigh"><![CDATA[Good health! We good hunt!]]></entry>
+    <entry id="str_bark_hp_selflow"><![CDATA[Me hurt! No like!]]></entry>
+    <entry id="str_bark_hp_selflow"><![CDATA[Food hurt...]]></entry>
+    <entry id="str_bark_hp_selfhigh"><![CDATA[<belches>]]></entry>
+    <entry id="str_bark_hp_selfhigh"><![CDATA[Me more strong than food! Me hunt then cook food!]]></entry>
+    <entry id="str_bark_stress_selflow"><![CDATA[Hmmph. No scary.]]></entry>
+    <entry id="str_bark_stress_selflow"><![CDATA[This easy! Like cake piece!]]></entry>
+    <entry id="str_bark_stress_selfhigh"><![CDATA[(low growling)]]></entry>
+    <entry id="str_bark_stress_selfhigh"><![CDATA[(snarling)]]></entry>
+    <entry id="str_bark_party_great_condition"><![CDATA[We hunt! We cook! WE EAT!]]></entry>
+    <entry id="str_bark_party_great_condition"><![CDATA[(approving grunt)]]></entry>
+    <entry id="str_bark_party_poor_condition"><![CDATA[Grrrrr... me want go town. This place dumb!]]></entry>
+    <entry id="str_bark_party_poor_condition"><![CDATA[(anxious growling)]]></entry>
+    <entry id="str_bark_firewood_low"><![CDATA[No more fire. Cold food only now.]]></entry>
+    <entry id="str_bark_firewood_low"><![CDATA[No more fire wood? Hmmph. Me want s'mores...]]></entry>
+    <entry id="str_bark_provisions_low"><![CDATA[Need ingredients. Time for hunt.]]></entry>
+    <entry id="str_bark_provisions_low"><![CDATA[Guh?! What mean no food left?!]]></entry>
+    <entry id="str_bark_provisions_high"><![CDATA[Me bring many food! ... Fine. Can share.]]></entry>
+    <entry id="str_bark_provisions_high"><![CDATA[Much food for cook! Yum!]]></entry>
+    <entry id="str_bark_firewood_high"><![CDATA[Make big fire! Me want s'mores!]]></entry>
+    <entry id="str_bark_firewood_high"><![CDATA[Me use more fire for next meal.]]></entry>
+    <entry id="str_bark_companionship"><![CDATA[Me no like you least. Is praise.]]></entry>
+    <entry id="str_bark_companionship"><![CDATA[Me wash knife. Me take watch.]]></entry>
+    <entry id="str_bark_companionship"><![CDATA[You sleep. Need strong for hunt!]]></entry>
 
 	<!--Facility Barks-->
     <entry id="gourmet+str_bar_committed"><![CDATA[Drink good. Use in food!]]></entry>
@@ -426,7 +426,7 @@
     <entry id="gourmet+str_stagecoach_idle"><![CDATA[Hmmph. Too bright.]]></entry>
     <entry id="gourmet+str_stagecoach_idle"><![CDATA[Yes. Me am swine. Now move. Want make food.]]></entry>
     <entry id="gourmet+str_stagecoach_idle"><![CDATA[... (grunts)]]></entry>
-    <entry id="gourmet+str_stagecoach_idle"><![CDATA[No worry. Me no eat people. Too scrawny.]]></entry>
+    <entry id="gourmet+str_stagecoach_idle"><![CDATA[No worry. Me no eat you. Too scrawny.]]></entry>
     <entry id="gourmet+str_stagecoach_idle"><![CDATA[Me make food. You thank. Is good.]]></entry>
 
 	<!--Roster List Barks-->
@@ -453,12 +453,12 @@
 	<entry id="gourmet+str_roster_list_depressed_bark"><![CDATA[Hmm? Lunch? Huff... fine.]]></entry>
 	<entry id="gourmet+str_roster_list_selfish_bark"><![CDATA[This food MINE! NOT FOR YOU!]]></entry>
 	<entry id="gourmet+str_roster_list_selfish_bark"><![CDATA[Me big! You small! Me get MORE!]]></entry>
-	<entry id="gourmet+str_roster_list_selfish_bark"><![CDATA[This food is MINE! NOT FOR YOU!]]></entry>
+	<entry id="gourmet+str_roster_list_selfish_bark"><![CDATA[This food MINE! NOT FOR YOU!]]></entry>
 	<entry id="gourmet+str_roster_list_abusive_bark"><![CDATA[(ferocious growl)]]></entry>
 	<entry id="gourmet+str_roster_list_abusive_bark"><![CDATA[You runt. All you runts. Hate runts.]]></entry>
 	<entry id="gourmet+str_roster_list_abusive_bark"><![CDATA[You weak. Scrawny. No worth meal.]]></entry>
 	<entry id="gourmet+str_roster_list_masochistic_bark"><![CDATA[Mmmmmm... me blood taste good.]]></entry>
-	<entry id="gourmet+str_roster_list_masochistic_bark"><![CDATA[Swine taste good. Me swine... hmmmm...]]></entry>
+	<entry id="gourmet+str_roster_list_masochistic_bark"><![CDATA[Swine taste good. Me swine?... hmmmm...]]></entry>
 	<entry id="gourmet+str_roster_list_masochistic_bark"><![CDATA[Me hunger for pain!]]></entry>
 	<entry id="gourmet+str_roster_list_irrational_bark"><![CDATA[(imitating various animal sounds)]]></entry>
 	<entry id="gourmet+str_roster_list_irrational_bark"><![CDATA[Me know now! Me no pig! Me pretty pony!]]></entry>
@@ -475,7 +475,7 @@
     <entry id="gourmet+str_roster_list_brothel_bark"><![CDATA[That no how eat food! You n- oh.]]></entry>
     <entry id="gourmet+str_roster_list_meditation_bark"><![CDATA[Hmmmmmmm...]]></entry>
     <entry id="gourmet+str_roster_list_meditation_bark"><![CDATA[<snore>]]></entry>
-    <entry id="gourmet+str_roster_list_meditation_bark"><![CDATA[...Bored.]]></entry>
+    <entry id="gourmet+str_roster_list_meditation_bark"><![CDATA[...Quiet nice.]]></entry>
     <entry id="gourmet+str_roster_list_prayer_bark"><![CDATA[Ummm... Me no get this...]]></entry>
     <entry id="gourmet+str_roster_list_prayer_bark"><![CDATA[...No answer. Me do this right?]]></entry>
     <entry id="gourmet+str_roster_list_prayer_bark"><![CDATA[Where "Light"? Me no smell it.]]></entry>
@@ -525,11 +525,11 @@
     <entry id="gourmet+str_monster_attack_obliterate_enraged"><![CDATA[Weak king! You protect runt? Bah!]]></entry>
     <entry id="gourmet+str_monster_attack_obliterate_enraged"><![CDATA[Me kill king! Me kill runt! Make meal from both!]]></entry>
     <entry id="gourmet+str_monster_attack_squeal"><![CDATA[You next, RUNT.]]></entry>
-    <entry id="gourmet+str_monster_attack_squeal"><![CDATA[You make good appetizer before king, runt.]]></entry>
+    <entry id="gourmet+str_monster_attack_squeal"><![CDATA[You make good appetizer, runt.]]></entry>
     <entry id="gourmet+str_monster_attack_squeal_single"><![CDATA[Me hate runt! Feed to rats!]]></entry>
     <entry id="gourmet+str_monster_attack_squeal_single"><![CDATA[KILL RUNT! KILL IT!]]></entry>
 
-    <entry id="gourmet+str_monster_attack_light_fuse"><![CDATA[Hmmm? What noise?]]></entry>
+    <entry id="gourmet+str_monster_attack_light_fuse"><![CDATA[Smell metal! Smell fire!]]></entry>
     <entry id="gourmet+str_monster_attack_light_fuse"><![CDATA[What metal thing do?...]]></entry>	
     <entry id="gourmet+str_monster_attack_light_fuse"><![CDATA[Fire go boom!]]></entry>
 
@@ -541,55 +541,54 @@
 	<entry id="gourmet+str_monster_user_selected_targets_kill_pill"><![CDATA[Last meal...]]></entry>
 	
 	<!--Affliction: Fearful -->
-	<entry id="gourmet+str_afflicted_fearful"><![CDATA[This is it... They won!]]></entry>   
-	<entry id="gourmet+str_afflicted_fearful"><![CDATA[I failed them all...]]></entry>   
-	<entry id="gourmet+str_afflicted_fearful"><![CDATA[Where is my flame? I see only darkness...]]></entry>   
-	<entry id="gourmet+str_afflicted_fearful"><![CDATA[My flame will be snuffed out!]]></entry>   
-	<entry id="gourmet+str_afflicted_fearful"><![CDATA[Look how their eyes are flame!]]></entry>
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[(frightened squeals)]]></entry>   
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[Me get hungry! Me will starve!]]></entry>   
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[Me no like eyes! Scary eyes!]]></entry>   
+	<entry id="gourmet+str_afflicted_fearful"><![CDATA[GAH! What that?! Bad noise?!]]></entry>
 	
-	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[Evil lurks here and it hungers..]]></entry>   
-	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[This is it isn't it?]]></entry>   
-	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[We'll all be snuffed out...]]></entry>    
-	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[The fire in my heart flickers?]]></entry>    
-	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[Do I feel the cold creep upon me? Where's the warmth?]]></entry>  
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[(piercing squeal)]]></entry>   
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[Me so hungry. Me not survive...]]></entry>   
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[Gah! Me think me leave stove on at town!]]></entry>    
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[Me smell... danger...]]></entry>    
+	<entry id="gourmet+str_bark_stress_fearful"><![CDATA[Me feel... weak...]]></entry>  
 	
-	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[A t-tactical retreat!]]></entry>   
-	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[I n-need to relight the torch!]]></entry>   
-	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[I slink back to the darkness...]]></entry>   
-	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[I need t-time to prepare these explosives!]]></entry>   
-	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[Come on dammit! Light already!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[(shoves past looking for cover)]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[No! Me protect food!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[You fight! Me hide!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[Me big! You small! More hard to hit!]]></entry>   
+	<entry id="gourmet+str_change_pos_back_fearful"><![CDATA[Me no like them smell! Me move away!]]></entry>   
 	
-	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[What are you, insane?!]]></entry>    
-	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[They already figured us out!]]></entry>    
-	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[They know our tactics!]]></entry>    
-	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[There's no time for such foolishness!]]></entry>    
-	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[I refuse!]]></entry>  
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[NO NO NO NO NO NO NO!!!]]></entry>    
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[(tenses and growls)]]></entry>    
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[(only quivers in response)]]></entry>    
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[Me no like plan! Is scary!]]></entry>    
+	<entry id="gourmet+str_ignore_command_fearful"><![CDATA[Me want cook! Not fight!]]></entry>  
 
-	<entry id="gourmet+str_comment_self_hit_fearful"><![CDATA[Aw blast... you pitiless bastard!]]></entry>    
-	<entry id="gourmet+str_comment_self_hit_fearful"><![CDATA[I fumbled the lighter!]]></entry>
+	<entry id="gourmet+str_comment_self_hit_fearful"><![CDATA[No no no! Me not food!]]></entry>    
+	<entry id="gourmet+str_comment_self_hit_fearful"><![CDATA[(panicked squealing)]]></entry>
 	
-	<entry id="gourmet+str_comment_self_missed_fearful"><![CDATA[My iron fails me!]]></entry>    
-	<entry id="gourmet+str_comment_self_missed_fearful"><![CDATA[Too much smoke in my eyes!]]></entry>
+	<entry id="gourmet+str_comment_self_missed_fearful"><![CDATA[Too scary! Me close eyes! Did me hit?!]]></entry>    
+	<entry id="gourmet+str_comment_self_missed_fearful"><![CDATA[(desperate growl)]]></entry>
 	
-	<entry id="gourmet+str_comment_ally_attack_missed_fearful"><![CDATA[B-but you had a clear shot?!]]></entry>    
-	<entry id="gourmet+str_comment_ally_attack_missed_fearful"><![CDATA[We've got no chance... We should run!]]></entry>      
+	<entry id="gourmet+str_comment_ally_attack_missed_fearful"><![CDATA[No! You make food angry!]]></entry>    
+	<entry id="gourmet+str_comment_ally_attack_missed_fearful"><![CDATA[Food too strong! We need run!]]></entry>      
 	
-	<entry id="gourmet+str_comment_ally_hit_fearful"><![CDATA[Can't you see they're toying with us!?]]></entry>   
-	<entry id="gourmet+str_comment_ally_hit_fearful"><![CDATA[But will the next hit land too?!]]></entry> 
+	<entry id="gourmet+str_comment_ally_hit_fearful"><![CDATA[They hunt weak first! Is me next?!]]></entry>   
+	<entry id="gourmet+str_comment_ally_hit_fearful"><![CDATA[No stop! Keep scary food away!]]></entry> 
 	
 	<entry id="gourmet+str_comment_ally_missed_fearful"><![CDATA[There's no where else to run!]]></entry>    
-	<entry id="gourmet+str_comment_ally_missed_fearful"><![CDATA[That wasn't part of the plan!]]></entry>    
+	<entry id="gourmet+str_comment_ally_missed_fearful"><![CDATA[We run now! RUN NOW!]]></entry>    
 
-	<entry id="gourmet+str_block_move_fearful"><![CDATA[Stop moving or you will explode!]]></entry>    
-	<entry id="gourmet+str_block_move_fearful"><![CDATA[Stay put! These explosives are unstable!]]></entry>   	
+	<entry id="gourmet+str_block_move_fearful"><![CDATA[Me safe here! Me no move!]]></entry>    
+	<entry id="gourmet+str_block_move_fearful"><![CDATA[(nervous growling)]]></entry>   	
 	
-	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[Not even the power of fire can help us now.]]></entry>    
-	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[We are not the Flame, we are but moths!]]></entry>    
-	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[Who is to say we'll survive any of this?]]></entry>
+	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[Me smell danger... everywhere..]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[They much strong. They hunt. We food...]]></entry>    
+	<entry id="gourmet+str_bark_stress_camp_fearful"><![CDATA[Me so hungry... me starve... (whines)]]></entry>
 	
-	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[I keep telling you there's NO TIME!]]></entry>    
-	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[AHHH! Do not startle me while handling such explosives!]]></entry>    
-	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[Unhand me!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[NO TIME! DANGER NEAR!]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[(startled squeals)]]></entry>    
+	<entry id="gourmet+str_block_camping_skill_performer_fearful"><![CDATA[GAH! No touch me!]]></entry>    
 	
 	<!--Affliction: Paranoid -->
 	<entry id="gourmet+str_afflicted_paranoid"><![CDATA[This is a trap! I know it!]]></entry>   

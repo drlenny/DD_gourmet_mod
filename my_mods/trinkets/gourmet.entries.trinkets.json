@@ -130,7 +130,7 @@
             "price": 50000,
             "limit": 1,
             "origin_dungeon": "courtyard",
-            "attack_skill_additional_effects":
+            "was_hit_additional_effects":
             [
                 "gourmet_cc_on_hit_regen"
             ]
@@ -147,7 +147,7 @@
                 "gourmet"
             ],
             "rarity": "comet",
-            "shard": 55,
+            "shard": 100,
             "limit": 1,
             "origin_dungeon": ""
         },
