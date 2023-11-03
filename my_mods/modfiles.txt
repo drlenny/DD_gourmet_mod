@@ -167,7 +167,7 @@ heroes/gourmet/gourmet.art.darkest 1761
 heroes/gourmet/gourmet.info.darkest 19027
 heroes/gourmet/gourmet_guild_header.png 261387
 raid/camping/gourmet.camping_skills.json 10507
-shared/buffs/gourmet.buffs.json 73934
+shared/buffs/gourmet.buffs.json 73932
 shared/buffs/gourmet_tootltps.buffs.json 13152
 shared/buffs/gourmet_trinket.buffs.json 21694
 upgrades/heroes/gourmet.upgrades.json 21186

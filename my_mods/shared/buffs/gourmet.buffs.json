@@ -2400,8 +2400,8 @@
 			"rule_type": "stress_above",
 			"is_false_rule": false,
 			"rule_data": {
-				"float": 0,
-				"string": "50"
+				"float": 50,
+				"string": ""
 			}
 		},
       {
@@ -2415,8 +2415,8 @@
 			"rule_type": "stress_above",
 			"is_false_rule": false,
 			"rule_data": {
-				"float": 0,
-				"string": "50"
+				"float": 50,
+				"string": ""
 			}
 		},
       {
