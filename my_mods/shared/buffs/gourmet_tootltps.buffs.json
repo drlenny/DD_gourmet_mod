@@ -249,6 +249,58 @@
             }
          },
          {
+            "id" : "g_tt_devour_buff_1",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_buff_1",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_buff_2",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_buff_2",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_buff_3",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_buff_3",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_debuff",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_debuff",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
             "id" : "g_TT_guard_duration_buff",
             "stat_type" : "upgrade_discount",
             "stat_sub_type" : "g_TT_guard_duration_buff",

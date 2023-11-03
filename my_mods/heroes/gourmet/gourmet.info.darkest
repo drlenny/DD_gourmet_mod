@@ -32,11 +32,11 @@ combat_skill: .id "tenderize" .level 3 .type "melee" .atk 105% .dmg -70% .crit -
 combat_skill: .id "tenderize" .level 4 .type "melee" .atk 110% .dmg -70% .crit 0% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 5" "Gourmet Mallet Mark" "Gourmet Mallet Prot Debuff 5" "Gourmet Dmg Received Marked Debuff 5"
 
 // Obliterate Scraps
-combat_skill: .id "obliterate" .level 0 .type "melee" .atk 10% .dmg 60% .crit 8% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 1" "Gourmet Clear Marked Target"
-combat_skill: .id "obliterate" .level 1 .type "melee" .atk 10% .dmg 60% .crit 9% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 2" "Gourmet Clear Marked Target"
-combat_skill: .id "obliterate" .level 2 .type "melee" .atk 10% .dmg 65% .crit 10% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 3" "Gourmet Clear Marked Target"
-combat_skill: .id "obliterate" .level 3 .type "melee" .atk 10% .dmg 65% .crit 11% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 4" "Gourmet Clear Marked Target"
-combat_skill: .id "obliterate" .level 4 .type "melee" .atk 10% .dmg 70% .crit 12% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 5" "Gourmet Clear Marked Target"
+combat_skill: .id "obliterate" .level 0 .type "melee" .atk 15% .dmg 60% .crit 10% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 1" "Gourmet Clear Marked Target"
+combat_skill: .id "obliterate" .level 1 .type "melee" .atk 15% .dmg 60% .crit 11% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 2" "Gourmet Clear Marked Target"
+combat_skill: .id "obliterate" .level 2 .type "melee" .atk 15% .dmg 65% .crit 12% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 3" "Gourmet Clear Marked Target"
+combat_skill: .id "obliterate" .level 3 .type "melee" .atk 15% .dmg 65% .crit 13% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 4" "Gourmet Clear Marked Target"
+combat_skill: .id "obliterate" .level 4 .type "melee" .atk 15% .dmg 70% .crit 14% .launch 12 .target ~12 .is_crit_valid True  .effect "Gourmet Obliterate Acc Marked 5" "Gourmet Clear Marked Target"
 
 // Quick Snack
 combat_skill: .id "quick_snack" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 4321 .target @1234  .is_crit_valid True .effect "Gourmet Snack Heal Self 1" "Gourmet Snack Heal Target 1" "Gourmet Snack Self Regen 1" "Gourmet Snack Target Regen 1" "Gourmet Snack Clear Debuff Self 1" "Gourmet Snack Clear Debuff Target 1" "Gourmet Snack Stress Heal Self" "Gourmet Snack Stress Dmg Target" .is_stall_invalidating false
@@ -59,11 +59,11 @@ combat_skill: .id "devour" .level 2 .type "melee" .per_battle_limit 1 .atk 105% 
 combat_skill: .id "devour" .level 3 .type "melee" .per_battle_limit 1 .atk 110% .dmg 225% .crit 0%  .move 0 3 .launch 123 .target 1234 .is_crit_valid False .can_be_riposted false .effect "Gourmet Devour Heal Base 2" "Gourmet Devour Corpse Heal Scaling"  "Gourmet Devour Debuff" "Gourmet Devour Buffs 2" "Gourmet Devour Corpse Clear" "Gourmet Devour Dmg vs Healthy" "Gourmet Devour Dmg vs Corpse"
 combat_skill: .id "devour" .level 4 .type "melee" .per_battle_limit 1 .atk 115% .dmg 225% .crit 0%  .move 0 3 .launch 123 .target 1234 .is_crit_valid False .can_be_riposted false .effect "Gourmet Devour Heal Base 3" "Gourmet Devour Corpse Heal Scaling"  "Gourmet Devour Debuff" "Gourmet Devour Buffs 3" "Gourmet Devour Corpse Clear" "Gourmet Devour Dmg vs Healthy" "Gourmet Devour Dmg vs Corpse"
 
-combat_skill: .id "devour" .level 0 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 1"
-combat_skill: .id "devour" .level 1 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 1"
-combat_skill: .id "devour" .level 2 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 2"
-combat_skill: .id "devour" .level 3 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 2"
-combat_skill: .id "devour" .level 4 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 3"
+combat_skill: .id "devour" .level 0 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 1" "Gourmet Devour Buff Tooltip 1" "Gourmet Devour Debuff Tooltip"
+combat_skill: .id "devour" .level 1 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 1" "Gourmet Devour Buff Tooltip 1" "Gourmet Devour Debuff Tooltip"
+combat_skill: .id "devour" .level 2 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 2" "Gourmet Devour Buff Tooltip 2" "Gourmet Devour Debuff Tooltip"
+combat_skill: .id "devour" .level 3 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 2" "Gourmet Devour Buff Tooltip 2" "Gourmet Devour Debuff Tooltip"
+combat_skill: .id "devour" .level 4 .type "melee" .effect "Gourmet Devour Party Stress" "Gourmet Devour Tooltip vs Healthy" "Gourmet Devour Heal Tooltip 3" "Gourmet Devour Buff Tooltip 3" "Gourmet Devour Debuff Tooltip"
 
 // Taste Test
 

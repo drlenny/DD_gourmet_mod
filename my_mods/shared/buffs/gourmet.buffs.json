@@ -2378,7 +2378,7 @@
 			"id": "gourmet_camp_stress_res_buff",
 			"stat_type": "stress_dmg_received_percent",
 			"stat_sub_type": "",
-			"amount": -0.2,
+			"amount": -0.35,
 			"duration_type" : "combat_end",
          "duration" : 4,
 			"remove_if_not_active": false,
@@ -2390,10 +2390,40 @@
 			}
 		},
       {
+			"id": "gourmet_camp_brute_dmgh",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.25,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "stress_above",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "50"
+			}
+		},
+      {
+			"id": "gourmet_camp_brute_dmgl",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.25,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "stress_above",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "50"
+			}
+		},
+      {
 			"id": "gourmet_camp_stress_res_debuff_others",
 			"stat_type": "stress_dmg_received_percent",
 			"stat_sub_type": "",
-			"amount": 0.2,
+			"amount": 0.1,
 			"duration_type" : "combat_end",
          "duration" : 4,
 			"remove_if_not_active": false,
@@ -2423,7 +2453,7 @@
 			"id": "gourmet_camp_party_max_hp",
 			"stat_type": "combat_stat_multiply",
 			"stat_sub_type": "max_hp",
-			"amount": 0.1,
+			"amount": 0.15,
 			"duration_type" : "combat_end",
          "duration" : 4,
 			"remove_if_not_active": false,
@@ -2431,6 +2461,36 @@
 			"is_false_rule": false,
 			"rule_data": {
 				"float": 0,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_party_healthy_dmgh",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.15,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "hpabove",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.75,
+				"string": ""
+			}
+		},
+      {
+			"id": "gourmet_camp_party_healthy_dmgl",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.15,
+			"duration_type" : "combat_end",
+         "duration" : 4,
+			"remove_if_not_active": false,
+			"rule_type": "hpabove",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.75,
 				"string": ""
 			}
 		},

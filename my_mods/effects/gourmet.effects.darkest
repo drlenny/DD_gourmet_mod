@@ -118,6 +118,12 @@ effect: .name "Gourmet Devour Heal Tooltip 1" .target "performer" .chance 100% .
 effect: .name "Gourmet Devour Heal Tooltip 2" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_heal_2" .on_hit true .on_miss false
 effect: .name "Gourmet Devour Heal Tooltip 3" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_heal_3" .on_hit true .on_miss false
 
+effect: .name "Gourmet Devour Buff Tooltip 1" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_buff_1" .on_hit true .on_miss false
+effect: .name "Gourmet Devour Buff Tooltip 2" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_buff_2" .on_hit true .on_miss false
+effect: .name "Gourmet Devour Buff Tooltip 3" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_buff_3" .on_hit true .on_miss false
+
+effect: .name "Gourmet Devour Debuff Tooltip" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_debuff" .on_hit true .on_miss false
+
 effect: .name "Gourmet Devour Party Stress" .target "performer_group_other" .chance 100% .stress 8 .on_hit true .on_miss true .apply_once true
 effect: .name "Gourmet Devour Corpse Clear" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue true .can_apply_on_death true
 

@@ -187,7 +187,7 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_stress_res_buff",
-					"amount": -0.2
+					"amount": -0.35
 				},
 				{
 					"selection": "self",
@@ -200,29 +200,51 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_stress_res_buff",
-					"amount": -0.2
+					"amount": -0.35
 				},
+				{
+					"selection": "self",
+					"requirements": [],
+					"chance": {
+						"code": "c",
+						"amount": 1.0
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_brute_dmgh",
+					"amount": 0.25
+				},
+				{
+					"selection": "self",
+					"requirements": [],
+					"chance": {
+						"code": "d",
+						"amount": 1.0
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_brute_dmgl",
+					"amount": 0.25
+				},				
 				{
 					"selection": "party_other",
 					"requirements": [],
 					"chance": {
-						"code": "c",
+						"code": "e",
 						"amount": 0.75
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_stress_res_debuff_others",
-					"amount": 0.2
+					"amount": 0.1
 				},
 				{
 					"selection": "party_other",
 					"requirements": [],
 					"chance": {
-						"code": "d",
+						"code": "f",
 						"amount": 0.75
 					},
 					"type": "stress_damage_amount",
 					"sub_type": "",
-					"amount": 15
+					"amount": 6
 				}
 			],
 			"hero_classes": [
@@ -256,7 +278,7 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_party_max_hp",
-					"amount": 0.1
+					"amount": 0.15
 				},
 				{
 					"selection": "party",
@@ -276,6 +298,28 @@
 						"code": "c",
 						"amount": 1.0
 					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_party_healthy_dmgh",
+					"amount": 0.15
+				},
+				{
+					"selection": "party",
+					"requirements": [],
+					"chance": {
+						"code": "d",
+						"amount": 1.0
+					},
+					"type": "buff",
+					"sub_type": "gourmet_camp_party_healthy_dmgl",
+					"amount": 0.15
+				},
+				{
+					"selection": "party",
+					"requirements": [],
+					"chance": {
+						"code": "e",
+						"amount": 1.0
+					},
 					"type": "remove_deaths_door_recovery_buffs",
 					"sub_type": "",
 					"amount": 0
@@ -284,7 +328,7 @@
 					"selection": "party",
 					"requirements": [],
 					"chance": {
-						"code": "d",
+						"code": "f",
 						"amount": 1.0
 					},
 					"type": "buff",
@@ -295,7 +339,7 @@
 					"selection": "party",
 					"requirements": [],
 					"chance": {
-						"code": "e",
+						"code": "g",
 						"amount": 0.75
 					},
 					"type": "buff",
