@@ -60,13 +60,13 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_1"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 2 HP + 2 bonus HP for each Corpse]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_2"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 3 HP + 3 bonus HP for each Corpse]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_3"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 4 HP + 4 bonus HP for each Corpse]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_1"><![CDATA[Self: {colour_start|buff}Buff Self:{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 	+5%% DMG, +5%% MAX HP, +5%% {colour_start|debuff}Debuff{colour_end} resist {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_2"><![CDATA[Self: {colour_start|buff}Buff Self:{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 	+7%% DMG, +7%% MAX HP, +7%% {colour_start|debuff}Debuff{colour_end} resist {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_3"><![CDATA[Self: {colour_start|buff}Buff Self:{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 	+10%% DMG, +10%% MAX HP, +10%% {colour_start|debuff}Debuff{colour_end} resist {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_debuff"><![CDATA[Self: {colour_start|debuff}Debuff Self:{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_debuff"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
 	-3 SPD, -30%% Stress Heal received {colour_start|skill_unselectable}(1 battle){colour_end}]]></entry>
 	
 	<!--Sunward Isle Tooltips-->
