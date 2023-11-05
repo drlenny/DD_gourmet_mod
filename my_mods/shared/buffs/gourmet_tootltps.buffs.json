@@ -15,6 +15,19 @@
             }
          },
          {
+            "id" : "g_tt_mallet_mark",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_mallet_mark",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
             "id" : "g_tt_bleed_mark_2",
             "stat_type" : "upgrade_discount",
             "stat_sub_type" : "g_tt_bleed_mark_2",
@@ -278,6 +291,32 @@
             "id" : "g_tt_devour_buff_3",
             "stat_type" : "upgrade_discount",
             "stat_sub_type" : "g_tt_devour_buff_3",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_buff_4",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_buff_4",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "g_tt_devour_buff_5",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_devour_buff_5",
             "amount" : 0,
             "remove_if_not_active" : false,
             "rule_type" : "always",

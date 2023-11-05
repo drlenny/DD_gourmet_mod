@@ -334,17 +334,6 @@
 					"type": "buff",
 					"sub_type": "gourmet_camp_party_speed_debuff",
 					"amount": -4
-				},
-				{
-					"selection": "party",
-					"requirements": [],
-					"chance": {
-						"code": "g",
-						"amount": 0.75
-					},
-					"type": "buff",
-					"sub_type": "gourmet_camp_party_food_consumed",
-					"amount": -0.5
 				}
 			],
 			"hero_classes": [

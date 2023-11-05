@@ -1,0 +1,1368 @@
+{"buffs": [
+        {
+        "id": "S_gourmet_common_A_food_consume",
+         "stat_type": "food_consumption_percent",
+         "stat_sub_type": "",
+         "amount": -100,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
+      },
+      {
+         "id": "S_gourmet_common_A_stress_heal_received",
+         "stat_type": "stress_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": -0.5,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_dmgh",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_high",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_dmgl",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_low",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_crit",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "crit_chance",
+         "amount": 0.03,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_prot",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "protection_rating",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_bleed_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "bleed",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_blight_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "poison",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_maxhp",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "max_hp",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_speed",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "speed_rating",
+         "amount": -3,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_dodge",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "defense_rating",
+         "amount": -0.03,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_common_B_hpheal_received",
+         "stat_type": "hp_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": -0.25,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_A_death_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "death_blow",
+         "amount": 0.1,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_A_stress_res",
+         "stat_type": "stress_dmg_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_A_ignore_prot",
+         "stat_type": "ignore_protection",
+         "stat_sub_type": "",
+         "amount": 0.25,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_A_crit",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "crit_chance",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_A_maxhp",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "max_hp",
+         "amount": -0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_A_crit_received",
+         "stat_type": "crit_received_chance",
+         "stat_sub_type": "",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_B_prot",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "protection_rating",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_B_guard_duration_received",
+         "stat_type": "guard_duration_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.5,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
+      },
+      {
+         "id": "S_gourmet_crypts_B_dmgl",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_low",
+         "amount": -0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_B_dmgh",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_high",
+         "amount": -0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_B_crit",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "crit_chance",
+         "amount": -0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_crypts_B_stress_received",
+         "stat_type": "stress_dmg_received_percent",
+         "stat_sub_type": "",
+         "amount": -0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_A_crit",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "crit_chance",
+         "amount": 0.03,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_A_acc",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "attack_rating",
+         "amount": -0.03,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_A_dmgl",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_low",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_A_dmgh",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_high",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_A_dmg_received",
+         "stat_type": "damage_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_A_ignore_guard",
+         "stat_type": "ignore_guard",
+         "stat_sub_type": "",
+         "amount": 1,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_B_bleed_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "bleed",
+         "amount": 0.25,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_B_move_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "move",
+         "amount": 0.25,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_B_prot",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "protection_rating",
+         "amount": 0.25,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_B_dmg_reflect",
+         "stat_type": "damage_reflect_percent",
+         "stat_sub_type": "",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_B_stun_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "stun",
+         "amount": -0.25,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_B_dmgl",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_low",
+         "amount": -0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_cove_B_dmgh",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_high",
+         "amount": -0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_A_bleed_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "bleed",
+         "amount": 0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_A_blight_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "poison",
+         "amount": 0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_A_disease_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "disease",
+         "amount": 0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_A_food_consumed",
+         "stat_type": "food_consumption_percent",
+         "stat_sub_type": "",
+         "amount": 1,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_A_stress_heal_received",
+         "stat_type": "stress_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": -0.25,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_B_dodge",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "defense_rating",
+         "amount": 0.05,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_B_speed",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "speed_rating",
+         "amount": 3,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_B_disease_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "disease",
+         "amount": -0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_B_crit",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "crit_chance",
+         "amount": 0.03,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_B_ignore_stealth",
+         "stat_type": "ignore_stealth",
+         "stat_sub_type": "",
+         "amount": 1,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_warrens_B_heal_received",
+         "stat_type": "hp_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": -0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_A_acc",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "attack_rating",
+         "amount": 0.1,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_A_blight_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "poison",
+         "amount": 0.35,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_A_dodge",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "defense_rating",
+         "amount": 0.07,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_A_stress_received",
+         "stat_type": "stress_dmg_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_A_stress_heal_received",
+         "stat_type": "stress_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": -0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_A_maxhp",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "max_hp",
+         "amount": -0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_A_scouting",
+         "stat_type": "scouting_chance",
+         "stat_sub_type": "",
+         "amount": 0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_B_heal_received",
+         "stat_type": "hp_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_B_maxhp",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "max_hp",
+         "amount": 0.25,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_B_blight_res",
+         "stat_type": "resistance",
+         "stat_sub_type": "poison",
+         "amount": -0.3,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_B_dmg_received",
+         "stat_type": "damage_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_B_dmgh",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_high",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_B_dmgl",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_low",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_weald_B_speed",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "speed_rating",
+         "amount": 2,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_A_vamp_food_consume",
+         "stat_type": "food_consumption_percent",
+         "stat_sub_type": "",
+         "amount": -1,
+
+         "remove_if_not_active": false,
+         "rule_type": "is_vampire",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_A_vamp_heal_received",
+         "stat_type": "hp_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.5,
+
+         "remove_if_not_active": false,
+         "rule_type": "is_vampire",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_A_vamp_dmgl",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_low",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "is_vampire",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_A_vamp_dmgh",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_high",
+         "amount": 0.15,
+
+         "remove_if_not_active": false,
+         "rule_type": "is_vampire",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_A_vamp_speed",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "speed_rating",
+         "amount": -5,
+
+         "remove_if_not_active": false,
+         "rule_type": "is_vampire",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_B_bloodlust_duration",
+         "stat_type": "quirk_tag_evolution_duration",
+         "stat_sub_type": "disease_vampire_blood_lust",
+         "amount": 30,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_B_craving_duration",
+         "stat_type": "quirk_tag_evolution_duration",
+         "stat_sub_type": "disease_vampire_crave",
+         "amount": -20,
+
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_B_vamp_dmgl_vs_bleed",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_low",
+         "amount": 0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "actorStatus",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "bleeding"
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_B_vamp_dmgh_vs_bleed",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_high",
+         "amount": 0.2,
+
+         "remove_if_not_active": false,
+         "rule_type": "actorStatus",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "bleeding"
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_B_vamp_acc_while_bleed",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "attack_rating",
+         "amount": -0.1,
+
+         "remove_if_not_active": false,
+         "rule_type": "is_actor_status",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "bleeding"
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_courtyard_B_vamp_stress_heal_received",
+         "stat_type": "stress_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.5,
+
+         "remove_if_not_active": false,
+         "rule_type": "is_vampire",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_A_speed",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "speed_rating",
+         "amount": 8,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_A_regen",
+         "stat_type": "hp_dot_heal",
+         "stat_sub_type": "",
+         "amount": 1,
+         "remove_if_not_active": true,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_A_horror",
+         "stat_type": "stress_dot",
+         "stat_sub_type": "",
+         "amount": 1,
+         "remove_if_not_active": true,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+
+      {
+         "id": "S_gourmet_farm_B_random_target",
+         "stat_type": "random_target_attack_chance",
+         "stat_sub_type": "",
+         "amount": 0.75,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_B_85_crit",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "crit_chance",
+         "amount": 0.85,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_B_dmgl",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_low",
+         "amount": -0.8,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_B_dmgh",
+         "stat_type": "combat_stat_multiply",
+         "stat_sub_type": "damage_high",
+         "amount": -0.8,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_B_bleed_chance",
+         "stat_type": "bleed_chance",
+         "stat_sub_type": "",
+         "amount": -0.25,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_B_blight_chance",
+         "stat_type": "poison_chance",
+         "stat_sub_type": "",
+         "amount": -0.25,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_farm_B_stun_chance",
+         "stat_type": "stun_chance",
+         "stat_sub_type": "",
+         "amount": -0.25,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_A_prot_vs_yokai",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "protection_rating",
+         "amount": 0.15,
+         "remove_if_not_active": false,
+         "rule_type": "attacking_monster_type",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "spectral"
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_A_acc_vs_yokai",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "attack_rating",
+         "amount": 0.12,
+         "remove_if_not_active": false,
+         "rule_type": "monsterType",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "spectral"
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_A_speed_vs_yokai",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "speed_rating",
+         "amount": -3,
+         "remove_if_not_active": false,
+         "rule_type": "monster_type_count_min",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 1,
+            "string": "spectral"
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_A_acc",
+         "stat_type": "combat_stat_add",
+         "stat_sub_type": "attack_rating",
+         "amount": -0.05,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_A_scouting",
+         "stat_type": "scouting_chance",
+         "stat_sub_type": "",
+         "amount": -0.35,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_B_stress_received",
+         "stat_type": "stress_dmg_received_percent",
+         "stat_sub_type": "",
+         "amount": 0.2,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_B_stress_heal_received",
+         "stat_type": "stress_heal_received_percent",
+         "stat_sub_type": "",
+         "amount": -0.6,
+         "remove_if_not_active": false,
+         "rule_type": "always",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": ""
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_B_talisman_stress_received",
+         "stat_type": "stress_dmg_received_percent",
+         "stat_sub_type": "",
+         "amount": -0.35,
+         "remove_if_not_active": false,
+         "rule_type": "has_item_id",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "talisman_charm"
+         },
+"is_clear_debuff_valid": false
+      },
+      {
+         "id": "S_gourmet_SI_B_talisman_debuff_resist",
+         "stat_type": "resistance",
+         "stat_sub_type": "debuff",
+         "amount": 0.25,
+         "remove_if_not_active": false,
+         "rule_type": "has_item_id",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "talisman_charm"
+         },
+"is_clear_debuff_valid": false
+      }
+
+]
+}

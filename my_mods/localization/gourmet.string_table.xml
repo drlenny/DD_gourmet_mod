@@ -32,12 +32,10 @@
 	<!-- Quick Snack -->
    	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 
+	<!-- Tenderize -->
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_mallet_mark"><![CDATA[{colour_start|mark}Mark{colour_end} target {colour_start|skill_unselectable}(2 rds){colour_end}]]></entry>
+
 	<!-- Choice Cut -->
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_1"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_2"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_3"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_4"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_bleed_mark_5"><![CDATA[{colour_start|bleed}Bleed{colour_end} vs {colour_start|mark}Mark {colour_end}{colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 2 rds]]></entry>
 	
 	<!-- Taste Test -->
 		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_1"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
@@ -55,19 +53,22 @@
 		{colour_start|buff}Buff Self:{colour_end} +35%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
 
 	<!-- Devour -->
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_vs_healthy"><![CDATA[{colour_start|debuff}Targets with over 25%% total HP 
-	remaining will avoid this attack{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_vs_healthy"><![CDATA[{colour_start|debuff}0 ACC vs enemies above 25%% MAX HP{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_1"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 2 HP + 2 bonus HP for each Corpse]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_2"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 3 HP + 3 bonus HP for each Corpse]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_heal_3"><![CDATA[Self: {colour_start|healhp}Heal{colour_end} 4 HP + 4 bonus HP for each Corpse]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-	+5%% DMG, +5%% MAX HP, +5%% {colour_start|debuff}Debuff{colour_end} resist {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
+	+5%% DMG / +5%% MAX HP {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-	+7%% DMG, +7%% MAX HP, +7%% {colour_start|debuff}Debuff{colour_end} resist {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
+	+6%% DMG / +6%% MAX HP {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-	+10%% DMG, +10%% MAX HP, +10%% {colour_start|debuff}Debuff{colour_end} resist {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
+	+7%% DMG / +7%% MAX HP {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+	+8%% DMG / +8%% MAX HP {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_buff_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
+	+10%% DMG / +10%% MAX HP {colour_start|skill_unselectable}(until camp){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_debuff"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
-	-3 SPD, -30%% Stress Heal received {colour_start|skill_unselectable}(1 battle){colour_end}]]></entry>
+	-3 SPD / -30%% Stress Heal received {colour_start|skill_unselectable}(1 battle){colour_end}]]></entry>
 	
 	<!--Sunward Isle Tooltips-->
 	<entry id="enemy_type_name_spectral"><![CDATA[Yokai]]></entry>
@@ -208,6 +209,8 @@
 
 	<entry id="camping_skill_effect_loot_gourmet_produce_provision"><![CDATA[Produce a few {colour_start|notable}Food{colour_end} provisions]]></entry>
 	<entry id="camping_skill_effect_loot_gourmet_leftovers_food"><![CDATA[Produce 1 random {colour_start|notable}Gourmet Food{colour_end} item]]></entry>
+
+	<entry id="camping_skill_effect_loot_gourmet_leftovers_food"><![CDATA[Produce 1 random {colour_start|notable}Gourmet Food{colour_end} item]]></entry>	
 	
 	<!--Death's Door Barks-->
 	<entry id="gourmet+str_bark_deathsdoor"><![CDATA[Taste... blood... mmmm...]]></entry>
