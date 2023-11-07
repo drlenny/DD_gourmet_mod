@@ -289,7 +289,7 @@
 					},
 					"type": "health_heal_max_health_percent",
 					"sub_type": "",
-					"amount": 0.5
+					"amount": 0.65
 				},
 				{
 					"selection": "party",
@@ -355,7 +355,7 @@
 		{
 			"id": "gourmet_food_sample",
 			"level": 0,
-			"cost": 4,
+			"cost": 2,
 			"use_limit": 1,
 			"effects": [
 				{
@@ -411,7 +411,7 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_sample_speed_buff",
-					"amount": 3
+					"amount": 4
 				},
 				{
 					"selection": "individual",
@@ -422,7 +422,7 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_sample_speed_debuff",
-					"amount": -3
+					"amount": -4
 				},
 				{
 					"selection": "individual",
@@ -433,7 +433,7 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_sample_crit_buff",
-					"amount": 0.03
+					"amount": 0.06
 				},
 				{
 					"selection": "individual",
@@ -444,7 +444,7 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_sample_crit_debuff",
-					"amount": -0.03
+					"amount": -0.06
 				},
 				{
 					"selection": "individual",
@@ -455,7 +455,7 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_sample_dodge_buff",
-					"amount": 0.08
+					"amount": 0.1
 				},
 				{
 					"selection": "individual",
@@ -466,29 +466,7 @@
 					},
 					"type": "buff",
 					"sub_type": "gourmet_camp_sample_dodge_debuff",
-					"amount": -0.08
-				},
-				{
-					"selection": "individual",
-					"requirements": [],
-					"chance": {
-						"code": "f",
-						"amount": 0.75
-					},
-					"type": "buff",
-					"sub_type": "gourmet_camp_sample_disease_buff",
-					"amount": 0.3
-				},
-				{
-					"selection": "individual",
-					"requirements": [],
-					"chance": {
-						"code": "f",
-						"amount": 0.25
-					},
-					"type": "buff",
-					"sub_type": "gourmet_camp_sample_disease_debuff",
-					"amount": -0.3
+					"amount": -0.1
 				},
 				{
 					"selection": "individual",

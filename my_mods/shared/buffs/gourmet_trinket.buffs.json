@@ -2,10 +2,10 @@
     "buffs":
     [
         {
-            "id": "gourmet_common_stun_buff",
-            "stat_type" : "stun_chance",
-            "stat_sub_type" : "",
-            "amount" : 0.15,
+            "id": "gourmet_common_acc_buff",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "attack_rating",
+            "amount" : 0.06,
             "remove_if_not_active" : false,
             "rule_type" : "always",
             "is_false_rule" : false,

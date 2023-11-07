@@ -3,7 +3,7 @@
         {
             "id": "gourmet_spatula",
             "buffs": [
-                "gourmet_common_stun_buff",
+                "gourmet_common_acc_buff",
                 "gourmet_common_move_buff",
                 "gourmet_common_speed_debuff"
             ],

@@ -176,7 +176,7 @@ effect: .name "gourmet_collector_on_hit_prot_debuff" .target "target" .chance 12
 
 // Food Supplies
 
-effect: .name "gourmet_common_A" .target "target" .chance 100% .bark str_gourmet_supply .heal_percent 0.25 .stress 15 .buff_ids "S_gourmet_common_A_stress_heal_received" "g_TT_food_consume_common_A" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end .use_item_type supply .use_item_id gourmet_common_A2
+effect: .name "gourmet_common_A" .target "target" .chance 100% .bark str_gourmet_supply .heal_percent 0.25 .stress 10 .buff_ids "S_gourmet_common_A_stress_heal_received" "g_TT_food_consume_common_A" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end .use_item_type supply .use_item_id gourmet_common_A2
 
 effect: .name "gourmet_common_A2" .target "target" .chance 100% .buff_ids "S_gourmet_common_A_food_consume" .on_hit true .on_miss false .buff_source_type bsrc_notspecified .duration 3 .buff_duration_type combat_end
 
@@ -192,13 +192,13 @@ effect: .name "gourmet_cove_A" .target "target" .chance 100% .bark str_gourmet_s
 
 effect: .name "gourmet_cove_B" .target "target" .chance 100% .bark str_gourmet_supply .buff_ids "S_gourmet_cove_B_bleed_res" "S_gourmet_cove_B_move_res" "S_gourmet_cove_B_prot" "S_gourmet_cove_B_dmg_reflect" "S_gourmet_cove_B_stun_res" "S_gourmet_cove_B_dmgl" "S_gourmet_cove_B_dmgh" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end
 
-effect: .name "gourmet_warrens_A" .target "target" .chance 100% .bark str_gourmet_supply .heal_percent 0.1 .stress 15 .buff_ids "S_gourmet_warrens_A_bleed_res" "S_gourmet_warrens_A_blight_res" "S_gourmet_warrens_A_disease_res" "g_TT_warrens_A_food_consume" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end .use_item_type supply .use_item_id gourmet_warrens_A2
+effect: .name "gourmet_warrens_A" .target "target" .chance 100% .bark str_gourmet_supply .heal_percent 0.1 .stress 5 .buff_ids "S_gourmet_warrens_A_bleed_res" "S_gourmet_warrens_A_blight_res" "S_gourmet_warrens_A_disease_res" "g_TT_warrens_A_food_consume" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end .use_item_type supply .use_item_id gourmet_warrens_A2
 
 effect: .name "gourmet_warrens_A2" .target "target" .chance 100% .buff_ids "S_gourmet_warrens_A_food_consumed" .on_hit true .on_miss false .buff_source_type bsrc_notspecified .duration 3 .buff_duration_type combat_end
 
 effect: .name "gourmet_warrens_B" .target "target" .chance 100% .bark str_gourmet_supply .buff_ids "S_gourmet_warrens_B_dodge" "S_gourmet_warrens_B_speed" "S_gourmet_warrens_B_disease_res" "S_gourmet_warrens_B_stress_received" "S_gourmet_warrens_B_crit" "S_gourmet_warrens_B_ignore_stealth" "S_gourmet_warrens_B_heal_received" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end
 
-effect: .name "gourmet_weald_A" .target "target" .chance 100% .bark str_gourmet_supply .buff_ids "S_gourmet_weald_A_scouting" "S_gourmet_weald_A_acc" "S_gourmet_weald_A_blight_res" "S_gourmet_weald_A_dodge" "S_gourmet_weald_A_stress_received" "S_gourmet_weald_A_stress_heal_received" "S_gourmet_weald_A_maxhp" "g_TT_scouting_weald_A" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end
+effect: .name "gourmet_weald_A" .target "target" .chance 100% .bark str_gourmet_supply .buff_ids "S_gourmet_weald_A_scouting" "S_gourmet_weald_A_acc" "S_gourmet_weald_A_blight_res" "S_gourmet_weald_A_stress_received" "S_gourmet_weald_A_stress_heal_received" "g_TT_scouting_weald_A" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end
 
 effect: .name "gourmet_weald_B" .target "target" .chance 100% .bark str_gourmet_supply .buff_ids "S_gourmet_weald_B_blight_res" "S_gourmet_weald_B_dmg_received" "S_gourmet_weald_B_maxhp" "S_gourmet_weald_B_heal_received" "S_gourmet_weald_B_dmgh" "S_gourmet_weald_B_dmgl" "S_gourmet_weald_B_speed" .on_hit true .on_miss false .buff_source_type bsrc_skill .duration 3 .buff_duration_type combat_end
 
