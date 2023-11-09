@@ -80,6 +80,19 @@
             }
          },
          {
+            "id" : "g_tt_taste_no_riposte",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "g_tt_taste_no_riposte",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
             "id" : "g_tt_taste_vs_bleed_1",
             "stat_type" : "upgrade_discount",
             "stat_sub_type" : "g_tt_taste_vs_bleed_1",

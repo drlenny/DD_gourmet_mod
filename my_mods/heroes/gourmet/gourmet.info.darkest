@@ -71,11 +71,11 @@ combat_skill: .id "taste_test" .level 1 .type "melee" .atk 90% .dmg -90% .crit -
 combat_skill: .id "taste_test" .level 2 .type "melee" .atk 95% .dmg -90% .crit -3% .launch 123 .target 234 .is_crit_valid True .can_be_riposted false .effect "Pull 3D" "Gourmet Taste Debuff 3" "Gourmet Taste Bleed On" "Gourmet Taste Bleed Buff 1" "Gourmet Taste Bleed Off"
 combat_skill: .id "taste_test" .level 3 .type "melee" .atk 100% .dmg -90% .crit -2% .launch 123 .target 234 .is_crit_valid True .can_be_riposted false .effect "Pull 3E" "Gourmet Taste Debuff 4" "Gourmet Taste Bleed On" "Gourmet Taste Bleed Buff 1" "Gourmet Taste Bleed Off"
 combat_skill: .id "taste_test" .level 4 .type "melee" .atk 105% .dmg -90% .crit -1% .launch 123 .target 234 .is_crit_valid True .can_be_riposted false .effect "Pull 3F" "Gourmet Taste Debuff 5" "Gourmet Taste Bleed On" "Gourmet Taste Bleed Buff 1" "Gourmet Taste Bleed Off"
-combat_skill: .id "taste_test" .level 0 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet vs Bleed Tooltip 1" "Gourmet vs Blight Tooltip 1"
-combat_skill: .id "taste_test" .level 1 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet vs Bleed Tooltip 1" "Gourmet vs Blight Tooltip 1"
-combat_skill: .id "taste_test" .level 2 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet vs Bleed Tooltip 2" "Gourmet vs Blight Tooltip 2"
-combat_skill: .id "taste_test" .level 3 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet vs Bleed Tooltip 2" "Gourmet vs Blight Tooltip 2"
-combat_skill: .id "taste_test" .level 4 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet vs Bleed Tooltip 3" "Gourmet vs Blight Tooltip 3"
+combat_skill: .id "taste_test" .level 0 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet Taste No Riposte Tooltip" "Gourmet vs Bleed Tooltip 1" "Gourmet vs Blight Tooltip 1"
+combat_skill: .id "taste_test" .level 1 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet Taste No Riposte Tooltip" "Gourmet vs Bleed Tooltip 1" "Gourmet vs Blight Tooltip 1"
+combat_skill: .id "taste_test" .level 2 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet Taste No Riposte Tooltip" "Gourmet vs Bleed Tooltip 1" "Gourmet vs Blight Tooltip 1"
+combat_skill: .id "taste_test" .level 3 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet Taste No Riposte Tooltip" "Gourmet vs Bleed Tooltip 1" "Gourmet vs Blight Tooltip 1"
+combat_skill: .id "taste_test" .level 4 .type "melee" .effect "Gourmet Taste Blight On" "Gourmet Taste Blight Buff 1" "Gourmet Taste Blight Off" "Gourmet Taste No Riposte Tooltip" "Gourmet vs Bleed Tooltip 1" "Gourmet vs Blight Tooltip 1"
 
 // move
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321

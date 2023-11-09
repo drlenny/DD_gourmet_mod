@@ -53,32 +53,32 @@ effect: .name "Gourmet Snack Clear Debuff Target 3" .target "target" .chance 100
 effect: .name "Gourmet Snack Clear Debuff Target 4" .target "target" .chance 100% .clear_debuff 1 .on_hit true .on_miss false
 effect: .name "Gourmet Snack Clear Debuff Target 5" .target "target" .chance 100% .clear_debuff 1 .on_hit true .on_miss false
 
-effect: .name "Gourmet Snack Stress Heal Self" .target "performer" .chance 33% .healstress 3 .on_hit true .on_miss false
-effect: .name "Gourmet Snack Stress Dmg Target" .target "target" .chance 33% .stress 3 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Stress Heal Self" .target "performer" .chance 33% .healstress 5 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Stress Dmg Target" .target "target" .chance 33% .stress 5 .on_hit true .on_miss false
 
-effect: .name "Gourmet Snack Heal Self 1" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
-effect: .name "Gourmet Snack Heal Self 2" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
-effect: .name "Gourmet Snack Heal Self 3" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
-effect: .name "Gourmet Snack Heal Self 4" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
-effect: .name "Gourmet Snack Heal Self 5" .target "performer" .chance 100% .heal 7 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Self 1" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Self 2" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Self 3" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Self 4" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Self 5" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
 
-effect: .name "Gourmet Snack Heal Target 1" .target "target" .chance 100% .heal 3 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
-effect: .name "Gourmet Snack Heal Target 2" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
-effect: .name "Gourmet Snack Heal Target 3" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
-effect: .name "Gourmet Snack Heal Target 4" .target "target" .chance 100% .heal 6 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
-effect: .name "Gourmet Snack Heal Target 5" .target "target" .chance 100% .heal 7 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Target 1" .target "target" .chance 100% .heal 2 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Target 2" .target "target" .chance 100% .heal 3 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Target 3" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Target 4" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
+effect: .name "Gourmet Snack Heal Target 5" .target "target" .chance 100% .heal 6 .on_hit true .on_miss false .source_heal_type hero_skill .can_crit_heal false
 
 effect: .name "Gourmet Snack Self Regen 1" .target "performer" .chance 45% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .queue true
 effect: .name "Gourmet Snack Self Regen 2" .target "performer" .chance 50% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "Gourmet Snack Self Regen 3" .target "performer" .chance 55% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Snack Self Regen 3" .target "performer" .chance 55% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .queue true
 effect: .name "Gourmet Snack Self Regen 4" .target "performer" .chance 60% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "Gourmet Snack Self Regen 5" .target "performer" .chance 65% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Snack Self Regen 5" .target "performer" .chance 65% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .queue true
 
 effect: .name "Gourmet Snack Target Regen 1" .target "target" .chance 45% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
 effect: .name "Gourmet Snack Target Regen 2" .target "target" .chance 50% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
-effect: .name "Gourmet Snack Target Regen 3" .target "target" .chance 55% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Target Regen 3" .target "target" .chance 55% .dotHpHeal 1 .duration 2 .on_hit true .on_miss false
 effect: .name "Gourmet Snack Target Regen 4" .target "target" .chance 60% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
-effect: .name "Gourmet Snack Target Regen 5" .target "target" .chance 65% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
+effect: .name "Gourmet Snack Target Regen 5" .target "target" .chance 65% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
 
 // Meat Shield
 effect: .name "Gourmet Shield Guard" .target "target" .guard 1 .on_hit true .on_miss true .duration 4
@@ -150,6 +150,8 @@ effect: .name "Gourmet Taste Debuff 3" .target "target" .chance 100% .buff_type 
 effect: .name "Gourmet Taste Debuff 4" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 8% .on_hit true .on_miss false
 effect: .name "Gourmet Taste Debuff 5" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 9% .on_hit true .on_miss false
 
+effect: .name "Gourmet Taste No Riposte Tooltip" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_no_riposte" .on_hit true .on_miss false
+
 effect: .name "Gourmet vs Bleed Tooltip 1" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_bleed_1" .on_hit true .on_miss false
 effect: .name "Gourmet vs Bleed Tooltip 2" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_bleed_2" .on_hit true .on_miss false
 effect: .name "Gourmet vs Bleed Tooltip 3" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_vs_bleed_3" .on_hit true .on_miss false
@@ -166,7 +168,7 @@ effect: .name "gourmet_rare_attacker_acc_debuff" .target "target" .combat_stat_b
 effect: .name "gourmet_very_rare_on_attack_effects" .target "performer_group_other" .chance 100% .stress 8 .buff_ids "gourmet_bell_speed_buff" "gourmet_bell_dmgh_vs_mark_buff" "gourmet_bell_dmgl_vs_mark_buff" "gourmet_bell_dmgh_vs_stun_buff" "gourmet_bell_dmgl_vs_stun_buff" .duration 2 .on_hit true .on_miss false .apply_once true
 effect: .name "gourmet_very_rare_on_friendly_skill_effects" .target "target" .chance 100% .healstress 10 .buff_ids "gourmet_bell_stress_received_when_healthy" .duration 2 .on_hit true .on_miss false .apply_once true
 
-effect: .name "gourmet_cc_on_attack_heal" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill .can_crit_heal false
+effect: .name "gourmet_cc_on_attack_heal" .target "performer" .chance 30% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill .can_crit_heal false
 
 effect: .name "gourmet_cc_on_hit_regen" .target "performer" .chance 30% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .queue true .source_heal_type hero_skill .can_crit_heal false
 
