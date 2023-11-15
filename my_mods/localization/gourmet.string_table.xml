@@ -387,10 +387,221 @@
     <entry id="gourmet+str_flagellation_committed"><![CDATA[Will build hunger!]]></entry>
     <entry id="gourmet+str_flagellation_committed"><![CDATA[Blood will make good sauce!]]></entry>
 
-    <entry id="gourmet+str_treatment_committed"><![CDATA[Bath? Me is clean! Stains for taste!]]></entry>
-    <entry id="gourmet+str_treatment_committed"><![CDATA[Me no like doctor...]]></entry>
-    <entry id="gourmet+str_treatment_committed"><![CDATA[Bleh. "Medicine" taste bad.]]></entry>
-    <entry id="gourmet+str_treatment_committed"><![CDATA[What you mean me "unhealthy"?!]]></entry>
+    <entry id="gourmet+str_disease_treatment_committed"><![CDATA[Bath? Me is clean! Stains for taste!]]></entry>
+    <entry id="gourmet+str_disease_treatment_committed"><![CDATA[Me no like doctor...]]></entry>
+    <entry id="gourmet+str_disease_treatment_committed"><![CDATA[Bleh. "Medicine" taste bad.]]></entry>
+    <entry id="gourmet+str_disease_treatment_committed"><![CDATA[What you mean me "unhealthy"?!]]></entry>
+
+    <entry id="gourmet+str_treatment_committed"><![CDATA[NO TOUCH.]]></entry>
+    <entry id="gourmet+str_treatment_committed"><![CDATA[(roaring and thrashing)]]></entry>
+    <entry id="gourmet+str_treatment_committed"><![CDATA[Me no want muzzle!]]></entry>
+    <entry id="gourmet+str_treatment_committed"><![CDATA[Snack first. Listen after.]]></entry>
+
+	<!-- Deny mission -->
+    <entry id="str_quest_too_hard"><![CDATA[No.]]></entry>
+    <entry id="str_quest_too_hard"><![CDATA[Me no want to go!]]></entry>
+    <entry id="str_quest_too_hard"><![CDATA[Me stay in kitchen where is safe.]]></entry>
+    <entry id="str_quest_too_hard"><![CDATA[(sniffs) No. Place smell danger.]]></entry>
+
+    <entry id="str_quest_too_easy"><![CDATA[Me no go. Have pie in oven.]]></entry>
+    <entry id="str_quest_too_easy"><![CDATA[Me no have time for puny job.]]></entry>
+    <entry id="str_quest_too_easy"><![CDATA[Me is chef. No "baby-sitter."]]></entry>
+    <entry id="str_quest_too_easy"><![CDATA[Me want BIG job. No runt job.]]></entry>
+    <entry id="str_quest_too_easy"><![CDATA[Feh - me too good for this.]]></entry>
+
+	<!-- Color of Madness -->
+    <entry id="str_wave_spawn_mash"><![CDATA[KILL THEM ALL!]]></entry>
+    <entry id="str_wave_spawn_mash"><![CDATA[Lunch rush...]]></entry>
+    <entry id="str_wave_spawn_mash"><![CDATA[Light hurt eyes...]]></entry>
+    <entry id="str_wave_spawn_mash"><![CDATA[Much food. Much to cook!]]></entry>
+    <entry id="str_wave_curio_room"><![CDATA[Hmm? Where food go?]]></entry>
+    <entry id="str_wave_dungeon_weald"><![CDATA[(sniffs) Smell... mushroom?]]></entry>
+    <entry id="str_wave_dungeon_warrens"><![CDATA[GRRAAA! STUPID SWINE! WHY YOU HERE?!]]></entry>
+    <entry id="str_wave_dungeon_crypts"><![CDATA[Taste ash...]]></entry>
+    <entry id="str_wave_dungeon_cove"><![CDATA[Sea food?]]></entry>
+    <entry id="str_wave_dungeon_farm"><![CDATA[Me head hurt...]]></entry>
+    <entry id="str_wave_dungeon_farm"><![CDATA[Pretty lights...]]></entry>
+    <entry id="str_wave_dungeon_farm"><![CDATA[(absent stare)]]></entry>
+    <entry id="str_wave_dungeon_farm"><![CDATA[Bleh. Taste ash.]]></entry>
+    <entry id="str_wave_dungeon_farm"><![CDATA[Hmm? Me dream?]]></entry>
+    <entry id="str_boss_miller_harvest"><![CDATA[Grraaa!!! (spits) Mill man make mouth taste ash!]]></entry>
+    <entry id="str_boss_miller_grind"><![CDATA[Me no food for crop!]]></entry>
+    <entry id="str_boss_miller_grind"><![CDATA[You make ash! Me make food!]]></entry>
+    <entry id="str_boss_miller_sadness"><![CDATA[Mill man weak! Make him food for crop!]]></entry>
+    <entry id="str_boss_miller_sadness"><![CDATA[(quiet whine)]]></entry>
+    <entry id="str_wave_dungeon_darkestdungeon"><![CDATA[(panicked squeal)]]></entry>
+    <entry id="str_wave_dungeon_darkestdungeon"><![CDATA[Smell hate! Smell hurt!]]></entry>
+    <entry id="str_wave_dungeon_town"><![CDATA[We back at town?]]></entry>
+
+    <entry id="str_ignore_command_imposter_syndrome"><![CDATA[Me no cook. Only swine...]]></entry>
+    <entry id="str_ignore_command_imposter_syndrome"><![CDATA[Swine no cook. Only filth...]]></entry>
+
+    <entry id="str_afflicted_color_madness"><![CDATA[Wha- ho- (confused squealing)]]></entry>
+    <entry id="str_bark_stress_camp_color_madness"><![CDATA[(silently staring into fire)]]></entry>
+    <entry id="str_bark_stress_camp_color_madness"><![CDATA[Color... taste... color...]]></entry>
+    <entry id="str_bark_stress_camp_color_madness"><![CDATA[No more light! No fire! Taste bad!]]></entry>
+    <entry id="str_bark_stress_color_madness"><![CDATA[Me taste color?!]]></entry>
+    <entry id="str_bark_stress_color_madness"><![CDATA[Smell light! Smell like ash!]]></entry>
+    <entry id="str_bark_stress_color_madness"><![CDATA[(raspy coughing and weezing)]]></entry>
+    <entry id="str_change_pos_back_color_madness"><![CDATA[No! Stay away light!]]></entry>
+    <entry id="str_change_pos_back_color_madness"><![CDATA[(stumbling and moaning)]]></entry>
+    <entry id="str_change_pos_fwd_color_madness"><![CDATA[Pretty light...]]></entry>
+    <entry id="str_change_pos_fwd_color_madness"><![CDATA[Smell say go here.]]></entry>
+    <entry id="str_ignore_command_color_madness"><![CDATA[Shiny...]]></entry>
+    <entry id="str_ignore_command_color_madness"><![CDATA[Spaghetti...]]></entry>
+    <entry id="str_ignore_command_color_madness"><![CDATA[Meatball...]]></entry>
+    <entry id="str_attack_friendly_color_madness"><![CDATA[Pizza time!]]></entry>
+    <entry id="str_attack_friendly_color_madness"><![CDATA[Me need you eyes! See color more!]]></entry>
+    <entry id="str_attack_friendly_color_madness"><![CDATA[Hmm. Yes.]]></entry>
+    <entry id="str_attack_self_color_madness"><![CDATA[NO WANT EYES! THEY TASTE TOO MUCH SOUND!]]></entry>
+    <entry id="str_attack_self_color_madness"><![CDATA[Light is in me! Get it out!]]></entry>
+    <entry id="str_attack_self_color_madness"><![CDATA[Wait. Is me chef or is me food?]]></entry>
+    <entry id="str_mark_self_color_madness"><![CDATA[They see! They smell!]]></entry>
+    <entry id="str_mark_self_color_madness"><![CDATA[Too much thought! Me have too much!]]></entry>
+    <entry id="str_comment_self_hit_color_madness"><![CDATA[(piercing squeal)]]></entry>
+    <entry id="str_comment_self_hit_color_madness"><![CDATA[Me see...]]></entry>
+    <entry id="str_comment_self_hit_color_madness"><![CDATA[Pain is bad color...]]></entry>
+    <entry id="str_comment_ally_hit_color_madness"><![CDATA[You smell dead. But sound health?]]></entry>
+    <entry id="str_comment_ally_hit_color_madness"><![CDATA[You bleed... smell like fire...]]></entry>
+    <entry id="str_comment_ally_hit_color_madness"><![CDATA[Why you let them see you? Hide you heart.]]></entry>
+    <entry id="str_comment_ally_attack_hit_color_madness"><![CDATA[You miss! You hit! You miss! You hit!]]></entry>
+    <entry id="str_comment_ally_attack_hit_color_madness"><![CDATA[The light you have smell rotten.]]></entry>
+    <entry id="str_comment_ally_attack_hit_color_madness"><![CDATA[Masters... forgive them...]]></entry>
+    <entry id="str_comment_move_color_madness"><![CDATA[Belly full with eyes and color...]]></entry>
+    <entry id="str_comment_move_color_madness"><![CDATA[Mind full with sound and fire...]]></entry>
+    <entry id="str_comment_move_color_madness"><![CDATA[All is one color. Color is all sound.]]></entry>
+    <entry id="str_comment_curio_interaction_color_madness"><![CDATA[Me smell a smelly smell that smell smelly.]]></entry>
+    <entry id="str_comment_curio_interaction_color_madness"><![CDATA[Eyes lie. Nose also lie. Only color is truth.]]></entry>
+    <entry id="str_comment_curio_interaction_color_madness"><![CDATA[Too bright. Put back.]]></entry>
+    <entry id="str_comment_trap_triggered_color_madness"><![CDATA[They found us!]]></entry>
+    <entry id="str_comment_trap_triggered_color_madness"><![CDATA[(frightened squeals)]]></entry>
+    <entry id="str_block_camping_meal_color_madness"><![CDATA[Hmmm... Not enough color. Need more youth.]]></entry>
+    <entry id="str_block_camping_meal_color_madness"><![CDATA[Food is lie. Lie is food. Is lie food. Lie food is...]]></entry>
+    <entry id="str_block_camping_meal_color_madness"><![CDATA[Me no eat until me find mouth.]]></entry>
+    <entry id="str_heart_attack_color_madness"><![CDATA[ALL IS RED!!!]]></entry>
+    <entry id="str_heart_attack_color_madness"><![CDATA[THE STARS CALL FOR ME!!!]]></entry>
+    <entry id="str_heart_attack_color_madness"><![CDATA[THE COLORS SCREAM!!!]]></entry>
+    <entry id="str_block_camping_skill_target_color_madness"><![CDATA[Red rum.]]></entry>
+    <entry id="str_block_camping_skill_target_color_madness"><![CDATA[Me no see your color.]]></entry>
+    <entry id="str_block_camping_skill_target_color_madness"><![CDATA[Me smell only ash on you. Hear only death.]]></entry>
+    <entry id="str_block_camping_skill_performer_color_madness"><![CDATA[(ear splitting squeal)]]></entry>
+    <entry id="str_block_camping_skill_performer_color_madness"><![CDATA[Eat your soul. Consume the heat of light.]]></entry>
+    <entry id="str_block_camping_skill_performer_color_madness"><![CDATA[Color is missing. Me wait.]]></entry>
+    <entry id="str_block_heal_color_madness"><![CDATA[Me is only pain. No heal.]]></entry>
+    <entry id="str_block_heal_color_madness"><![CDATA[Me only trust the shadow of light.]]></entry>
+    <entry id="str_block_buff_color_madness"><![CDATA[Ash is enough.]]></entry>
+    <entry id="str_block_buff_color_madness"><![CDATA[You color taint the pretty light.]]></entry>
+    <entry id="str_consume_item_color_madness"><![CDATA[Color hurt. Color heal.]]></entry>
+    <entry id="str_consume_item_color_madness"><![CDATA[Mmmm... strong spice.]]></entry>
+    <entry id="str_roster_list_color_madness_bark"><![CDATA[More color! More flavor!]]></entry>
+    <entry id="str_roster_list_color_madness_bark"><![CDATA[Pretty pretty shiny shiny...]]></entry>
+
+	<!-- Crimson Court -->
+    <entry id="quirk_evolution_death_disease_vampire_wasting"><![CDATA[So... hungry... so... weak...]]></entry>
+    <entry id="quirk_transition_disease_vampire_blood_lust_to_disease_vampire_passive"><![CDATA[(panting slows)]]></entry>
+    <entry id="quirk_transition_disease_vampire_crave_to_disease_vampire_blood_lust"><![CDATA[RRROOAAAAAAARRR!!!]]></entry>
+    <entry id="quirk_transition_disease_vampire_crave_to_disease_vampire_wasting"><![CDATA[Blood... need... blood...]]></entry>
+    <entry id="quirk_transition_disease_vampire_passive_to_disease_vampire_crave"><![CDATA[ME HUNGER! NEED BLOOD!]]></entry>
+    <entry id="quirk_transition_disease_vampire_wasting_to_disease_vampire_passive"><![CDATA[Mmmm... much good.]]></entry>
+
+    <entry id="str_attack_friendly_disease_vampire_blood_lust"><![CDATA[ALL MUST BLEED! IT IS WAY!]]></entry>
+    <entry id="str_attack_friendly_disease_vampire_blood_lust"><![CDATA[BLOOD FOR ALL!]]></entry>
+    <entry id="str_attack_friendly_disease_vampire_blood_lust"><![CDATA[GIVE ME BLOOD!]]></entry>
+    <entry id="str_attack_friendly_disease_vampire_crave"><![CDATA[Blood... need... BLOOD!]]></entry>
+    <entry id="str_attack_friendly_disease_vampire_crave"><![CDATA[You on menu!]]></entry>
+    <entry id="str_attack_friendly_disease_vampire_crave"><![CDATA[Me give food. You give blood!]]></entry>
+    <entry id="str_attack_friendly_disease_vampire_wasting"><![CDATA[(growls) Blood...]]></entry>
+    <entry id="str_attack_friendly_disease_vampire_wasting"><![CDATA[So hungry... Me take blood!]]></entry>
+    <entry id="str_attack_friendly_disease_vampire_wasting"><![CDATA[Me. must. FEED.]]></entry>
+
+    <entry id="str_bark_stress_disease_vampire_blood_lust"><![CDATA[BLOOD. IS. ALL.]]></entry>
+    <entry id="str_bark_stress_disease_vampire_blood_lust"><![CDATA[A FEAST OF BLOOD!]]></entry>
+    <entry id="str_bark_stress_disease_vampire_blood_lust"><![CDATA[ALL WILL BLEED! ME WILL FEAST!]]></entry>
+    <entry id="str_bark_stress_disease_vampire_crave"><![CDATA[Thirst... hunger... more!]]></entry>
+    <entry id="str_bark_stress_disease_vampire_crave"><![CDATA[Me will drink from corpse!]]></entry>
+    <entry id="str_bark_stress_disease_vampire_crave"><![CDATA[Need blood! Tasty blood!]]></entry>
+    <entry id="str_bark_stress_disease_vampire_wasting"><![CDATA[Thirst... hunger...]]></entry>
+    <entry id="str_bark_stress_disease_vampire_wasting"><![CDATA[Me have big hunger...]]></entry>
+    <entry id="str_bark_stress_disease_vampire_wasting"><![CDATA[(heavy panting and drooling)]]></entry>
+    <entry id="str_block_buff_disease_vampire_blood_lust"><![CDATA[ONLY BLOOD! ALL ELSE IS FILTH!]]></entry>
+    <entry id="str_block_buff_disease_vampire_blood_lust"><![CDATA[BLOOD IS ONLY FOOD ME NEED!]]></entry>
+    <entry id="str_block_buff_disease_vampire_blood_lust"><![CDATA[BLOOD ABOVE ALL!]]></entry>
+    <entry id="str_block_buff_disease_vampire_crave"><![CDATA[Need more blood...]]></entry>
+    <entry id="str_block_buff_disease_vampire_crave"><![CDATA[Only blood! Me crave BLOOD!]]></entry>
+    <entry id="str_block_buff_disease_vampire_wasting"><![CDATA[Thirst...]]></entry>
+    <entry id="str_block_buff_disease_vampire_wasting"><![CDATA[Blood... blood... blood...]]></entry>
+    <entry id="str_block_camping_meal_disease_vampire_crave"><![CDATA[(sniffs) grrr... Need more blood.]]></entry>
+    <entry id="str_block_camping_meal_disease_vampire_crave"><![CDATA[Blood is best taste. Me no eat filth!]]></entry>
+    <entry id="str_block_camping_meal_disease_vampire_crave"><![CDATA[Me have cook standards. Only best. Blood is best!]]></entry>
+    <entry id="str_block_camping_meal_disease_vampire_wasting"><![CDATA[Only... Blood...]]></entry>
+    <entry id="str_block_camping_meal_disease_vampire_wasting"><![CDATA[Hunger... only... Blood...]]></entry>
+    <entry id="str_block_combat_retreat_disease_vampire_blood_lust"><![CDATA[WE STAY! THEY BLEED!]]></entry>
+    <entry id="str_block_combat_retreat_disease_vampire_blood_lust"><![CDATA[ALL WILL BLEED!]]></entry>
+    <entry id="str_block_combat_retreat_disease_vampire_blood_lust"><![CDATA[ME WILL HAVE BLOOD! ALL BLOOD!]]></entry>
+    <entry id="str_block_heal_disease_vampire_blood_lust"><![CDATA[BLOOD MAKE ME STRONG!]]></entry>
+    <entry id="str_block_heal_disease_vampire_blood_lust"><![CDATA[ME HAVE MUCH HEALTH! BLOOD IS PURE!]]></entry>
+    <entry id="str_block_heal_disease_vampire_crave"><![CDATA[Blood is best meal.]]></entry>
+    <entry id="str_block_heal_disease_vampire_crave"><![CDATA[Me only need blood.]]></entry>
+    <entry id="str_block_heal_disease_vampire_wasting"><![CDATA[Blood... only blood....]]></entry>
+    <entry id="str_block_heal_disease_vampire_wasting"><![CDATA[Is blood? Hmmph.]]></entry>
+    <entry id="str_block_heal_disease_vampire_wasting"><![CDATA[Hinger only for blood...]]></entry>
+    <entry id="str_block_move_disease_vampire_wasting"><![CDATA[Too... hungry...]]></entry>
+    <entry id="str_block_move_disease_vampire_wasting"><![CDATA[Me tired... hungry...]]></entry>
+
+    <entry id="str_change_pos_fwd_disease_vampire_blood_lust"><![CDATA[ME WILL TAKE BLOOD!]]></entry>
+    <entry id="str_change_pos_fwd_disease_vampire_blood_lust"><![CDATA[EAT FOOD! DRINK BLOOD!]]></entry>
+    <entry id="str_change_pos_fwd_disease_vampire_blood_lust"><![CDATA[ME SMELL BLOOD! WILL FIND!]]></entry>
+    <entry id="str_change_pos_fwd_disease_vampire_crave"><![CDATA[Me smell tasty blood!]]></entry>
+    <entry id="str_change_pos_fwd_disease_vampire_crave"><![CDATA[(sniffs) Mmmmm... BLOOD.]]></entry>
+    <entry id="str_change_pos_fwd_disease_vampire_crave"><![CDATA[Move! Me will have blood!]]></entry>
+    <entry id="str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[ALL BLEED! ALL FEAST!]]></entry>
+    <entry id="str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[ME WILL TASTE YOU AND NO WILL STOP ME!]]></entry>
+    <entry id="str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[WE BLEED! WE GROW STRONG!]]></entry>
+    <entry id="str_comment_ally_hit_disease_vampire_crave"><![CDATA[Mmmmm... smell tasty blood.]]></entry>
+    <entry id="str_comment_ally_hit_disease_vampire_crave"><![CDATA[No waste blood! Me will drink!]]></entry>
+    <entry id="str_comment_ally_hit_disease_vampire_crave"><![CDATA[Save you blood. Will use in stew.]]></entry>
+    <entry id="str_comment_curio_interaction_disease_vampire_crave"><![CDATA[(sniffing) Blood here?]]></entry>
+    <entry id="str_comment_curio_interaction_disease_vampire_crave"><![CDATA[Me know Blood is here!]]></entry>
+    <entry id="str_comment_curio_interaction_disease_vampire_crave"><![CDATA[(feverishly sniffing looking for Blood)]]></entry>
+    <entry id="str_comment_curio_interaction_disease_vampire_wasting"><![CDATA[Is... Blood here?]]></entry>
+    <entry id="str_comment_curio_interaction_disease_vampire_wasting"><![CDATA[Mouth so dry... need blood...]]></entry>
+    <entry id="str_comment_curio_interaction_disease_vampire_wasting"><![CDATA[Me find Blood...]]></entry>
+    <entry id="str_comment_trap_triggered_disease_vampire_crave"><![CDATA[(surprised squeal)]]></entry>
+    <entry id="str_comment_trap_triggered_disease_vampire_crave"><![CDATA[Blood... blood... blood... blood...]]></entry>
+    <entry id="str_comment_trap_triggered_disease_vampire_crave"><![CDATA[So hungry... me not notice notice...]]></entry>
+    <entry id="str_comment_trap_triggered_disease_vampire_wasting"><![CDATA[Me so tired...]]></entry>
+    <entry id="str_comment_trap_triggered_disease_vampire_wasting"><![CDATA[Blood... Bloooooood...]]></entry>
+
+    <entry id="str_ignore_command_disease_vampire_blood_lust"><![CDATA[BLOOD! BLOOD! BLOOOOD!!!]]></entry>
+    <entry id="str_ignore_command_disease_vampire_blood_lust"><![CDATA[BLOOD IS ALL! SMELL BLOOD ALL AROUND!]]></entry>
+    <entry id="str_ignore_command_disease_vampire_blood_lust"><![CDATA[ONLY BLOOD! BLOOD FOR ME!]]></entry>
+    <entry id="str_ignore_command_disease_vampire_crave"><![CDATA[Blood... Blood... Blood...]]></entry>
+    <entry id="str_ignore_command_disease_vampire_crave"><![CDATA[Me hunger... me thirst!...]]></entry>
+    <entry id="str_ignore_command_disease_vampire_wasting"><![CDATA[Me... so... tired...]]></entry>
+    <entry id="str_ignore_command_disease_vampire_wasting"><![CDATA[(sniffs) Blood?...]]></entry>
+
+    <entry id="str_random_command_disease_vampire_blood_lust"><![CDATA[RROOOAAAAARRR!!!]]></entry>
+    <entry id="str_random_command_disease_vampire_blood_lust"><![CDATA[ALL! IS! BLOOD!]]></entry>
+    <entry id="str_random_command_disease_vampire_blood_lust"><![CDATA[ME EAT ALL! ME DRINK ALL BLOOD!]]></entry>
+
+    <entry id="str_quirk_description_disease_vampire_blood_lust"><![CDATA[BLOOD MAKE ME WHOLE!]]></entry>
+    <entry id="str_quirk_description_disease_vampire_crave"><![CDATA[Blood! Me need blood!]]></entry>
+    <entry id="str_quirk_description_disease_vampire_passive"><![CDATA[Me feel... wrong...]]></entry>
+    <entry id="str_quirk_description_disease_vampire_wasting"><![CDATA[Hunger... me... only hunger...]]></entry>
+
+    <entry id="trigger_curio_quirk_disease_vampire_passive"><![CDATA[Blood! Me need blood!]]></entry>
+    <entry id="trigger_curio_quirk_disease_vampire_crave"><![CDATA[Blood! Me need blood!]]></entry>
+    <entry id="trigger_curio_quirk_disease_vampire_wasting"><![CDATA[Blood! Me need blood!]]></entry>
+
+    <entry id="str_attack_self_disease_vampire_wasting"><![CDATA[Me find blood...]]></entry>
+    <entry id="str_attack_self_disease_vampire_wasting"><![CDATA[Must find...blood…]]></entry>
+    <entry id="str_attack_self_disease_vampire_wasting"><![CDATA[Blood... in me... need blood!]]></entry>
+    <entry id="str_block_move_disease_vampire_crave"><![CDATA[Me will find blood! Only thing that matter!]]></entry>
+    <entry id="str_block_move_disease_vampire_crave"><![CDATA[Me only move for blood!]]></entry>
+    <entry id="str_block_move_disease_vampire_crave"><![CDATA[No! Blood is mine!]]></entry>
+    <entry id="str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[Hhaaaahhh...]]></entry>
+    <entry id="str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[HUNGER IS PURE!]]></entry>
+    <entry id="str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[(slurps) Blood... the best flavor.]]></entry>
 
 	<!--Facility Rejection Barks-->
 	<entry id="gourmet+str_alcoholism_gambling_rejection"><![CDATA[Move. Me want drink.]]></entry>

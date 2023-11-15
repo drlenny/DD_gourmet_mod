@@ -70,7 +70,7 @@
             "id": "gourmet_uncommon_prot_buff",
             "stat_type" : "combat_stat_add",
             "stat_sub_type" : "protection_rating",
-            "amount" : 0.1,
+            "amount" : 0.15,
             "remove_if_not_active" : false,
             "rule_type" : "always",
             "is_false_rule" : false,
@@ -239,7 +239,7 @@
             "id": "gourmet_rare_prot_debuff",
             "stat_type" : "combat_stat_add",
             "stat_sub_type" : "protection_rating",
-            "amount" : -0.08,
+            "amount" : -0.10,
             "remove_if_not_active" : false,
             "rule_type" : "always",
             "is_false_rule" : false,
@@ -311,32 +311,6 @@
             "rule_data": {
                "float": 0,
                "string": "tagged"
-            }
-         },
-         {
-            "id": "gourmet_bell_dmgh_vs_stun_buff",
-            "stat_type": "combat_stat_multiply",
-            "stat_sub_type": "damage_high",
-            "amount": 0.2,
-            "remove_if_not_active": false,
-            "rule_type": "actorStatus",
-            "is_false_rule": false,
-            "rule_data": {
-               "float": 0,
-               "string": "stunned"
-            }
-         },
-         {
-            "id": "gourmet_bell_dmgl_vs_stun_buff",
-            "stat_type": "combat_stat_multiply",
-            "stat_sub_type": "damage_low",
-            "amount": 0.2,
-            "remove_if_not_active": false,
-            "rule_type": "actorStatus",
-            "is_false_rule": false,
-            "rule_data": {
-               "float": 0,
-               "string": "stunned"
             }
          },
          {
