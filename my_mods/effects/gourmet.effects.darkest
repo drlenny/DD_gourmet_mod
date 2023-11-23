@@ -2,11 +2,11 @@
 effect: .name "Gourmet On Crit" .target "performer".chance 100% .buff_source_type bsrc_crit .buff_ids "gourmet_on_crit" .duration 2 .on_hit true .on_miss false .apply_once true .queue true
 
 // Choice Cut
-effect: .name "Gourmet Cut Debuff 1" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_speed_cut_debuff_1" .on_hit true .on_miss false
-effect: .name "Gourmet Cut Debuff 2" .target "target" .chance 110% .duration 3 .buff_ids "gourmet_speed_cut_debuff_1" .on_hit true .on_miss false
-effect: .name "Gourmet Cut Debuff 3" .target "target" .chance 120% .duration 3 .buff_ids "gourmet_speed_cut_debuff_2" .on_hit true .on_miss false
-effect: .name "Gourmet Cut Debuff 4" .target "target" .chance 130% .duration 3 .buff_ids "gourmet_speed_cut_debuff_2" .on_hit true .on_miss false
-effect: .name "Gourmet Cut Debuff 5" .target "target" .chance 140% .duration 3 .buff_ids "gourmet_speed_cut_debuff_3" .on_hit true .on_miss false
+effect: .name "Gourmet Cut Debuff 1" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_speed_cut_debuff_1" "gourmet_dmgh_cut_debuff_1" "gourmet_dmgl_cut_debuff_1" .on_hit true .on_miss false
+effect: .name "Gourmet Cut Debuff 2" .target "target" .chance 110% .duration 3 .buff_ids "gourmet_speed_cut_debuff_1" "gourmet_dmgh_cut_debuff_2" "gourmet_dmgl_cut_debuff_2" .on_hit true .on_miss false
+effect: .name "Gourmet Cut Debuff 3" .target "target" .chance 120% .duration 3 .buff_ids "gourmet_speed_cut_debuff_2" "gourmet_dmgh_cut_debuff_3" "gourmet_dmgl_cut_debuff_3" .on_hit true .on_miss false
+effect: .name "Gourmet Cut Debuff 4" .target "target" .chance 130% .duration 3 .buff_ids "gourmet_speed_cut_debuff_2" "gourmet_dmgh_cut_debuff_4" "gourmet_dmgl_cut_debuff_4" .on_hit true .on_miss false
+effect: .name "Gourmet Cut Debuff 5" .target "target" .chance 140% .duration 3 .buff_ids "gourmet_speed_cut_debuff_3" "gourmet_dmgh_cut_debuff_5" "gourmet_dmgl_cut_debuff_5" .on_hit true .on_miss false
 
 // Tenderize
 effect: .name "Gourmet Mallet Mark" .target "target" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false .has_description false

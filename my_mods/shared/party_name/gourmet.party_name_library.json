@@ -1,0 +1,94 @@
+{
+    "party_names":
+    [
+		{
+    		"id": "7141810",
+    		"required_hero_class": [ "musketeer", "houndmaster", "bounty_hunter", "gourmet" ]
+		},
+        {
+    		"id": "7141811",
+    		"required_hero_class": [ "houndmaster", "jester", "bounty_hunter", "gourmet" ]
+		},
+        {
+    		"id": "7141812",
+    		"required_hero_class": [ "man_at_arms", "crusader", "gourmet", "hellion" ]
+		},
+        {
+    		"id": "7141813",
+    		"required_hero_class": [ "gourmet", "antiquarian", "grave_robber", "lamia" ]
+		},
+        {
+    		"id": "7141814",
+    		"required_hero_class": [ "gourmet" ]
+		},
+        {
+    		"id": "7141815",
+    		"required_hero_class": [ "milkmaid", "forsaken", "maenad", "gourmet" ]
+		},
+        {
+    		"id": "7141816",
+    		"required_hero_class": [ "prefect", "uncrowned", "anointed", "gourmet" ]
+		},
+        {
+    		"id": "7141817",
+    		"required_hero_class": [ "runaway", "arsonist", "salamander", "gourmet" ]
+		},
+        {
+    		"id": "7141818",
+    		"required_hero_class": [ "choir_hunter", "keg_hunter", "sawhunter", "gourmet" ]
+		},
+        {
+    		"id": "7141819",
+    		"required_hero_class": [ "arbalest", "houndmaster", "bounty_hunter", "gourmet" ]
+		},
+        {
+    		"id": "7141820",
+    		"required_hero_class": [ "ringmaster", "jester", "flagellant", "gourmet" ]
+		},
+        {
+    		"id": "7141821",
+    		"required_hero_class": [ "prefect", "fish_onmyoji", "gourmet", "warlord" ]
+		},
+        {
+    		"id": "7141822",
+    		"required_hero_class": [ "scarecrow", "milkmaid", "warlord", "gourmet" ]
+		},
+        {
+    		"id": "7141823",
+    		"required_hero_class": [ "fish_onmyoji", "croc", "gourmet", "warlord" ]
+		},
+        {
+    		"id": "7141824",
+    		"required_hero_class": [ "antiquarian", "fish_onmyoji", "eternal", "gourmet" ]
+		},
+        {
+    		"id": "7141825",
+    		"required_hero_class": [ "hive", "forlorn", "gourmet", "duchess" ]
+		},
+		{
+    		"id": "7141826",
+    		"required_hero_class": [ "falconer", "cook", "botanist", "gourmet" ]
+		},
+        {
+    		"id": "7141827",
+    		"required_hero_class": [ "cook", "beasthunter", "croc", "gourmet" ]
+		},
+        {
+    		"id": "7141828",
+    		"required_hero_class": [ "sisters", "wraith", "gourmet", "wanderer" ]
+		},
+        {
+    		"id": "7141829",
+    		"required_hero_class": [ "rescuer", "houndmaster", "upuaut", "gourmet" ]
+		},
+        {
+    		"id": "7141830",
+    		"required_hero_class": [ "piglet", "gourmet" ]
+		},
+        {
+    		"id": "7141831",
+    		"required_hero_class": [ "hexer", "beastmaster", "duchess", "gourmet" ]
+		}
+    ]
+
+}

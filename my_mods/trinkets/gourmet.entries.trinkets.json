@@ -41,7 +41,10 @@
                 "gourmet_rare_gluttony_buff",
                 "gourmet_rare_healing_buff",
                 "gourmet_rare_starve_dmg_reduce",
-                "gourmet_rare_speed_debuff"
+                "gourmet_rare_speed_debuff",
+                "gourmet_rare_starve_no_stress",
+                "gourmet_rare_starve_no_stress_camp",
+                "gourmet_rare_pot_starve_tooltip"
             ],
             "hero_class_requirements": [
                 "gourmet"
