@@ -19,11 +19,11 @@ effect: .name "Gourmet Mallet Prot Debuff 3" .target "target" .chance 130% .comb
 effect: .name "Gourmet Mallet Prot Debuff 4" .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -17% .duration 3 .on_hit true .on_miss false
 effect: .name "Gourmet Mallet Prot Debuff 5" .target "target" .chance 150% .combat_stat_buff 1 .protection_rating_add -20% .duration 3 .on_hit true .on_miss false
 
-effect: .name "Gourmet Dmg Received Marked Debuff 1" .target "target" .chance 100% .duration 2 .buff_ids "gourmet_dmg_received_marked_1" .on_hit true .on_miss false
-effect: .name "Gourmet Dmg Received Marked Debuff 2" .target "target" .chance 110% .duration 2 .buff_ids "gourmet_dmg_received_marked_2" .on_hit true .on_miss false
-effect: .name "Gourmet Dmg Received Marked Debuff 3" .target "target" .chance 120% .duration 2 .buff_ids "gourmet_dmg_received_marked_3" .on_hit true .on_miss false
-effect: .name "Gourmet Dmg Received Marked Debuff 4" .target "target" .chance 130% .duration 2 .buff_ids "gourmet_dmg_received_marked_4" .on_hit true .on_miss false
-effect: .name "Gourmet Dmg Received Marked Debuff 5" .target "target" .chance 140% .duration 2 .buff_ids "gourmet_dmg_received_marked_5" .on_hit true .on_miss false
+effect: .name "Gourmet Dmg Received Marked Debuff 1" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_dmg_received_marked_1" .on_hit true .on_miss false
+effect: .name "Gourmet Dmg Received Marked Debuff 2" .target "target" .chance 110% .duration 3 .buff_ids "gourmet_dmg_received_marked_2" .on_hit true .on_miss false
+effect: .name "Gourmet Dmg Received Marked Debuff 3" .target "target" .chance 120% .duration 3 .buff_ids "gourmet_dmg_received_marked_3" .on_hit true .on_miss false
+effect: .name "Gourmet Dmg Received Marked Debuff 4" .target "target" .chance 130% .duration 3 .buff_ids "gourmet_dmg_received_marked_4" .on_hit true .on_miss false
+effect: .name "Gourmet Dmg Received Marked Debuff 5" .target "target" .chance 140% .duration 3 .buff_ids "gourmet_dmg_received_marked_5" .on_hit true .on_miss false
 
 // Obliterate
 effect: .name "Gourmet Obliterate Acc Marked 1" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 85% .on_hit true .on_miss false
@@ -89,11 +89,11 @@ effect: .name "Gourmet Shield Buff Target 3" .target "target" .chance 100% .dura
 effect: .name "Gourmet Shield Buff Target 4" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_4" "gourmet_shield_guarded_dmgh_4" "gourmet_shield_guarded_dmgl_4" "gourmet_shield_guarded_crit_4" .on_hit true .on_miss false
 effect: .name "Gourmet Shield Buff Target 5" .target "target" .chance 100% .duration 3 .buff_ids "gourmet_shield_heal_received_5" "gourmet_shield_guarded_dmgh_5" "gourmet_shield_guarded_dmgl_5" "gourmet_shield_guarded_crit_5" .on_hit true .on_miss false
 
-effect: .name "Gourmet Shield Buff Self 1" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_1" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_blight_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
-effect: .name "Gourmet Shield Buff Self 2" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_2" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_blight_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
-effect: .name "Gourmet Shield Buff Self 3" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_3" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_blight_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
-effect: .name "Gourmet Shield Buff Self 4" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_4" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_blight_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
-effect: .name "Gourmet Shield Buff Self 5" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_5" "gourmet_shield_prot_debuff" "gourmet_shield_bleed_resist_debuff" "gourmet_shield_blight_resist_debuff" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 1" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_1" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 2" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_2" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 3" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_3" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 4" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_4" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
+effect: .name "Gourmet Shield Buff Self 5" .target "performer" .chance 100% .duration 4 .buff_ids "gourmet_shield_move_resist" "gourmet_shield_heal_received_5" "gourmet_shield_stun_resist" .on_hit true .on_miss false .queue true
 
 // Devour
 effect: .name "Gourmet Devour Tooltip vs Healthy" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_devour_vs_healthy" .on_hit true .on_miss false
