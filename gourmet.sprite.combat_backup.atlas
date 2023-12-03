@@ -1,0 +1,111 @@
+
+gourmet.sprite.combat.png
+size: 999,1220
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmet/shadow
+  rotate: false
+  xy: 1, 1155
+  size: 509, 63
+  orig: 509, 63
+  offset: 0, 0
+  index: -1
+gourmet/cleaver
+  rotate: false
+  xy: 1, 1
+  size: 517, 418
+  orig: 517, 418
+  offset: 0, 0
+  index: -1
+gourmet/back_right_apron
+  rotate: false
+  xy: 295, 985
+  size: 71, 101
+  orig: 71, 101
+  offset: 0, 0
+  index: -1
+gourmet/right_leg
+  rotate: false
+  xy: 422, 779
+  size: 175, 286
+  orig: 175, 286
+  offset: 0, 0
+  index: -1
+gourmet/right_fringe
+  rotate: false
+  xy: 787, 941
+  size: 210, 121
+  orig: 210, 121
+  offset: 0, 0
+  index: -1
+gourmet/left_leg
+  rotate: false
+  xy: 599, 941
+  size: 186, 241
+  orig: 186, 241
+  offset: 0, 0
+  index: -1
+gourmet/left_fringe
+  rotate: false
+  xy: 307, 779
+  size: 88, 62
+  orig: 88, 62
+  offset: 0, 0
+  index: -1
+gourmet/pouch
+  rotate: false
+  xy: 1, 985
+  size: 292, 168
+  orig: 292, 168
+  offset: 0, 0
+  index: -1
+gourmet/belt
+  rotate: false
+  xy: 1, 861
+  size: 419, 122
+  orig: 419, 122
+  offset: 0, 0
+  index: -1
+gourmet/left_arm
+  rotate: false
+  xy: 307, 439
+  size: 319, 338
+  orig: 319, 338
+  offset: 0, 0
+  index: -1
+gourmet/handle
+  rotate: false
+  xy: 368, 1067
+  size: 80, 52
+  orig: 80, 52
+  offset: 0, 0
+  index: -1
+gourmet/torso
+  rotate: false
+  xy: 520, 1
+  size: 463, 436
+  orig: 463, 436
+  offset: 0, 0
+  index: -1
+gourmet/head
+  rotate: false
+  xy: 628, 439
+  size: 289, 304
+  orig: 289, 304
+  offset: 0, 0
+  index: -1
+gourmet/mallet
+  rotate: false
+  xy: 628, 745
+  size: 266, 194
+  orig: 266, 194
+  offset: 0, 0
+  index: -1
+gourmet/right_arm
+  rotate: false
+  xy: 1, 421
+  size: 304, 438
+  orig: 304, 438
+  offset: 0, 0
+  index: -1

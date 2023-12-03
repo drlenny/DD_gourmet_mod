@@ -1,111 +1,111 @@
 
 gourmet.sprite.idle.png
-size: 1012,985
+size: 984,984
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-shadow
-  rotate: false
-  xy: 537, 737
-  size: 473, 63
-  orig: 473, 63
-  offset: 0, 0
-  index: -1
-right_leg
-  rotate: false
-  xy: 537, 378
-  size: 173, 227
-  orig: 173, 227
-  offset: 0, 0
-  index: -1
-left_leg
-  rotate: false
-  xy: 712, 521
-  size: 157, 214
-  orig: 157, 214
-  offset: 0, 0
-  index: -1
 apron_pouch
   rotate: false
-  xy: 537, 802
+  xy: 595, 23
   size: 246, 121
   orig: 246, 121
   offset: 0, 0
   index: -1
-right_apron_fringe
-  rotate: false
-  xy: 318, 840
-  size: 113, 39
-  orig: 113, 39
-  offset: 0, 0
-  index: -1
-left_apron_fringe
-  rotate: false
-  xy: 621, 607
-  size: 56, 43
-  orig: 56, 43
-  offset: 0, 0
-  index: -1
 belt
-  rotate: false
-  xy: 318, 925
+  rotate: true
+  xy: 920, 149
   size: 383, 58
   orig: 383, 58
   offset: 0, 0
   index: -1
-mallet
-  rotate: false
-  xy: 712, 378
-  size: 274, 141
-  orig: 274, 141
-  offset: 0, 0
-  index: -1
 cleaver
   rotate: false
-  xy: 1, 1
+  xy: 2, 633
   size: 553, 349
   orig: 553, 349
   offset: 0, 0
   index: -1
-left_arm
-  rotate: false
-  xy: 1, 352
-  size: 325, 315
-  orig: 325, 315
-  offset: 0, 0
-  index: -1
 cleaver_handle
-  rotate: false
-  xy: 537, 607
+  rotate: true
+  xy: 934, 785
   size: 82, 44
   orig: 82, 44
   offset: 0, 0
   index: -1
-torso
+head
   rotate: false
-  xy: 556, 1
-  size: 448, 375
-  orig: 448, 375
+  xy: 2, 26
+  size: 315, 288
+  orig: 315, 288
+  offset: 0, 0
+  index: -1
+left_apron_fringe
+  rotate: true
+  xy: 934, 727
+  size: 56, 43
+  orig: 56, 43
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: false
+  xy: 2, 316
+  size: 325, 315
+  orig: 325, 315
+  offset: 0, 0
+  index: -1
+left_leg
+  rotate: true
+  xy: 538, 146
+  size: 157, 214
+  orig: 157, 214
+  offset: 0, 0
+  index: -1
+mallet
+  rotate: false
+  xy: 319, 2
+  size: 274, 141
+  orig: 274, 141
+  offset: 0, 0
+  index: -1
+right_apron_fringe
+  rotate: true
+  xy: 934, 869
+  size: 113, 39
+  orig: 113, 39
   offset: 0, 0
   index: -1
 right_arm
   rotate: false
-  xy: 328, 352
+  xy: 329, 145
   size: 207, 486
   orig: 207, 486
   offset: 0, 0
   index: -1
 right_armpit
-  rotate: false
-  xy: 433, 840
+  rotate: true
+  xy: 843, 5
   size: 52, 75
   orig: 52, 75
   offset: 0, 0
   index: -1
-head
+right_leg
   rotate: false
-  xy: 1, 669
-  size: 315, 288
-  orig: 315, 288
+  xy: 538, 305
+  size: 173, 227
+  orig: 173, 227
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 843, 59
+  size: 473, 63
+  orig: 473, 63
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 557, 534
+  size: 448, 375
+  orig: 448, 375
   offset: 0, 0
   index: -1

@@ -1,0 +1,111 @@
+
+gourmet.sprite.walk.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmetspriteidle/shadow
+  rotate: false
+  xy: 537, 737
+  size: 473, 63
+  orig: 473, 63
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/left_leg
+  rotate: false
+  xy: 712, 521
+  size: 157, 214
+  orig: 157, 214
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/right_leg
+  rotate: false
+  xy: 537, 378
+  size: 173, 227
+  orig: 173, 227
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/left_apron_fringe
+  rotate: false
+  xy: 621, 607
+  size: 56, 43
+  orig: 56, 43
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/apron_pouch
+  rotate: false
+  xy: 537, 802
+  size: 246, 121
+  orig: 246, 121
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/right_apron_fringe
+  rotate: false
+  xy: 318, 840
+  size: 113, 39
+  orig: 113, 39
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/belt
+  rotate: false
+  xy: 318, 925
+  size: 381, 58
+  orig: 381, 58
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/mallet
+  rotate: false
+  xy: 712, 378
+  size: 274, 141
+  orig: 274, 141
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/cleaver
+  rotate: false
+  xy: 1, 1
+  size: 553, 349
+  orig: 553, 349
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/left_arm
+  rotate: false
+  xy: 1, 352
+  size: 325, 315
+  orig: 325, 315
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/cleaver_handle
+  rotate: false
+  xy: 537, 607
+  size: 82, 44
+  orig: 82, 44
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/Paint_Layer_1
+  rotate: false
+  xy: 556, 1
+  size: 448, 375
+  orig: 448, 375
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/right_armpit
+  rotate: false
+  xy: 433, 840
+  size: 52, 75
+  orig: 52, 75
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/right_arm
+  rotate: false
+  xy: 328, 352
+  size: 207, 486
+  orig: 207, 486
+  offset: 0, 0
+  index: -1
+gourmetspriteidle/head
+  rotate: false
+  xy: 1, 669
+  size: 315, 288
+  orig: 315, 288
+  offset: 0, 0
+  index: -1

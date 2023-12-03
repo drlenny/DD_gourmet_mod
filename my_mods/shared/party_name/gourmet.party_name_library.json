@@ -88,6 +88,14 @@
         {
     		"id": "7141831",
     		"required_hero_class": [ "hexer", "beastmaster", "duchess", "gourmet" ]
+		},
+		{
+    		"id": "7141832",
+    		"required_hero_class": [ "cook", "gourmet" ]
+		},
+		{
+    		"id": "7141833",
+    		"required_hero_class": [ "milkmaid", "cook", "botanist", "gourmet" ]
 		}
     ]
 

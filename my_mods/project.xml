@@ -68,6 +68,8 @@
 		[*]When landing a crit the Gourmet gains a small hp regen
 		[*]The Gourmet will refuse to party with other Gourmets
 		[*]Belongs to the Outsider&apos;s Bonfire District
+		[*]Has a chance to find a couple food provisions from curios
+		[*]Increased stack limit for food provisions while in your party
 		[*]Canon name is Napoleon
 	[/list]
 
@@ -76,12 +78,20 @@
 		[*]Town Events
 		[*]More Color Palettes
 		[*]Vermintide food items, trinkets, and custom barks
+		[*]Unique quirks
 		[*]And more???
 	[/list]
 
 	[h2]Localization[/h2]
 	[h2]----------------------------------------------------[/h2]
-	While this mod should be usable in every language, it does not have any translations other than English. If you would like to assist in translating, please contact me either on Steam or Discord
+	[list]
+	[*]English
+	[*]Brazilian - credit to [b]Grifo[/b] for the translation
+	[*]schinese - credit to [b]喷泉之下[/b] for the translation
+	[*]Spanish - credit to [b]Juhnter[/b] for the translation
+	[/list]
+
+	If you would like to assist with translating any more of the different languages, feel free to reach out to me on Steam or Discord!
 	
 	[h2]Credits and Such[/h2]
 	[h2]----------------------------------------------------[/h2]
@@ -100,8 +110,12 @@
 	[b]TheAwkwardHeady[/b] - feedback and general modding assistance
 	[b]Slightly_Seal[/b] - for allowing me to sample one of their sprites to use in the target fx for &apos;Devour&apos;
 	[b]TiltedHat[/b] - assistance with art programs such as Krita and DragonBones
+	[b]Grifo[/b] - Brazilian localization
+	[b]喷泉之下[/b] - schinese localization
+	[b]Juhnter[/b] - Spanish localization
+	[b]ShallowIris[/b] - big thanks for their assistance with polishing up idle, combat, and walking animations they da best look how smooth it is so buttery~
 
-	And finally thanks to everyone on the [url=https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.gg%2Fdarkestdungeon]Official Darkest Dungeon Discord Server[/url]. Thanks for all the feedback and assistance and for being so welcoming into the community. 
+	And finally thanks to everyone on the Official Darkest Dungeon Discord Server. Thanks for all the feedback and assistance and for being so welcoming into the community. 
 
 	[h2]Disclaimer[/h2]
 	[h2]----------------------------------------------------[/h2]

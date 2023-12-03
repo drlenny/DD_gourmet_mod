@@ -9,11 +9,11 @@ weapon: .name "gourmet_weapon_1" .atk 0% .dmg 7 10 .crit 2% .spd 1 .upgradeRequi
 weapon: .name "gourmet_weapon_2" .atk 0% .dmg 8 12 .crit 3% .spd 2 .upgradeRequirementCode 1
 weapon: .name "gourmet_weapon_3" .atk 0% .dmg 9 14 .crit 4% .spd 2 .upgradeRequirementCode 2
 weapon: .name "gourmet_weapon_4" .atk 0% .dmg 10 15 .crit 5% .spd 3 .upgradeRequirementCode 3
-armour: .name "gourmet_armour_0" .def 0% .prot 0 .hp 37 .spd 0
-armour: .name "gourmet_armour_1" .def 5% .prot 0 .hp 46 .spd 0 .upgradeRequirementCode 0
-armour: .name "gourmet_armour_2" .def 10% .prot 0 .hp 55 .spd 0 .upgradeRequirementCode 1
-armour: .name "gourmet_armour_3" .def 15% .prot 0 .hp 64 .spd 0 .upgradeRequirementCode 2
-armour: .name "gourmet_armour_4" .def 20% .prot 0 .hp 73 .spd 0 .upgradeRequirementCode 3
+armour: .name "gourmet_armour_0" .def 0% .prot 0 .hp 36 .spd 0
+armour: .name "gourmet_armour_1" .def 5% .prot 0 .hp 44 .spd 0 .upgradeRequirementCode 0
+armour: .name "gourmet_armour_2" .def 10% .prot 0 .hp 52 .spd 0 .upgradeRequirementCode 1
+armour: .name "gourmet_armour_3" .def 15% .prot 0 .hp 60 .spd 0 .upgradeRequirementCode 2
+armour: .name "gourmet_armour_4" .def 20% .prot 0 .hp 68 .spd 0 .upgradeRequirementCode 3
 
 //-----------------------------Skills---------------------------------
 

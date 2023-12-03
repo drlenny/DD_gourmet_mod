@@ -486,7 +486,7 @@
             }
          },
          {
-            "id": "gourmet_cc_set_dmgh_afflicted",
+            "id": "gourmet_cc_set_acc_afflicted",
             "stat_type": "combat_stat_add",
             "stat_sub_type": "attack_rating",
             "amount": 0.15,
