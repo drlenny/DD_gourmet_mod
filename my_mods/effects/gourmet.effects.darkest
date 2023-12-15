@@ -144,11 +144,11 @@ effect: .name "Gourmet Taste Blight Off" .target "target" .chance 1000% .buff_id
 
 effect: .name "Gourmet Taste Blight Buff 1" .target "target" .chance -4000% .buff_ids "gourmet_taste_blight_buff_self_dmgh_1" "gourmet_taste_blight_buff_self_dmgl_1" .duration 3 .on_hit true .on_miss false .apply_with_result true .swap_source_and_target true .has_description false
 
-effect: .name "Gourmet Taste Debuff 1" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 5% .on_hit true .on_miss false
-effect: .name "Gourmet Taste Debuff 2" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 6% .on_hit true .on_miss false
-effect: .name "Gourmet Taste Debuff 3" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 7% .on_hit true .on_miss false
-effect: .name "Gourmet Taste Debuff 4" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 8% .on_hit true .on_miss false
-effect: .name "Gourmet Taste Debuff 5" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 9% .on_hit true .on_miss false
+effect: .name "Gourmet Taste Debuff 1" .target "target" .chance 110% .buff_type crit_received_chance .buff_amount 5% .on_hit true .on_miss false
+effect: .name "Gourmet Taste Debuff 2" .target "target" .chance 120% .buff_type crit_received_chance .buff_amount 6% .on_hit true .on_miss false
+effect: .name "Gourmet Taste Debuff 3" .target "target" .chance 130% .buff_type crit_received_chance .buff_amount 7% .on_hit true .on_miss false
+effect: .name "Gourmet Taste Debuff 4" .target "target" .chance 140% .buff_type crit_received_chance .buff_amount 8% .on_hit true .on_miss false
+effect: .name "Gourmet Taste Debuff 5" .target "target" .chance 150% .buff_type crit_received_chance .buff_amount 9% .on_hit true .on_miss false
 
 effect: .name "Gourmet Taste No Riposte Tooltip" .target "performer" .chance 100% .skill_instant true .buff_ids "g_tt_taste_no_riposte" .on_hit true .on_miss false
 

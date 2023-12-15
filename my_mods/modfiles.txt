@@ -150,10 +150,10 @@ localization/3095319981_koreana.loc2 57871
 localization/3095319981_koreanb.loc2 57871
 localization/3095319981_polish.loc2 57871
 localization/3095319981_russian.loc2 57871
-localization/3095319981_schinese.loc2 65478
-localization/3095319981_spanish.loc2 63996
+localization/3095319981_schinese.loc2 65857
+localization/3095319981_spanish.loc2 64146
 localization/3095319981_tchinese.loc2 57871
-localization/gourmet.string_table.xml 1610616
+localization/gourmet.string_table.xml 1611144
 localization/missing_files.txt 862
 loot/gourmet.loot.json 6054
 overlays/poptext_damage_reflect.png 5169

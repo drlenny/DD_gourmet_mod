@@ -1357,102 +1357,102 @@
 	<entry id="party_name_7141831"><![CDATA[Fome Eterna]]></entry>
 
 	<!--Mode/Missing things/Tooltips-->
-	<entry id="str_vo_town_recruit_gourmet_0"><![CDATA[Even the fiercest beast will lay down when it has not eaten... Let us hope he enjoyed his last meal.]]></entry>
+	<entry id="str_vo_town_recruit_gourmet_0"><![CDATA[Até a besta mais feroz não aguenta o tranco se ficar sem comer... Nois vai garantir que aproveite sua última refeição.]]></entry>
 
-	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when Guarding]]></entry>
-    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s quando Guardando]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Duração de Guarda]]></entry>
     <!-- <entry id="buff_stat_tooltip_food_consumption_percent"><![CDATA[%+d%% Food Consumed]]></entry> -->
-    <entry id="buff_stat_tooltip_ignore_guard" arena_priority="1"><![CDATA[Bypass {colour_start|guard}Guard{colour_end}]]></entry>
-    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
-    <entry id="buff_rule_tooltip_is_vampire"><![CDATA[%s if has Crimson Curse]]></entry>
-    <entry id="buff_rule_data_tooltip_disease_vampire_blood_lust"><![CDATA[Crimson Curse - Bloodlust]]></entry>
-	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight Efficiency]]></entry>
-    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On Attack: Random target %d%%.]]></entry>
-    <entry id="effect_health_damage_blocks_format"><![CDATA[%d Blocks]]></entry>
-    <entry id="tray_icon_tooltip_health_damage_blocks_format"><![CDATA[%d Blocks Remain]]></entry>
-	<entry id="buff_rule_data_tooltip_talisman_charm"><![CDATA[Minor Omamori]]></entry>
-	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in Inventory]]></entry>
+    <entry id="buff_stat_tooltip_ignore_guard" arena_priority="1"><![CDATA[ignora {colour_start|guard}Guarda{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Reflexão de Dano]]></entry>
+    <entry id="buff_rule_tooltip_is_vampire"><![CDATA[%s se tiver Maldição Escarlate]]></entry>
+    <entry id="buff_rule_data_tooltip_disease_vampire_blood_lust"><![CDATA[Maldição Escarlate - Sede de Sangue]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Eficiência de Tocha]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[No Ataque: Alvo aleatório %d%%.]]></entry>
+    <entry id="effect_health_damage_blocks_format"><![CDATA[%d Bloqueios]]></entry>
+    <entry id="tray_icon_tooltip_health_damage_blocks_format"><![CDATA[%d Bloqueios restantes]]></entry>
+	<entry id="buff_rule_data_tooltip_talisman_charm"><![CDATA[Omamori Menor]]></entry>
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s se %s no inventário]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_guard_duration_buff"><![CDATA[+50%% Guard duration received]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_food_consume_common_A"><![CDATA[%+d%% Food Consumed]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_warrens_A_food_consume"><![CDATA[%+d%% Food Consumed]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_scouting_weald_A"><![CDATA[+35%% Scouting chance]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_vamp_food_consume_court_A"><![CDATA[%+d%% Food Consumed if has Crimson Curse]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_bloodlust_duration_court_B"><![CDATA[Increased Bloodlust state Duration for Crimson Curse]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_craving_duration_court_B"><![CDATA[Decreased Craving state Duration for Crimson Curse]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_scouting_SI_A"><![CDATA[-35%% Scouting chance]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_guard_duration_buff"><![CDATA[+50%% duração de Guarda recebida]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_food_consume_common_A"><![CDATA[%+d%% Comida consumida]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_warrens_A_food_consume"><![CDATA[%+d%% Comida consumida]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_scouting_weald_A"><![CDATA[+35%% Chance de reconhecimento]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_vamp_food_consume_court_A"><![CDATA[%+d%% Consumo de comida caso tenha Maldição Escarlate]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_bloodlust_duration_court_B"><![CDATA[Estado de sede de sangue aumentado para Maldição Escarlate]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_craving_duration_court_B"><![CDATA[Estado sedento reduzido para Maldição Escarlate]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_scouting_SI_A"><![CDATA[-35%% Chance de reconhecimento]]></entry>
 
 	<!--Missing Affliction Barks and others-->
-		<entry id="str_bark_hp_heal_dot"><![CDATA[Mmmm... taste good.]]></entry>
+		<entry id="str_bark_hp_heal_dot"><![CDATA[Hmmm... Apetitoso.]]></entry>
 
-		<entry id="str_heart_attack"><![CDATA[IT IS UNBEARABLE!]]></entry>
+		<entry id="str_heart_attack"><![CDATA[É INSUPORTÁVEL!]]></entry>
 		<entry id="str_heart_attack_fearful"><![CDATA[RREEEEEE!!!]]></entry>
-		<entry id="str_heart_attack_paranoid"><![CDATA[ME KNEW IT!]]></entry>
-		<entry id="str_heart_attack_masochistic"><![CDATA[MORE! MORE! MO--]]></entry>
-		<entry id="str_heart_attack_abusive"><![CDATA[ME KILL YOU ALL! ME WI--]]></entry>
-		<entry id="str_heart_attack_selfish"><![CDATA[ME WANT MORE! NO READY FOR END...]]></entry>
-		<entry id="str_heart_attack_depressed"><![CDATA[NO NO NO...]]></entry>
-		<entry id="str_heart_attack_irrational"><![CDATA[FINALLY!!!]]></entry>
+		<entry id="str_heart_attack_paranoid"><![CDATA[MIM SABIA!]]></entry>
+		<entry id="str_heart_attack_masochistic"><![CDATA[MAIS! MAIS! MA--]]></entry>
+		<entry id="str_heart_attack_abusive"><![CDATA[MIM MATA TU! MIM CO--]]></entry>
+		<entry id="str_heart_attack_selfish"><![CDATA[MIM QUER MAIS! NÃO ACABA NÃO...]]></entry>
+		<entry id="str_heart_attack_depressed"><![CDATA[NÃO NÃO NÃO...]]></entry>
+		<entry id="str_heart_attack_irrational"><![CDATA[ATÉ QUE ENFIM!!!]]></entry>
 	
-		<entry id="gourmet+str_comment_move"><![CDATA[Me go here!]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[(fearful whimpering)]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[What that noise?!]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[Me no like it here! Want go to town!]]></entry>
-		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Me smell danger...]]></entry>
+		<entry id="gourmet+str_comment_move"><![CDATA[Mim chegou pra ficar!]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[(esguincho amedrontado)]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[O que foi esse barulho?!]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[Mim não curte aqui! Mim quer ir pra casa!]]></entry>
+		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Mim cheira perigo...]]></entry>
 		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Grrr...]]></entry>
-		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Me no like this...]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[We go. Me need find more food!]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Me go where me pleases.]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[We find food or you BE food...]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Me smell tasty fear...]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[We go. Follow blood smell.]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Where there danger, there is fresh food.]]></entry>
+		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Mim não tá gostando...]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Nois vai, mim precisa de mais rango!]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Mim vai onde mim quiser.]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Ou a gente encontra comida ou tu vira comida...]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Mim sente cheirinho de medo...]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Nois vai, sigam o cheiro de sangue.]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Cadê o perigo? Mim precisa apanhar de comida suculenta.]]></entry>
 		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Grrrrrr...]]></entry>
-		<entry id="gourmet+str_comment_move_abusive"><![CDATA[You try more or you no get dinner.]]></entry>
-		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Stupid runts move!]]></entry>
-		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Sigh...]]></entry>
-		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Me just want nap...]]></entry>
+		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Se tu se mexer, vai virar papinha.]]></entry>
+		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Nanicos parem de se mexer!]]></entry>
+		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Tsc...]]></entry>
+		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Mim só quer tirar um ronco...]]></entry>
 		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Oink. Oink. Oink.]]></entry>
-		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Hmmm. How do rocks taste?]]></entry>
-		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Me smell sunshine. Is nice.]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[What this?! Me can have?!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[What this?! Good? Bad? DANGER?!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Smell good... Me want.]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Me want! You give!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... (slurp)]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... this good...]]></entry>
+		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Hmmm. Qual o gosto de pedras?]]></entry>
+		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Mim sente cheirinho do sol, bacana.]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[É de comer?!]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[É de comer?! É bom? Ruim? PERIGO?!]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Cheira bem... Mim quer.]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Mim quer! Tu entrega!]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... (engole)]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... Isso tá porreta...]]></entry>
 		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[~ Oink oink oink ~]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[Yoo-hoo! Is any one home?]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_masochistic"><![CDATA[Hmmm... pain make good flavor.]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[Oláaaah! Alguém em casa?]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_masochistic"><![CDATA[Hmmm... Dor dá um gostinho único.]]></entry>
 		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[...]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[(whining)]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[This ground is mine! Mine only!]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[Is clever!]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[(choramingando)]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[Esse terreno é meu! Só meu!]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[Que engenhoso!]]></entry>
 
 	<!-- Quick Snack -->
-   	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
+   	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Limpa {colour_start|debuff}Debuffs{colour_end}]]></entry>
 
 	<!-- Tenderize -->
-	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_mallet_mark"><![CDATA[{colour_start|mark}Mark{colour_end} target {colour_start|skill_unselectable}(2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_mallet_mark"><![CDATA[{colour_start|mark}Marca{colour_end} alvo {colour_start|skill_unselectable}(2 rds){colour_end}]]></entry>
 
 	<!-- Choice Cut -->
 	
 	<!-- Taste Test -->
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_no_riposte"><![CDATA[{colour_start|buff}Can not be riposted{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_no_riposte"><![CDATA[{colour_start|buff}Não pode sofrer ripostar{colour_end}]]></entry>
 	
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_1"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
-		{colour_start|buff}Buff Self:{colour_end} +25%% DMG vs {colour_start|bleed}Bleeding{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_2"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
-		{colour_start|buff}Buff Self:{colour_end} +30%% DMG vs {colour_start|bleed}Bleeding{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_3"><![CDATA[If Target is {colour_start|bleed}Bleeding{colour_end}:
-		{colour_start|buff}Buff Self:{colour_end} +35%% DMG vs {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_1"><![CDATA[If Target is {colour_start|bleed}Sangrando{colour_end}:
+		{colour_start|buff}Buff Em si:{colour_end} +25%% DMG vs {colour_start|bleed}Sangrando{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_2"><![CDATA[If Target is {colour_start|bleed}Sangrando{colour_end}:
+		{colour_start|buff}Buff Em si:{colour_end} +30%% DMG vs {colour_start|bleed}Sangrando{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_bleed_3"><![CDATA[If Target is {colour_start|bleed}Sangrando{colour_end}:
+		{colour_start|buff}Buff Em si:{colour_end} +35%% DMG vs {colour_start|bleed}Sangrando{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_1"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
-		{colour_start|buff}Buff Self:{colour_end} +25%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_2"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
-		{colour_start|buff}Buff Self:{colour_end} +30%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_3"><![CDATA[If Target is {colour_start|blight}Blighted{colour_end}:
-		{colour_start|buff}Buff Self:{colour_end} +35%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_1"><![CDATA[Se o alvo estiver sob {colour_start|blight}Blighted{colour_end}:
+		{colour_start|buff}Buff Em si:{colour_end} +25%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_2"><![CDATA[Se o alvo estiver sob {colour_start|blight}Blighted{colour_end}:
+		{colour_start|buff}Buff Em si:{colour_end} +30%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_g_tt_taste_vs_blight_3"><![CDATA[Se o alvo estiver sob {colour_start|blight}Blighted{colour_end}:
+		{colour_start|buff}Buff Em si:{colour_end} +35%% DMG vs {colour_start|blight}Blighted{colour_end}]]></entry>
 
 	<!-- Devour -->
 	<entry id="buff_stat_tooltip_upgrade_discount_g_tt_devour_vs_healthy"><![CDATA[{colour_start|debuff}0 ACC vs enemies above 25%% MAX HP{colour_end}]]></entry>
@@ -14755,50 +14755,50 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_scouting_SI_A"><![CDATA[-35%%侦察概率]]></entry>
 
 	<!--Missing Affliction Barks and others-->
-		<entry id="str_bark_hp_heal_dot"><![CDATA[Mmmm... taste good.]]></entry>
+		<entry id="str_bark_hp_heal_dot"><![CDATA[呃呃呃……味道不错。]]></entry>
 
-		<entry id="str_heart_attack"><![CDATA[IT IS UNBEARABLE!]]></entry>
-		<entry id="str_heart_attack_fearful"><![CDATA[RREEEEEE!!!]]></entry>
-		<entry id="str_heart_attack_paranoid"><![CDATA[ME KNEW IT!]]></entry>
-		<entry id="str_heart_attack_masochistic"><![CDATA[MORE! MORE! MO--]]></entry>
-		<entry id="str_heart_attack_abusive"><![CDATA[ME KILL YOU ALL! ME WI--]]></entry>
-		<entry id="str_heart_attack_selfish"><![CDATA[ME WANT MORE! NO READY FOR END...]]></entry>
-		<entry id="str_heart_attack_depressed"><![CDATA[NO NO NO...]]></entry>
-		<entry id="str_heart_attack_irrational"><![CDATA[FINALLY!!!]]></entry>
-			<entry id="gourmet+str_comment_move"><![CDATA[Me go here!]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[(fearful whimpering)]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[What that noise?!]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[Me no like it here! Want go to town!]]></entry>
-		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Me smell danger...]]></entry>
-		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Grrr...]]></entry>
-		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Me no like this...]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[We go. Me need find more food!]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Me hunger. Me HUNGER.]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[We find food or you BE food...]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Me smell tasty fear...]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[We go. Follow blood smell.]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Where there danger, there is fresh food.]]></entry>
-		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Grrrrrr...]]></entry>
-		<entry id="gourmet+str_comment_move_abusive"><![CDATA[You try more or you no get dinner.]]></entry>
-		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Stupid runts move!]]></entry>
-		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Sigh...]]></entry>
-		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Me just want nap...]]></entry>
-		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Oink. Oink. Oink.]]></entry>
-		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Hmmm. How do rocks taste?]]></entry>
-		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Me smell sunshine. Is nice.]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[What this?! Me can have?!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[What this?! Good? Bad? DANGER?!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Smell good... Me want.]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Me want! You give!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... (slurp)]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... this good...]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[~ Oink oink oink ~]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[Yoo-hoo! Is any one home?]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_masochistic"><![CDATA[Hmmm... pain make good flavor.]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[...]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[(whining)]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[This ground is mine! Mine only!]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[Is clever!]]></entry>
+		<entry id="str_heart_attack"><![CDATA[真难受！]]></entry>
+		<entry id="str_heart_attack_fearful"><![CDATA[惹呃呃呃！！！]]></entry>
+		<entry id="str_heart_attack_paranoid"><![CDATA[我明白了！]]></entry>
+		<entry id="str_heart_attack_masochistic"><![CDATA[再来！再来！再……]]></entry>
+		<entry id="str_heart_attack_abusive"><![CDATA[我会杀了你们全部人！我会……]]></entry>
+		<entry id="str_heart_attack_selfish"><![CDATA[我想要更多！还没有准备好迎接终结……]]></entry>
+		<entry id="str_heart_attack_depressed"><![CDATA[不不不……]]></entry>
+		<entry id="str_heart_attack_irrational"><![CDATA[终于！！！]]></entry>
+		<entry id="gourmet+str_comment_move"><![CDATA[我去这里！]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[（可怕的抽泣）]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[那个噪音是什么？！]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[我不喜欢在这里！想要回到小镇！]]></entry>
+		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[我闻到了危险的气息……]]></entry>
+		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[嗝呃呃……]]></entry>
+		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[我不喜欢这样……]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[我们走。我需要找到更多的食材！]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[我饿了。我饿了。]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[我们去找食材否则你就会变成食材……]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[我闻到了美味的可怕气息……]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[我们走。跟寻血的气味。]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[哪里有危险，哪里就有新鲜的食材。]]></entry>
+		<entry id="gourmet+str_comment_move_abusive"><![CDATA[嗝呃呃……]]></entry>
+		<entry id="gourmet+str_comment_move_abusive"><![CDATA[你再尝试一次否则你不会得到晚餐的。]]></entry>
+		<entry id="gourmet+str_comment_move_abusive"><![CDATA[愚蠢的小不点们，行动！]]></entry>
+		<entry id="gourmet+str_comment_move_depressed"><![CDATA[叹气……]]></entry>
+		<entry id="gourmet+str_comment_move_depressed"><![CDATA[我只想打个盹……]]></entry>
+		<entry id="gourmet+str_comment_move_irrational"><![CDATA[（哼叫）]]></entry>
+		<entry id="gourmet+str_comment_move_irrational"><![CDATA[呃呃呃。岩石尝起来怎么样？]]></entry>
+		<entry id="gourmet+str_comment_move_irrational"><![CDATA[我闻到了阳光。味道不错。]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[这是什么？！我可以拥有吗？！]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[这是什么？！好的？坏的？危险的？！]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[闻起来不错……我想要。]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[我想要！你给我！!]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[呃呃呃……（咕哝）]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[呃呃呃……这个不错……]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[（哼叫）]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[哟嚯嚯！有人在家吗？！]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_masochistic"><![CDATA[呃呃呃……伤痛制造上等的滋味。]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[……]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[（哭啼）]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[这块地盘是我的！只属于我！]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[真聪明！]]></entry>
 
 	<!-- Quick Snack -->
    	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[清除{colour_start|debuff}减益{colour_end}]]></entry>
@@ -16091,50 +16091,50 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_g_TT_scouting_SI_A"><![CDATA[-35%% Oportunidad de exploración]]></entry>
 
 	<!--Missing Affliction Barks and others-->
-		<entry id="str_bark_hp_heal_dot"><![CDATA[Mmmm... taste good.]]></entry>
+		<entry id="str_bark_hp_heal_dot"><![CDATA[Mmmm... sabe bien.]]></entry>
 
-		<entry id="str_heart_attack"><![CDATA[IT IS UNBEARABLE!]]></entry>
+		<entry id="str_heart_attack"><![CDATA[¡ES INSOPORTABLE!]]></entry>
 		<entry id="str_heart_attack_fearful"><![CDATA[RREEEEEE!!!]]></entry>
-		<entry id="str_heart_attack_paranoid"><![CDATA[ME KNEW IT!]]></entry>
-		<entry id="str_heart_attack_masochistic"><![CDATA[MORE! MORE! MO--]]></entry>
-		<entry id="str_heart_attack_abusive"><![CDATA[ME KILL YOU ALL! ME WI--]]></entry>
-		<entry id="str_heart_attack_selfish"><![CDATA[ME WANT MORE! NO READY FOR END...]]></entry>
+		<entry id="str_heart_attack_paranoid"><![CDATA[¡YO SABÍA!]]></entry>
+		<entry id="str_heart_attack_masochistic"><![CDATA[MAS! MAS! MA--]]></entry>
+		<entry id="str_heart_attack_abusive"><![CDATA[YO MATAR TODOS! YO MA--]]></entry>
+		<entry id="str_heart_attack_selfish"><![CDATA[¡YO QUIERO MAS! NO LISTO PARA EL FINAL...]]></entry>
 		<entry id="str_heart_attack_depressed"><![CDATA[NO NO NO...]]></entry>
-		<entry id="str_heart_attack_irrational"><![CDATA[FINALLY!!!]]></entry>
-			<entry id="gourmet+str_comment_move"><![CDATA[Me go here!]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[(fearful whimpering)]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[What that noise?!]]></entry>
-		<entry id="gourmet+str_comment_move_fearful"><![CDATA[Me no like it here! Want go to town!]]></entry>
-		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Me smell danger...]]></entry>
+		<entry id="str_heart_attack_irrational"><![CDATA[FINALMENTE!!!]]></entry>
+			<entry id="gourmet+str_comment_move"><![CDATA[Yo ir aqui!]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[(gimoteo temeroso)]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[¿Qué es ese ruido?]]></entry>
+		<entry id="gourmet+str_comment_move_fearful"><![CDATA[¡A mí no me gusta aquí! ¡Quiero ir a la ciudad!]]></entry>
+		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Me huele a peligro...]]></entry>
 		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Grrr...]]></entry>
-		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[Me no like this...]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[We go. Me need find more food!]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Me hunger. Me HUNGER.]]></entry>
-		<entry id="gourmet+str_comment_move_selfish"><![CDATA[We find food or you BE food...]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Me smell tasty fear...]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[We go. Follow blood smell.]]></entry>
-		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Where there danger, there is fresh food.]]></entry>
+		<entry id="gourmet+str_comment_move_paranoid"><![CDATA[A mí no me gusta esto...]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Vamos. ¡Necesito encontrar más comida!]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Yo hambre. Yo HAMBRE.]]></entry>
+		<entry id="gourmet+str_comment_move_selfish"><![CDATA[Nosotros encontramos comida o tú seras comida...]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Me huele a miedo sabroso...]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Vamos. Sigue el olor a sangre.]]></entry>
+		<entry id="gourmet+str_comment_move_masochistic"><![CDATA[Donde hay peligro, hay alimentos frescos.]]></entry>
 		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Grrrrrr...]]></entry>
-		<entry id="gourmet+str_comment_move_abusive"><![CDATA[You try more or you no get dinner.]]></entry>
-		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Stupid runts move!]]></entry>
-		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Sigh...]]></entry>
-		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Me just want nap...]]></entry>
+		<entry id="gourmet+str_comment_move_abusive"><![CDATA[Prueba más o no cenarás.]]></entry>
+		<entry id="gourmet+str_comment_move_abusive"><![CDATA[¡Estúpido movimiento de ratas!]]></entry>
+		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Mmm...]]></entry>
+		<entry id="gourmet+str_comment_move_depressed"><![CDATA[Yo sólo quiero siesta...]]></entry>
 		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Oink. Oink. Oink.]]></entry>
-		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Hmmm. How do rocks taste?]]></entry>
-		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Me smell sunshine. Is nice.]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[What this?! Me can have?!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[What this?! Good? Bad? DANGER?!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Smell good... Me want.]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Me want! You give!]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... (slurp)]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... this good...]]></entry>
+		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Hmmm. ¿A qué saben las piedras?]]></entry>
+		<entry id="gourmet+str_comment_move_irrational"><![CDATA[Yo oler a sol. Es agradable.]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[¡¿Qué es esto?! ¡¿Yo puedo tener?!]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_fearful"><![CDATA[¿Qué es esto? ¿Es bueno? ¿Malo? ¿PELIGRO?]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[Huele bien... Yo quiero.]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_selfish"><![CDATA[¡Yo quiero! ¡Tú dar!]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... (burp)]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_masochistic"><![CDATA[Hmmmm... esto bueno...]]></entry>
 		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[~ Oink oink oink ~]]></entry>
-		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[Yoo-hoo! Is any one home?]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_masochistic"><![CDATA[Hmmm... pain make good flavor.]]></entry>
+		<entry id="gourmet+str_comment_curio_interaction_irrational"><![CDATA[Yoo-hoo! ¿Hay alguien en casa?]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_masochistic"><![CDATA[Hmmm... el dolor da buen sabor.]]></entry>
 		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[...]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[(whining)]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[This ground is mine! Mine only!]]></entry>
-		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[Is clever!]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_depressed"><![CDATA[(quejica)]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[¡Esta tierra es mía! ¡Sólo mío!]]></entry>
+		<entry id="gourmet+str_comment_trap_triggered_irrational"><![CDATA[¡Es inteligente!]]></entry>
 
 	<!-- Quick Snack -->
    	<entry id="effect_tooltip_cure_debuff" arena_priority="1"><![CDATA[Cura {colour_start|debuff}Mermas{colour_end}]]></entry>
