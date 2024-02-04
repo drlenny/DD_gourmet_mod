@@ -27,7 +27,7 @@
 		},
         {
     		"id": "7141816",
-    		"required_hero_class": [ "prefect", "uncrowned", "anointed", "gourmet" ]
+    		"required_hero_class": [ "prefect", "arbiter", "anointed", "gourmet" ]
 		},
         {
     		"id": "7141817",

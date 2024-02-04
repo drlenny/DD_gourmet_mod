@@ -9,20 +9,20 @@ weapon: .name "gourmet_weapon_1" .atk 0% .dmg 7 10 .crit 2% .spd 1 .upgradeRequi
 weapon: .name "gourmet_weapon_2" .atk 0% .dmg 8 12 .crit 3% .spd 2 .upgradeRequirementCode 1
 weapon: .name "gourmet_weapon_3" .atk 0% .dmg 9 14 .crit 4% .spd 2 .upgradeRequirementCode 2
 weapon: .name "gourmet_weapon_4" .atk 0% .dmg 10 15 .crit 5% .spd 3 .upgradeRequirementCode 3
-armour: .name "gourmet_armour_0" .def 0% .prot 0 .hp 36 .spd 0
-armour: .name "gourmet_armour_1" .def 5% .prot 0 .hp 44 .spd 0 .upgradeRequirementCode 0
-armour: .name "gourmet_armour_2" .def 10% .prot 0 .hp 52 .spd 0 .upgradeRequirementCode 1
-armour: .name "gourmet_armour_3" .def 15% .prot 0 .hp 60 .spd 0 .upgradeRequirementCode 2
-armour: .name "gourmet_armour_4" .def 20% .prot 0 .hp 68 .spd 0 .upgradeRequirementCode 3
+armour: .name "gourmet_armour_0" .def 0% .prot 0 .hp 35 .spd 0
+armour: .name "gourmet_armour_1" .def 5% .prot 0 .hp 43 .spd 0 .upgradeRequirementCode 0
+armour: .name "gourmet_armour_2" .def 10% .prot 0 .hp 51 .spd 0 .upgradeRequirementCode 1
+armour: .name "gourmet_armour_3" .def 15% .prot 0 .hp 59 .spd 0 .upgradeRequirementCode 2
+armour: .name "gourmet_armour_4" .def 20% .prot 0 .hp 67 .spd 0 .upgradeRequirementCode 3
 
 //-----------------------------Skills---------------------------------
 
 // Choice Cut
-combat_skill: .id "choice_cut" .level 0 .type "melee" .atk 85% .dmg 0% .crit 0% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Bleed Tooltip 1" "Gourmet Cut Debuff 1" .generation_guaranteed true
-combat_skill: .id "choice_cut" .level 1 .type "melee" .atk 90% .dmg 0% .crit 1% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Bleed Tooltip 2" "Gourmet Cut Debuff 2"
-combat_skill: .id "choice_cut" .level 2 .type "melee" .atk 95% .dmg 0% .crit 2% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Bleed Tooltip 3" "Gourmet Cut Debuff 3"
-combat_skill: .id "choice_cut" .level 3 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Bleed Tooltip 4" "Gourmet Cut Debuff 4"
-combat_skill: .id "choice_cut" .level 4 .type "melee" .atk 105% .dmg 0% .crit 4% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Bleed Tooltip 5" "Gourmet Cut Debuff 5"
+combat_skill: .id "choice_cut" .level 0 .type "melee" .atk 85% .dmg 0% .crit 0% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Cut Debuff 1" .generation_guaranteed true
+combat_skill: .id "choice_cut" .level 1 .type "melee" .atk 90% .dmg 0% .crit 1% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Cut Debuff 2"
+combat_skill: .id "choice_cut" .level 2 .type "melee" .atk 95% .dmg 0% .crit 2% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Cut Debuff 3"
+combat_skill: .id "choice_cut" .level 3 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Cut Debuff 4"
+combat_skill: .id "choice_cut" .level 4 .type "melee" .atk 105% .dmg 0% .crit 4% .launch 21 .target 123 .is_crit_valid True .effect "Gourmet Cut Debuff 5"
 
 // Tenderize
 combat_skill: .id "tenderize" .level 0 .type "melee" .atk 90% .dmg -70% .crit -4% .launch 321 .target 12 .is_crit_valid True .effect "Gourmet Mallet Tooltip 1" "Gourmet Mallet Mark" "Gourmet Mark Tooltip" "Gourmet Mallet Prot Debuff 1" "Gourmet Dmg Received Marked Debuff 1"

@@ -22,8 +22,7 @@
                 "gourmet_uncommon_blight_resist_buff",
                 "gourmet_uncommon_prot_buff",
                 "gourmet_uncommon_dmgH_debuff",
-                "gourmet_uncommon_dmgL_debuff",
-                "gourmet_uncommon_trap_debuff"
+                "gourmet_uncommon_dmgL_debuff"
             ],
             "hero_class_requirements": [
                 "gourmet"
@@ -39,12 +38,7 @@
                 "gourmet_rare_hpmax_buff",
                 "gourmet_rare_gluttony_debuff",
                 "gourmet_rare_gluttony_buff",
-                "gourmet_rare_healing_buff",
-                "gourmet_rare_starve_dmg_reduce",
-                "gourmet_rare_speed_debuff",
-                "gourmet_rare_starve_no_stress",
-                "gourmet_rare_starve_no_stress_camp",
-                "gourmet_rare_pot_starve_tooltip"
+                "gourmet_rare_healing_buff"
             ],
             "hero_class_requirements": [
                 "gourmet"
@@ -58,9 +52,7 @@
             "id": "gourmet_oil",
             "buffs": [
                 "gourmet_rare_dodge_buff",
-                "gourmet_rare_debuff_skill_buff",
-                "gourmet_rare_speed_buff",
-                "gourmet_rare_prot_debuff"
+                "gourmet_rare_debuff_skill_buff"
             ],
             "hero_class_requirements": [
                 "gourmet"
@@ -79,7 +71,7 @@
             "id": "gourmet_bell",
             "buffs": [
                 "gourmet_very_rare_speed_buff",
-                "gourmet_very_rare_stress_debuff"
+                "gourmet_very_rare_crit_debuff"
             ],
             "hero_class_requirements": [
                 "gourmet"
@@ -121,9 +113,7 @@
             "id": "gourmet_cc_sandwich",
             "buffs": [
                 "gourmet_cc_stress_debuff",
-                "gourmet_cc_50_food_consumed",
-                "gourmet_cc_35_debuff_skill",
-                "gourmet_cc_camp_heal_buff"
+                "gourmet_cc_35_debuff_skill"
             ],
             "hero_class_requirements": [
                 "gourmet"
@@ -143,21 +133,19 @@
             "buffs": [
                 "gourmet_com_dmg_received",
                 "gourmet_com_guard_duration",
-                "gourmet_com_dmg_reflect_guarding",
-                "gourmet_com_shard_given"
+                "gourmet_com_dmg_reflect_guarding"
             ],
             "hero_class_requirements": [
                 "gourmet"
             ],
             "rarity": "comet",
-            "shard": 90,
+            "shard": 65,
             "limit": 1,
             "origin_dungeon": ""
         },
         {
             "id": "gourmet_si_wasabi",
             "buffs": [
-                "gourmet_si_crit_vs_mark",
                 "gourmet_si_dmgh_vs_mark",
                 "gourmet_si_dmgl_vs_mark",
                 "gourmet_si_acc_vs_mark",
@@ -172,9 +160,9 @@
             "price": 30000,
             "limit": 1,
             "origin_dungeon": "ship",
-            "friendly_skill_additional_effects":
+            "attack_skill_additional_effects":
             [
-                "gourmet_si_friendly_dmg_self"
+                "gourmet_si_attack_dmg_self"
             ]
         },
         {
